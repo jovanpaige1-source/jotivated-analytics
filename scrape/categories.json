@@ -1,5 +1,5 @@
 {
-  "_readme": "Jovan's topic map for the Content Vault, built from his own captions and hashtags (Oct 2026). Matching is whole-word, case-insensitive, against title + caption + hashtags (# stripped). A post can land in several topics; posts matching nothing go to `other`. Brand tags (#stayjotivated, #thevoice) are left out on purpose: they are on almost every post. Edit freely, then run: python3 scrape/run.py --analyze-only",
+  "_readme": "Jovan's topic map for the Content Vault, built from his own captions and hashtags (Oct 2026). Matching is whole-word, case-insensitive, against title + caption + hashtags (# stripped). A post can land in several topics; posts matching nothing go to `other`. Brand tags (#stayjotivated, #thevoice) are left out on purpose: they are on almost every post. Humor & Skits and Sports & Game Day were added Oct 2026 after his biggest posts landed in Other. Keywords are words and phrases, not emoji: 😂 and 😅 are on his emcee and speaking posts too. Edit freely, then run: python3 scrape/run.py --analyze-only",
   "motivation": {
     "label": "Motivation & Mindset",
     "keywords": [
@@ -23,7 +23,18 @@
       "empowerment",
       "jotivation",
       "keep going",
-      "never give up"
+      "never give up",
+      "inner child",
+      "version of yourself",
+      "level up",
+      "hype you up",
+      "life be life’n",
+      "keep pushing",
+      "show up",
+      "you got this",
+      "comparison",
+      "life is too short",
+      "inner child would be proud"
     ]
   },
   "emcee": {
@@ -73,7 +84,10 @@
       "mentorship",
       "teachers",
       "college",
-      "conference"
+      "conference",
+      "educator",
+      "educators",
+      "teacher"
     ]
   },
   "community": {
@@ -92,7 +106,15 @@
       "volunteer",
       "advocate",
       "giving back",
-      "city"
+      "city",
+      "vote",
+      "voting",
+      "fulton county",
+      "thingstodoinatlanta",
+      "the link up",
+      "membership",
+      "black women",
+      "leadership"
     ]
   },
   "faith_family": {
@@ -114,7 +136,11 @@
       "love",
       "thankful",
       "pray",
-      "prayer"
+      "prayer",
+      "thanksgiving",
+      "christmas",
+      "reason for the season",
+      "holidays"
     ]
   },
   "brotherhood": {
@@ -183,7 +209,62 @@
       "jump off",
       "mashupsessions",
       "poolsideaffair",
-      "culture"
+      "culture",
+      "dougie",
+      "knees to chest",
+      "tpain",
+      "michael jackson",
+      "boosie",
+      "rnb",
+      "r&b",
+      "run it back",
+      "the realest",
+      "line dance",
+      "cowboy",
+      "smooth criminal",
+      "🕺",
+      "singing",
+      "brunchfest",
+      "atlantabrunchfestival",
+      "itdependschallenge",
+      "dance battle",
+      "dougie battles"
+    ]
+  },
+  "humor": {
+    "label": "Humor & Skits",
+    "keywords": [
+      "unc",
+      "skit",
+      "comedy",
+      "told you so",
+      "leftovers",
+      "just vibe",
+      "pov",
+      "legend had it",
+      "legend has it",
+      "the struggle is real",
+      "papa jo",
+      "poppa jo",
+      "silver fox",
+      "unc status",
+      "numbersssss",
+      "cologne",
+      "only one in the office",
+      "hold her purse"
+    ]
+  },
+  "sports": {
+    "label": "Sports & Game Day",
+    "keywords": [
+      "football",
+      "touchdowns",
+      "td",
+      "basketball",
+      "game winning",
+      "the dub",
+      "hoodie jo",
+      "coach"
     ]
   },
   "travel": {
@@ -200,7 +281,11 @@
       "new york",
       "miami",
       "london",
-      "paris"
+      "paris",
+      "jamaica",
+      "🇯🇲",
+      "road trip",
+      "back on road"
     ]
   },
   "other": {
