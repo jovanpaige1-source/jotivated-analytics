@@ -1,26 +1,22 @@
-# Creator Analytics Dashboard: Complete DIY Template
+# Stay Jotivated Analytics
 
-A PIN-gated, zero-cost analytics site for a creator's Instagram, TikTok,
-YouTube, Threads and LinkedIn. Static Next.js on GitHub Pages, and a Python
-scraper that reads the platforms through a separate Chrome window you sign in
-to. Comments are not collected yet, so the Comments tab stays empty.
+Jovan Paige's private analytics dashboard: Instagram, TikTok and YouTube
+(`notyo_averagejo`) in one place, behind a PIN. Static Next.js site plus a
+Python scraper that reads the platforms through a separate Chrome window he
+signs in to. Built and filled by Intellovate on 2026-10-10.
 
-**Start here:** `docs/Setup-Guide.pdf` walks from a blank Mac
-to a live site and assumes no prior experience with Terminal, GitHub or
-Claude Code. The same guide is in `docs/setup-guide.html`.
+**Jovan, start here:** open Claude Code in this folder (`claude`) and paste:
 
-**The short way:** let Claude Code do the setup. Install it
-(https://code.claude.com/docs/en/quickstart), open Terminal in the folder
-where you want the project and type `claude`, then paste:
+> Read docs/WORKBOOK.md and set up my dashboard, one part at a time. Never ask
+> me for a password, a key or my PIN; the workbook says which steps I do myself.
 
-> Read docs/Setup-Guide.pdf from this project. At the end there is a section called "For Claude
-> Code: the setup as a checklist". Follow it and set the dashboard up for me,
-> one part at a time. Never ask me for a password, a key or my PIN; the
-> checklist says which steps I do myself.
+**Every week after that:**
 
-Inside a cloned copy the same checklist is `docs/SETUP-FOR-CLAUDE.md`, so a
-Claude working in this folder can read it directly.
+> Read docs/WORKBOOK.md Part E and refresh my dashboard.
 
+`docs/WORKBOOK.md` is the handover: what is done, what is left on his Mac, the
+weekly refresh, topics, publishing, and fixes. The general setup guide
+(`docs/Setup-Guide.pdf`, `docs/SETUP-FOR-CLAUDE.md`) is kept as reference.
 
 ## Quick start
 

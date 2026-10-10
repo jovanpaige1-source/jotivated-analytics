@@ -1,5 +1,11 @@
 @AGENTS.md
 
+> **This copy belongs to Jovan Paige (Stay Jotivated, `notyo_averagejo`).** It is
+> already configured and filled. For setup on his Mac, the weekly refresh and
+> troubleshooting, follow `docs/WORKBOOK.md` first; it overrides the template
+> notes below. Only Instagram, TikTok and YouTube are enabled
+> (`scrape/handles.py` ENABLED, `lib/derive.ts` PLATFORMS).
+
 # Social Analytics Dashboard: project brain
 
 ## What this is
