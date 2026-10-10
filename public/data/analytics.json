@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-10T16:08:33+00:00",
+ "generatedAt": "2026-10-10T16:27:04+00:00",
  "dataAsOf": {
-  "posts": "2026-10-10T14:40:46+00:00",
+  "posts": "2026-10-10T16:27:03+00:00",
   "comments": ""
  },
  "postingHeatmap": [
@@ -53,68 +53,68 @@
    },
    {
     "count": 1,
-    "avgEngagement": 0.0,
-    "avgViews": 0
+    "avgEngagement": 6.83,
+    "avgViews": 10652
    },
    {
     "count": 1,
-    "avgEngagement": 0.03,
+    "avgEngagement": 0,
     "avgViews": 0
    },
    {
     "count": 6,
-    "avgEngagement": 1.34,
-    "avgViews": 1585
+    "avgEngagement": 5.72,
+    "avgViews": 2327
    },
    {
     "count": 8,
-    "avgEngagement": 1.02,
-    "avgViews": 1370
+    "avgEngagement": 7.45,
+    "avgViews": 3041
    },
    {
     "count": 10,
-    "avgEngagement": 0.84,
-    "avgViews": 3447
+    "avgEngagement": 6.7,
+    "avgViews": 4368
    },
    {
     "count": 13,
-    "avgEngagement": 1.47,
-    "avgViews": 1749
+    "avgEngagement": 4.95,
+    "avgViews": 2956
    },
    {
     "count": 7,
-    "avgEngagement": 0.79,
+    "avgEngagement": 1.73,
     "avgViews": 65701
    },
    {
     "count": 8,
-    "avgEngagement": 1.44,
+    "avgEngagement": 2.71,
     "avgViews": 2627
    },
    {
     "count": 11,
-    "avgEngagement": 1.35,
-    "avgViews": 382
+    "avgEngagement": 4.72,
+    "avgViews": 1322
    },
    {
     "count": 6,
-    "avgEngagement": 0.16,
+    "avgEngagement": 0,
     "avgViews": 1185
    },
    {
     "count": 4,
-    "avgEngagement": 0.01,
-    "avgViews": 0
+    "avgEngagement": 9.57,
+    "avgViews": 2122
    },
    {
     "count": 5,
-    "avgEngagement": 0.52,
-    "avgViews": 1015
+    "avgEngagement": 4.42,
+    "avgViews": 1860
    },
    {
     "count": 5,
-    "avgEngagement": 0.15,
-    "avgViews": 741
+    "avgEngagement": 5.64,
+    "avgViews": 1280
    },
    {
     "count": 3,
@@ -123,8 +123,8 @@
    },
    {
     "count": 1,
-    "avgEngagement": 0.0,
-    "avgViews": 0
+    "avgEngagement": 3.98,
+    "avgViews": 3743
    }
   ],
   [
@@ -165,88 +165,88 @@
    },
    {
     "count": 4,
-    "avgEngagement": 0.57,
-    "avgViews": 923
+    "avgEngagement": 3.7,
+    "avgViews": 2749
    },
    {
     "count": 3,
-    "avgEngagement": 0.08,
+    "avgEngagement": 0,
     "avgViews": 47
    },
    {
     "count": 3,
-    "avgEngagement": 0.0,
-    "avgViews": 598
+    "avgEngagement": 5.68,
+    "avgViews": 1390
    },
    {
     "count": 4,
-    "avgEngagement": 0.09,
-    "avgViews": 819
+    "avgEngagement": 7.27,
+    "avgViews": 1541
    },
    {
     "count": 6,
-    "avgEngagement": 0.88,
-    "avgViews": 955
+    "avgEngagement": 5.96,
+    "avgViews": 2057
    },
    {
     "count": 6,
-    "avgEngagement": 1.59,
-    "avgViews": 1048
+    "avgEngagement": 3.58,
+    "avgViews": 2183
    },
    {
     "count": 11,
-    "avgEngagement": 0.89,
-    "avgViews": 4683
+    "avgEngagement": 4.72,
+    "avgViews": 7280
    },
    {
     "count": 15,
-    "avgEngagement": 0.36,
-    "avgViews": 1819
+    "avgEngagement": 5.31,
+    "avgViews": 2021
    },
    {
     "count": 18,
-    "avgEngagement": 0.81,
-    "avgViews": 708
+    "avgEngagement": 5.13,
+    "avgViews": 2620
    },
    {
     "count": 22,
-    "avgEngagement": 1.18,
-    "avgViews": 589
+    "avgEngagement": 3.78,
+    "avgViews": 958
    },
    {
     "count": 15,
-    "avgEngagement": 1.32,
-    "avgViews": 1967
+    "avgEngagement": 4.84,
+    "avgViews": 2993
    },
    {
     "count": 19,
-    "avgEngagement": 1.0,
-    "avgViews": 584
+    "avgEngagement": 6.37,
+    "avgViews": 2677
    },
    {
     "count": 27,
-    "avgEngagement": 1.44,
-    "avgViews": 2481
+    "avgEngagement": 4.67,
+    "avgViews": 3711
    },
    {
     "count": 40,
-    "avgEngagement": 1.07,
-    "avgViews": 590
+    "avgEngagement": 4.31,
+    "avgViews": 2369
    },
    {
     "count": 35,
-    "avgEngagement": 2.9,
-    "avgViews": 1639
+    "avgEngagement": 5.96,
+    "avgViews": 3307
    },
    {
     "count": 21,
-    "avgEngagement": 1.75,
-    "avgViews": 1300
+    "avgEngagement": 4.57,
+    "avgViews": 3035
    },
    {
     "count": 11,
-    "avgEngagement": 0.3,
-    "avgViews": 1003
+    "avgEngagement": 4.96,
+    "avgViews": 5214
    }
   ],
   [
@@ -272,8 +272,8 @@
    },
    {
     "count": 2,
-    "avgEngagement": 0.0,
-    "avgViews": 355
+    "avgEngagement": 3.44,
+    "avgViews": 2405
    },
    {
     "count": 0,
@@ -282,87 +282,87 @@
    },
    {
     "count": 4,
-    "avgEngagement": 0.0,
-    "avgViews": 569
+    "avgEngagement": 5.2,
+    "avgViews": 1694
    },
    {
     "count": 3,
-    "avgEngagement": 0.42,
+    "avgEngagement": 0,
     "avgViews": 1906
    },
    {
     "count": 1,
-    "avgEngagement": 0.0,
-    "avgViews": 0
+    "avgEngagement": 5.59,
+    "avgViews": 9437
    },
    {
     "count": 7,
-    "avgEngagement": 2.87,
+    "avgEngagement": 3.76,
     "avgViews": 572377
    },
    {
     "count": 13,
-    "avgEngagement": 2.64,
-    "avgViews": 124636
+    "avgEngagement": 7.84,
+    "avgViews": 125229
    },
    {
     "count": 10,
-    "avgEngagement": 1.13,
-    "avgViews": 1468
+    "avgEngagement": 2.62,
+    "avgViews": 1688
    },
    {
     "count": 13,
-    "avgEngagement": 0.45,
-    "avgViews": 922
+    "avgEngagement": 4.38,
+    "avgViews": 1888
    },
    {
     "count": 13,
-    "avgEngagement": 1.08,
-    "avgViews": 1348
+    "avgEngagement": 4.59,
+    "avgViews": 2289
    },
    {
     "count": 15,
-    "avgEngagement": 0.37,
-    "avgViews": 1811
+    "avgEngagement": 3.94,
+    "avgViews": 3014
    },
    {
     "count": 22,
-    "avgEngagement": 1.27,
-    "avgViews": 893
+    "avgEngagement": 6.45,
+    "avgViews": 2637
    },
    {
     "count": 12,
-    "avgEngagement": 0.18,
-    "avgViews": 1525
+    "avgEngagement": 3.67,
+    "avgViews": 1768
    },
    {
     "count": 21,
-    "avgEngagement": 1.38,
-    "avgViews": 1965
+    "avgEngagement": 5.31,
+    "avgViews": 3082
    },
    {
     "count": 7,
-    "avgEngagement": 1.49,
-    "avgViews": 14857
+    "avgEngagement": 6.24,
+    "avgViews": 15547
    },
    {
     "count": 8,
-    "avgEngagement": 0.45,
-    "avgViews": 1378
+    "avgEngagement": 6.14,
+    "avgViews": 3175
    },
    {
     "count": 15,
-    "avgEngagement": 0.69,
-    "avgViews": 705
+    "avgEngagement": 3.79,
+    "avgViews": 2191
    },
    {
     "count": 6,
-    "avgEngagement": 0.24,
-    "avgViews": 1148
+    "avgEngagement": 4.12,
+    "avgViews": 1588
    },
    {
     "count": 2,
-    "avgEngagement": 2.57,
+    "avgEngagement": 5.05,
     "avgViews": 0
    },
    {
@@ -404,7 +404,7 @@
    },
    {
     "count": 1,
-    "avgEngagement": 0.36,
+    "avgEngagement": 0,
     "avgViews": 3611
    },
    {
@@ -414,63 +414,63 @@
    },
    {
     "count": 3,
-    "avgEngagement": 0.0,
-    "avgViews": 205
+    "avgEngagement": 0,
+    "avgViews": 1157
    },
    {
     "count": 4,
-    "avgEngagement": 1.78,
-    "avgViews": 1168
+    "avgEngagement": 4.58,
+    "avgViews": 3168
    },
    {
     "count": 7,
-    "avgEngagement": 1.81,
+    "avgEngagement": 2.62,
     "avgViews": 20760
    },
    {
     "count": 7,
-    "avgEngagement": 2.31,
-    "avgViews": 1364
+    "avgEngagement": 6.72,
+    "avgViews": 2051
    },
    {
     "count": 10,
-    "avgEngagement": 1.18,
-    "avgViews": 1042
+    "avgEngagement": 4.13,
+    "avgViews": 1923
    },
    {
     "count": 11,
-    "avgEngagement": 1.19,
-    "avgViews": 1611
+    "avgEngagement": 5.86,
+    "avgViews": 2318
    },
    {
     "count": 14,
-    "avgEngagement": 0.47,
-    "avgViews": 510
+    "avgEngagement": 5.26,
+    "avgViews": 1274
    },
    {
     "count": 24,
-    "avgEngagement": 2.37,
+    "avgEngagement": 4.24,
     "avgViews": 3050
    },
    {
     "count": 23,
-    "avgEngagement": 0.59,
-    "avgViews": 711
+    "avgEngagement": 5.33,
+    "avgViews": 1344
    },
    {
     "count": 21,
-    "avgEngagement": 1.31,
+    "avgEngagement": 5.46,
     "avgViews": 2674
    },
    {
     "count": 10,
-    "avgEngagement": 0.85,
-    "avgViews": 556
+    "avgEngagement": 4.72,
+    "avgViews": 899
    },
    {
     "count": 15,
-    "avgEngagement": 0.86,
-    "avgViews": 1308
+    "avgEngagement": 4.1,
+    "avgViews": 2154
    },
    {
     "count": 3,
@@ -479,13 +479,13 @@
    },
    {
     "count": 12,
-    "avgEngagement": 0.07,
-    "avgViews": 533
+    "avgEngagement": 3.45,
+    "avgViews": 1531
    },
    {
     "count": 3,
-    "avgEngagement": 0.0,
-    "avgViews": 557
+    "avgEngagement": 3.13,
+    "avgViews": 5967
    },
    {
     "count": 2,
@@ -541,84 +541,84 @@
    },
    {
     "count": 4,
-    "avgEngagement": 0.72,
-    "avgViews": 1675
+    "avgEngagement": 4.54,
+    "avgViews": 3968
    },
    {
     "count": 6,
-    "avgEngagement": 0.98,
+    "avgEngagement": 3.76,
     "avgViews": 1217
    },
    {
     "count": 7,
-    "avgEngagement": 0.89,
-    "avgViews": 2054
+    "avgEngagement": 3.09,
+    "avgViews": 2468
    },
    {
     "count": 14,
-    "avgEngagement": 0.07,
-    "avgViews": 3677
+    "avgEngagement": 3.41,
+    "avgViews": 3934
    },
    {
     "count": 9,
-    "avgEngagement": 0.1,
-    "avgViews": 945
+    "avgEngagement": 5.31,
+    "avgViews": 1595
    },
    {
     "count": 12,
-    "avgEngagement": 0.62,
-    "avgViews": 706
+    "avgEngagement": 4.78,
+    "avgViews": 3536
    },
    {
     "count": 9,
-    "avgEngagement": 0.68,
-    "avgViews": 654
+    "avgEngagement": 3.14,
+    "avgViews": 1877
    },
    {
     "count": 18,
-    "avgEngagement": 2.56,
-    "avgViews": 8055
+    "avgEngagement": 4.01,
+    "avgViews": 8191
    },
    {
     "count": 13,
-    "avgEngagement": 1.77,
-    "avgViews": 497
+    "avgEngagement": 7.2,
+    "avgViews": 989
    },
    {
     "count": 14,
-    "avgEngagement": 1.04,
-    "avgViews": 1080
+    "avgEngagement": 4.18,
+    "avgViews": 2260
    },
    {
     "count": 9,
-    "avgEngagement": 1.29,
-    "avgViews": 397
+    "avgEngagement": 4.36,
+    "avgViews": 1015
    },
    {
     "count": 15,
-    "avgEngagement": 2.4,
+    "avgEngagement": 5.11,
     "avgViews": 95586
    },
    {
     "count": 4,
-    "avgEngagement": 1.19,
+    "avgEngagement": 2.64,
     "avgViews": 1282
    },
    {
     "count": 2,
-    "avgEngagement": 0.38,
+    "avgEngagement": 0,
     "avgViews": 1163
    },
    {
     "count": 4,
-    "avgEngagement": 2.45,
+    "avgEngagement": 4.78,
     "avgViews": 1077
    }
   ],
   [
    {
     "count": 1,
-    "avgEngagement": 0.03,
+    "avgEngagement": 0,
     "avgViews": 0
    },
    {
@@ -663,53 +663,53 @@
    },
    {
     "count": 4,
-    "avgEngagement": 2.37,
-    "avgViews": 394
+    "avgEngagement": 5.59,
+    "avgViews": 2087
    },
    {
     "count": 8,
-    "avgEngagement": 0.26,
-    "avgViews": 4343
+    "avgEngagement": 1.44,
+    "avgViews": 5010
    },
    {
     "count": 5,
-    "avgEngagement": 0.04,
-    "avgViews": 204
+    "avgEngagement": 6.74,
+    "avgViews": 1678
    },
    {
     "count": 7,
-    "avgEngagement": 0.11,
+    "avgEngagement": 0,
     "avgViews": 10739
    },
    {
     "count": 8,
-    "avgEngagement": 1.8,
+    "avgEngagement": 2.62,
     "avgViews": 19134
    },
    {
     "count": 10,
-    "avgEngagement": 3.08,
+    "avgEngagement": 6.06,
     "avgViews": 1640
    },
    {
     "count": 6,
-    "avgEngagement": 1.31,
-    "avgViews": 1760
+    "avgEngagement": 3.94,
+    "avgViews": 2704
    },
    {
     "count": 10,
-    "avgEngagement": 1.44,
-    "avgViews": 469
+    "avgEngagement": 2.62,
+    "avgViews": 2806
    },
    {
     "count": 10,
-    "avgEngagement": 0.1,
-    "avgViews": 447
+    "avgEngagement": 0,
+    "avgViews": 1366
    },
    {
     "count": 11,
-    "avgEngagement": 1.26,
-    "avgViews": 526
+    "avgEngagement": 8.22,
+    "avgViews": 2222
    },
    {
     "count": 1,
@@ -718,22 +718,22 @@
    },
    {
     "count": 7,
-    "avgEngagement": 1.69,
-    "avgViews": 1719
+    "avgEngagement": 3.15,
+    "avgViews": 1935
    },
    {
     "count": 8,
-    "avgEngagement": 0.17,
-    "avgViews": 1418
+    "avgEngagement": 6.29,
+    "avgViews": 2329
    },
    {
     "count": 6,
-    "avgEngagement": 11.03,
+    "avgEngagement": 13.77,
     "avgViews": 1671
    },
    {
     "count": 3,
-    "avgEngagement": 0.26,
+    "avgEngagement": 0,
     "avgViews": 2856
    }
   ],
@@ -790,58 +790,58 @@
    },
    {
     "count": 3,
-    "avgEngagement": 1.6,
-    "avgViews": 3493
+    "avgEngagement": 4.07,
+    "avgViews": 7932
    },
    {
     "count": 6,
-    "avgEngagement": 1.54,
-    "avgViews": 418
+    "avgEngagement": 8.84,
+    "avgViews": 2450
    },
    {
     "count": 7,
-    "avgEngagement": 1.72,
-    "avgViews": 667
+    "avgEngagement": 3.06,
+    "avgViews": 1123
    },
    {
     "count": 7,
-    "avgEngagement": 2.55,
-    "avgViews": 2955
+    "avgEngagement": 3.74,
+    "avgViews": 3343
    },
    {
     "count": 4,
-    "avgEngagement": 1.46,
+    "avgEngagement": 4.05,
     "avgViews": 9081
    },
    {
     "count": 10,
-    "avgEngagement": 0.53,
-    "avgViews": 571
+    "avgEngagement": 4.2,
+    "avgViews": 2788
    },
    {
     "count": 10,
-    "avgEngagement": 1.06,
-    "avgViews": 1037
+    "avgEngagement": 4.75,
+    "avgViews": 2025
    },
    {
     "count": 6,
-    "avgEngagement": 0.11,
+    "avgEngagement": 0,
     "avgViews": 855
    },
    {
     "count": 3,
-    "avgEngagement": 1.51,
-    "avgViews": 199
+    "avgEngagement": 6.76,
+    "avgViews": 2973
    },
    {
     "count": 4,
-    "avgEngagement": 0.89,
-    "avgViews": 2095
+    "avgEngagement": 4.66,
+    "avgViews": 4231
    },
    {
     "count": 3,
-    "avgEngagement": 0.06,
-    "avgViews": 406
+    "avgEngagement": 5.2,
+    "avgViews": 1271
    },
    {
     "count": 0,
@@ -865,149 +865,149 @@
    "day": 2,
    "hour": 9,
    "count": 7,
-   "avgEngagement": 2.87,
+   "avgEngagement": 3.76,
    "avgViews": 572377
   },
   {
    "day": 2,
    "hour": 10,
    "count": 13,
-   "avgEngagement": 2.64,
-   "avgViews": 124636
+   "avgEngagement": 7.84,
+   "avgViews": 125229
   },
   {
    "day": 4,
    "hour": 20,
    "count": 15,
-   "avgEngagement": 2.4,
+   "avgEngagement": 5.11,
    "avgViews": 95586
   },
   {
    "day": 0,
    "hour": 15,
    "count": 7,
-   "avgEngagement": 0.79,
+   "avgEngagement": 1.73,
    "avgViews": 65701
   },
   {
    "day": 3,
    "hour": 10,
    "count": 7,
-   "avgEngagement": 1.81,
+   "avgEngagement": 2.62,
    "avgViews": 20760
   },
   {
    "day": 5,
    "hour": 13,
    "count": 8,
-   "avgEngagement": 1.8,
+   "avgEngagement": 2.62,
    "avgViews": 19134
   },
   {
    "day": 2,
    "hour": 18,
    "count": 7,
-   "avgEngagement": 1.49,
-   "avgViews": 14857
+   "avgEngagement": 6.24,
+   "avgViews": 15547
   },
   {
    "day": 5,
    "hour": 12,
    "count": 7,
-   "avgEngagement": 0.11,
+   "avgEngagement": 0,
    "avgViews": 10739
   },
   {
    "day": 6,
    "hour": 14,
    "count": 4,
-   "avgEngagement": 1.46,
+   "avgEngagement": 4.05,
    "avgViews": 9081
   },
   {
    "day": 4,
    "hour": 16,
    "count": 18,
-   "avgEngagement": 2.56,
-   "avgViews": 8055
+   "avgEngagement": 4.01,
+   "avgViews": 8191
+  },
+  {
+   "day": 6,
+   "hour": 10,
+   "count": 3,
+   "avgEngagement": 4.07,
+   "avgViews": 7932
   },
   {
    "day": 1,
    "hour": 13,
    "count": 11,
-   "avgEngagement": 0.89,
-   "avgViews": 4683
+   "avgEngagement": 4.72,
+   "avgViews": 7280
+  },
+  {
+   "day": 3,
+   "hour": 22,
+   "count": 3,
+   "avgEngagement": 3.13,
+   "avgViews": 5967
+  },
+  {
+   "day": 1,
+   "hour": 23,
+   "count": 11,
+   "avgEngagement": 4.96,
+   "avgViews": 5214
   },
   {
    "day": 5,
    "hour": 10,
    "count": 8,
-   "avgEngagement": 0.26,
-   "avgViews": 4343
-  },
-  {
-   "day": 4,
-   "hour": 12,
-   "count": 14,
-   "avgEngagement": 0.07,
-   "avgViews": 3677
-  },
-  {
-   "day": 6,
-   "hour": 10,
-   "count": 3,
-   "avgEngagement": 1.6,
-   "avgViews": 3493
+   "avgEngagement": 1.44,
+   "avgViews": 5010
   },
   {
    "day": 0,
    "hour": 13,
    "count": 10,
-   "avgEngagement": 0.84,
-   "avgViews": 3447
-  },
-  {
-   "day": 3,
-   "hour": 15,
-   "count": 24,
-   "avgEngagement": 2.37,
-   "avgViews": 3050
+   "avgEngagement": 6.7,
+   "avgViews": 4368
   },
   {
    "day": 6,
-   "hour": 13,
-   "count": 7,
-   "avgEngagement": 2.55,
-   "avgViews": 2955
+   "hour": 19,
+   "count": 4,
+   "avgEngagement": 4.66,
+   "avgViews": 4231
   },
   {
-   "day": 3,
-   "hour": 20,
-   "count": 3,
-   "avgEngagement": 0,
-   "avgViews": 2951
+   "day": 4,
+   "hour": 9,
+   "count": 4,
+   "avgEngagement": 4.54,
+   "avgViews": 3968
   },
   {
-   "day": 5,
-   "hour": 23,
-   "count": 3,
-   "avgEngagement": 0.26,
-   "avgViews": 2856
+   "day": 4,
+   "hour": 12,
+   "count": 14,
+   "avgEngagement": 3.41,
+   "avgViews": 3934
   },
   {
-   "day": 3,
-   "hour": 17,
-   "count": 21,
-   "avgEngagement": 1.31,
-   "avgViews": 2674
+   "day": 1,
+   "hour": 19,
+   "count": 27,
+   "avgEngagement": 4.67,
+   "avgViews": 3711
   }
  ],
  "platformAverages": {
   "instagram": {
-   "avgViews": 30210,
-   "avgLikes": 498,
+   "avgViews": 18454,
+   "avgLikes": 960,
    "avgComments": 20,
-   "avgEngagement": 2.41,
+   "avgEngagement": 5.49,
    "posts": 684
   },
   "tiktok": {
@@ -1048,9 +1048,9 @@
    "likes": 136241,
    "comments": 0,
    "engagementRate": "3.41",
-   "viralityScore": 132.44,
-   "multiplier": 132.44,
-   "avgViewsForPlatform": 30210,
+   "viralityScore": 216.81,
+   "multiplier": 216.81,
+   "avgViewsForPlatform": 18454,
    "date": "2025-09-16",
    "categories": [
     "motivation"
@@ -1099,9 +1099,9 @@
    "likes": 82597,
    "comments": 1111,
    "engagementRate": "6.06",
-   "viralityScore": 45.74,
-   "multiplier": 45.74,
-   "avgViewsForPlatform": 30210,
+   "viralityScore": 74.88,
+   "multiplier": 74.88,
+   "avgViewsForPlatform": 18454,
    "date": "2024-04-25",
    "categories": [
     "faith_family"
@@ -1160,6 +1160,24 @@
    "url": "https://www.tiktok.com/@notyo_averagejo/video/7311398972860632366"
   },
   {
+   "id": "ig_3708483826282564102_183807392",
+   "title": "Look, our crew is so ATL & ready to turn up with @BankrollNi at #OMF2025, is yours? \ud83d\udc40",
+   "platform": "instagram",
+   "views": 134312,
+   "likes": 2472,
+   "comments": 80,
+   "engagementRate": "1.90",
+   "viralityScore": 7.28,
+   "multiplier": 7.28,
+   "avgViewsForPlatform": 18454,
+   "date": "2025-08-27",
+   "categories": [
+    "community",
+    "music_culture"
+   ],
+   "url": "https://www.instagram.com/p/DN3LmRA2ooG/"
+  },
+  {
    "id": "tt_7474329841794338094",
    "title": "Legend had it, the dude who made it rain has never been identified",
    "platform": "tiktok",
@@ -1194,24 +1212,6 @@
    "url": "https://www.youtube.com/shorts/780l3ywRetE"
   },
   {
-   "id": "ig_3708483826282564102_183807392",
-   "title": "Look, our crew is so ATL & ready to turn up with @BankrollNi at #OMF2025, is yours? \ud83d\udc40",
-   "platform": "instagram",
-   "views": 134312,
-   "likes": 2472,
-   "comments": 80,
-   "engagementRate": "1.90",
-   "viralityScore": 4.45,
-   "multiplier": 4.45,
-   "avgViewsForPlatform": 30210,
-   "date": "2025-08-27",
-   "categories": [
-    "community",
-    "music_culture"
-   ],
-   "url": "https://www.instagram.com/p/DN3LmRA2ooG/"
-  },
-  {
    "id": "tt_7507370660226845998",
    "title": "Tell @GoOff\u203c\ufe0f I'm on that\ud83d\ude02",
    "platform": "tiktok",
@@ -1227,6 +1227,23 @@
     "other"
    ],
    "url": "https://www.tiktok.com/@notyo_averagejo/video/7507370660226845998"
+  },
+  {
+   "id": "ig_3907842355792347484_55159966596",
+   "title": "If you\u2019ve ever been to Mashup Sessions, then you already know the night can go from a full karaoke session\u2026 to a dance b",
+   "platform": "instagram",
+   "views": 63124,
+   "likes": 0,
+   "comments": 26,
+   "engagementRate": "0.00",
+   "viralityScore": 3.42,
+   "multiplier": 3.42,
+   "avgViewsForPlatform": 18454,
+   "date": "2026-05-29",
+   "categories": [
+    "music_culture"
+   ],
+   "url": "https://www.instagram.com/p/DY7cer_OoFc/"
   },
   {
    "id": "yt_mS7-Cp1L2kM",
@@ -1266,104 +1283,104 @@
  "contentCategories": {
   "motivation": {
    "count": 326,
-   "avgViews": 35978,
-   "avgLikes": 519,
-   "avgEngagement": 2.92,
-   "totalViews": 5936406
+   "avgViews": 24289,
+   "avgLikes": 754,
+   "avgEngagement": 5.09,
+   "totalViews": 6339689
   },
   "speaking": {
    "count": 283,
-   "avgViews": 2398,
-   "avgLikes": 141,
-   "avgEngagement": 2.89,
-   "totalViews": 266249
+   "avgViews": 3718,
+   "avgLikes": 209,
+   "avgEngagement": 5.15,
+   "totalViews": 777256
   },
   "faith_family": {
    "count": 276,
-   "avgViews": 15657,
-   "avgLikes": 461,
-   "avgEngagement": 3.07,
-   "totalViews": 1847588
+   "avgViews": 11683,
+   "avgLikes": 714,
+   "avgEngagement": 5.92,
+   "totalViews": 2208142
   },
   "emcee": {
    "count": 258,
-   "avgViews": 2735,
-   "avgLikes": 100,
-   "avgEngagement": 2.59,
-   "totalViews": 306330
+   "avgViews": 3477,
+   "avgLikes": 156,
+   "avgEngagement": 4.79,
+   "totalViews": 643287
   },
   "community": {
    "count": 229,
-   "avgViews": 4651,
-   "avgLikes": 129,
-   "avgEngagement": 2.52,
-   "totalViews": 432573
+   "avgViews": 4809,
+   "avgLikes": 235,
+   "avgEngagement": 5.45,
+   "totalViews": 591622
   },
   "other": {
    "count": 211,
-   "avgViews": 1692,
-   "avgLikes": 82,
-   "avgEngagement": 2.25,
-   "totalViews": 220027
+   "avgViews": 2311,
+   "avgLikes": 116,
+   "avgEngagement": 5.55,
+   "totalViews": 362959
   },
   "music_culture": {
    "count": 163,
-   "avgViews": 6815,
-   "avgLikes": 128,
-   "avgEngagement": 1.65,
-   "totalViews": 586098
+   "avgViews": 6365,
+   "avgLikes": 194,
+   "avgEngagement": 4.74,
+   "totalViews": 751170
   },
   "brotherhood": {
    "count": 90,
-   "avgViews": 15581,
-   "avgLikes": 229,
-   "avgEngagement": 5.19,
-   "totalViews": 592099
+   "avgViews": 12537,
+   "avgLikes": 302,
+   "avgEngagement": 6.5,
+   "totalViews": 752233
   },
   "style": {
    "count": 88,
-   "avgViews": 2923,
-   "avgLikes": 230,
-   "avgEngagement": 5.98,
-   "totalViews": 73093
+   "avgViews": 4764,
+   "avgLikes": 320,
+   "avgEngagement": 6.86,
+   "totalViews": 238228
   },
   "humor": {
    "count": 45,
-   "avgViews": 8658,
-   "avgLikes": 95,
-   "avgEngagement": 2.55,
-   "totalViews": 355009
+   "avgViews": 8524,
+   "avgLikes": 112,
+   "avgEngagement": 4.55,
+   "totalViews": 358049
   },
   "book": {
    "count": 35,
-   "avgViews": 2770,
-   "avgLikes": 160,
-   "avgEngagement": 2.63,
-   "totalViews": 49868
+   "avgViews": 3813,
+   "avgLikes": 242,
+   "avgEngagement": 5.51,
+   "totalViews": 102951
   },
   "travel": {
    "count": 25,
-   "avgViews": 3262,
-   "avgLikes": 161,
-   "avgEngagement": 2.27,
-   "totalViews": 39154
+   "avgViews": 3879,
+   "avgLikes": 362,
+   "avgEngagement": 8.99,
+   "totalViews": 65946
   },
   "sports": {
    "count": 15,
-   "avgViews": 2004,
-   "avgLikes": 213,
-   "avgEngagement": 0.88,
-   "totalViews": 20041
+   "avgViews": 5046,
+   "avgLikes": 318,
+   "avgEngagement": 4.16,
+   "totalViews": 65609
   }
  },
  "engagementFunnel": {
   "instagram": {
-   "views": 6646380,
-   "likes": 341078,
+   "views": 7677141,
+   "likes": 340091,
    "comments": 14176,
    "shares": 0,
-   "likeRate": 5.13,
-   "commentRate": 0.21,
+   "likeRate": 4.92,
+   "commentRate": 0.18,
    "shareRate": 0.0
   },
   "tiktok": {
@@ -1498,492 +1515,508 @@
   {
    "month": "2021-07",
    "posts": 20,
-   "views": 478576,
+   "views": 481472,
    "likes": 2377,
    "comments": 156
   },
   {
    "month": "2021-08",
    "posts": 16,
-   "views": 9570,
+   "views": 19277,
    "likes": 2546,
    "comments": 247
   },
   {
    "month": "2021-09",
    "posts": 12,
-   "views": 2547,
-   "likes": 3169,
+   "views": 12294,
+   "likes": 3163,
    "comments": 168
   },
   {
    "month": "2021-10",
    "posts": 17,
-   "views": 5178,
-   "likes": 5921,
+   "views": 17153,
+   "likes": 5915,
    "comments": 719
   },
   {
    "month": "2021-11",
    "posts": 13,
-   "views": 9385,
-   "likes": 4718,
+   "views": 16689,
+   "likes": 4715,
    "comments": 495
   },
   {
    "month": "2021-12",
    "posts": 22,
-   "views": 48063,
-   "likes": 7521,
+   "views": 74634,
+   "likes": 7518,
    "comments": 361
   },
   {
    "month": "2022-01",
    "posts": 14,
-   "views": 7776,
-   "likes": 3967,
+   "views": 51242,
+   "likes": 3964,
    "comments": 458
   },
   {
    "month": "2022-02",
    "posts": 14,
-   "views": 3892,
-   "likes": 2137,
+   "views": 29688,
+   "likes": 2134,
    "comments": 115
   },
   {
    "month": "2022-03",
    "posts": 19,
-   "views": 2103,
-   "likes": 5630,
+   "views": 78378,
+   "likes": 5615,
    "comments": 406
   },
   {
    "month": "2022-04",
    "posts": 12,
-   "views": 766,
-   "likes": 3164,
+   "views": 23177,
+   "likes": 3158,
    "comments": 230
   },
   {
    "month": "2022-05",
    "posts": 18,
-   "views": 1045,
-   "likes": 5348,
+   "views": 60531,
+   "likes": 5336,
    "comments": 234
   },
   {
    "month": "2022-06",
    "posts": 16,
-   "views": 1775,
-   "likes": 3228,
+   "views": 44843,
+   "likes": 3216,
    "comments": 280
   },
   {
    "month": "2022-07",
    "posts": 15,
-   "views": 1497,
-   "likes": 2761,
+   "views": 31076,
+   "likes": 2755,
    "comments": 343
   },
   {
    "month": "2022-08",
    "posts": 15,
-   "views": 3059,
-   "likes": 1092,
+   "views": 29789,
+   "likes": 1077,
    "comments": 149
   },
   {
    "month": "2022-09",
    "posts": 13,
-   "views": 0,
-   "likes": 2673,
+   "views": 20551,
+   "likes": 2658,
    "comments": 164
   },
   {
    "month": "2022-10",
    "posts": 10,
-   "views": 515,
+   "views": 43855,
    "likes": 3939,
    "comments": 285
   },
   {
    "month": "2022-11",
    "posts": 11,
-   "views": 12770,
-   "likes": 2278,
+   "views": 33451,
+   "likes": 2275,
    "comments": 145
   },
   {
    "month": "2022-12",
    "posts": 18,
-   "views": 1637,
-   "likes": 2795,
+   "views": 29897,
+   "likes": 2774,
    "comments": 200
   },
   {
    "month": "2023-01",
    "posts": 15,
-   "views": 427,
-   "likes": 3371,
+   "views": 41064,
+   "likes": 3362,
    "comments": 190
   },
   {
    "month": "2023-02",
    "posts": 16,
-   "views": 1963,
-   "likes": 1005,
+   "views": 21130,
+   "likes": 993,
    "comments": 122
   },
   {
    "month": "2023-03",
    "posts": 16,
-   "views": 1968,
-   "likes": 2127,
+   "views": 34957,
+   "likes": 2124,
    "comments": 215
   },
   {
    "month": "2023-04",
    "posts": 17,
-   "views": 2206,
-   "likes": 5028,
+   "views": 37946,
+   "likes": 5025,
    "comments": 274
   },
   {
    "month": "2023-05",
    "posts": 16,
-   "views": 1785,
-   "likes": 1766,
+   "views": 24151,
+   "likes": 1748,
    "comments": 170
   },
   {
    "month": "2023-06",
    "posts": 14,
-   "views": 4923,
-   "likes": 5060,
+   "views": 45502,
+   "likes": 5054,
    "comments": 529
   },
   {
    "month": "2023-07",
    "posts": 9,
-   "views": 0,
-   "likes": 1693,
+   "views": 19180,
+   "likes": 1687,
    "comments": 138
   },
   {
    "month": "2023-08",
    "posts": 13,
-   "views": 1357,
-   "likes": 2008,
+   "views": 49607,
+   "likes": 1990,
    "comments": 191
   },
   {
    "month": "2023-09",
    "posts": 14,
-   "views": 1267,
-   "likes": 1673,
+   "views": 16620,
+   "likes": 1649,
    "comments": 229
   },
   {
    "month": "2023-10",
    "posts": 15,
-   "views": 5992,
-   "likes": 2720,
+   "views": 41498,
+   "likes": 2705,
    "comments": 280
   },
   {
    "month": "2023-11",
    "posts": 14,
-   "views": 0,
-   "likes": 1501,
+   "views": 52428,
+   "likes": 1477,
    "comments": 257
   },
   {
    "month": "2023-12",
    "posts": 16,
-   "views": 36311,
-   "likes": 1247,
+   "views": 76509,
+   "likes": 1226,
    "comments": 151
   },
   {
    "month": "2024-01",
    "posts": 22,
-   "views": 6809,
-   "likes": 1362,
+   "views": 60735,
+   "likes": 1332,
    "comments": 228
   },
   {
    "month": "2024-02",
    "posts": 13,
-   "views": 4157,
-   "likes": 273,
+   "views": 24578,
+   "likes": 258,
    "comments": 43
   },
   {
    "month": "2024-03",
    "posts": 11,
-   "views": 2370,
-   "likes": 127,
+   "views": 31959,
+   "likes": 106,
    "comments": 85
   },
   {
    "month": "2024-04",
    "posts": 17,
-   "views": 1559215,
-   "likes": 83609,
+   "views": 1575714,
+   "likes": 83591,
    "comments": 1250
   },
   {
    "month": "2024-05",
    "posts": 10,
    "views": 24775,
-   "likes": 1063,
+   "likes": 1042,
    "comments": 184
   },
   {
    "month": "2024-06",
    "posts": 8,
    "views": 50983,
-   "likes": 2690,
+   "likes": 2681,
    "comments": 412
   },
   {
    "month": "2024-07",
    "posts": 11,
    "views": 21881,
-   "likes": 279,
+   "likes": 249,
    "comments": 134
   },
   {
    "month": "2024-08",
    "posts": 8,
    "views": 35529,
-   "likes": 928,
+   "likes": 922,
    "comments": 90
   },
   {
    "month": "2024-09",
    "posts": 10,
    "views": 9970,
-   "likes": 98,
+   "likes": 80,
    "comments": 45
   },
   {
    "month": "2024-10",
    "posts": 10,
    "views": 22015,
-   "likes": 541,
+   "likes": 520,
    "comments": 88
   },
   {
    "month": "2024-11",
    "posts": 16,
    "views": 54268,
-   "likes": 2176,
+   "likes": 2158,
    "comments": 162
   },
   {
    "month": "2024-12",
    "posts": 10,
    "views": 15596,
-   "likes": 820,
+   "likes": 796,
    "comments": 32
   },
   {
    "month": "2025-01",
    "posts": 13,
    "views": 28605,
-   "likes": 273,
+   "likes": 258,
    "comments": 123
   },
   {
    "month": "2025-02",
    "posts": 12,
    "views": 49493,
-   "likes": 643,
+   "likes": 637,
    "comments": 97
   },
   {
    "month": "2025-03",
    "posts": 28,
    "views": 38713,
-   "likes": 153,
+   "likes": 123,
    "comments": 205
   },
   {
    "month": "2025-04",
    "posts": 22,
    "views": 34504,
-   "likes": 231,
+   "likes": 195,
    "comments": 141
   },
   {
    "month": "2025-05",
    "posts": 29,
    "views": 171713,
-   "likes": 361,
+   "likes": 337,
    "comments": 166
   },
   {
    "month": "2025-06",
    "posts": 15,
    "views": 29605,
-   "likes": 497,
+   "likes": 488,
    "comments": 62
   },
   {
    "month": "2025-07",
    "posts": 29,
    "views": 211387,
-   "likes": 1121,
+   "likes": 1091,
    "comments": 225
   },
   {
    "month": "2025-08",
    "posts": 21,
    "views": 209756,
-   "likes": 3950,
+   "likes": 3926,
    "comments": 269
   },
   {
    "month": "2025-09",
    "posts": 16,
    "views": 5653403,
-   "likes": 136262,
+   "likes": 136241,
    "comments": 84
   },
   {
    "month": "2025-10",
    "posts": 17,
    "views": 20668,
-   "likes": 30,
+   "likes": 0,
    "comments": 70
   },
   {
    "month": "2025-11",
    "posts": 11,
    "views": 20655,
-   "likes": 190,
+   "likes": 172,
    "comments": 69
   },
   {
    "month": "2025-12",
    "posts": 20,
    "views": 79581,
-   "likes": 829,
+   "likes": 796,
    "comments": 172
   },
   {
    "month": "2026-01",
    "posts": 31,
    "views": 49730,
-   "likes": 999,
+   "likes": 975,
    "comments": 177
   },
   {
    "month": "2026-02",
    "posts": 15,
    "views": 23332,
-   "likes": 797,
+   "likes": 791,
    "comments": 70
   },
   {
    "month": "2026-03",
    "posts": 14,
-   "views": 27914,
-   "likes": 543,
+   "views": 27917,
+   "likes": 522,
    "comments": 187
   },
   {
    "month": "2026-04",
    "posts": 20,
-   "views": 29609,
-   "likes": 481,
+   "views": 29612,
+   "likes": 457,
    "comments": 170
   },
   {
    "month": "2026-05",
    "posts": 16,
-   "views": 97050,
-   "likes": 1277,
+   "views": 97054,
+   "likes": 1256,
    "comments": 248
   },
   {
    "month": "2026-06",
    "posts": 32,
-   "views": 86387,
-   "likes": 984,
+   "views": 86396,
+   "likes": 942,
    "comments": 405
   },
   {
    "month": "2026-07",
    "posts": 11,
-   "views": 42908,
-   "likes": 1285,
+   "views": 42909,
+   "likes": 1270,
    "comments": 203
   },
   {
    "month": "2026-08",
    "posts": 10,
-   "views": 31027,
-   "likes": 153,
+   "views": 31037,
+   "likes": 141,
    "comments": 63
   },
   {
    "month": "2026-09",
    "posts": 14,
-   "views": 45192,
-   "likes": 1018,
+   "views": 45204,
+   "likes": 995,
    "comments": 160
   },
   {
    "month": "2026-10",
    "posts": 9,
-   "views": 14154,
-   "likes": 572,
+   "views": 14202,
+   "likes": 568,
    "comments": 156
   }
  ],
  "hashtagPerformance": [
   {
+   "tag": "#atlantanightlife",
+   "count": 3,
+   "avgViews": 63124,
+   "avgLikes": 34,
+   "avgEngagement": 0.0,
+   "totalViews": 63124
+  },
+  {
    "tag": "#onemusicfest",
    "count": 9,
-   "avgViews": 71184,
-   "avgLikes": 374,
-   "avgEngagement": 1.1,
-   "totalViews": 142369
+   "avgViews": 48007,
+   "avgLikes": 672,
+   "avgEngagement": 2.67,
+   "totalViews": 144021
   },
   {
    "tag": "#mashupsessions",
    "count": 7,
-   "avgViews": 63124,
-   "avgLikes": 78,
-   "avgEngagement": 0.05,
-   "totalViews": 63124
-  },
-  {
-   "tag": "#atlantanightlife",
-   "count": 3,
-   "avgViews": 63124,
-   "avgLikes": 13,
-   "avgEngagement": 0.05,
-   "totalViews": 63124
+   "avgViews": 25724,
+   "avgLikes": 179,
+   "avgEngagement": 4.04,
+   "totalViews": 77173
   },
   {
    "tag": "#alphaphialpha",
    "count": 26,
-   "avgViews": 31055,
-   "avgLikes": 146,
-   "avgEngagement": 0.99,
-   "totalViews": 496888
+   "avgViews": 24364,
+   "avgLikes": 165,
+   "avgEngagement": 6.32,
+   "totalViews": 536016
   },
   {
    "tag": "#stayjotivated",
    "count": 500,
-   "avgViews": 21029,
-   "avgLikes": 396,
-   "avgEngagement": 3.09,
-   "totalViews": 4500334
+   "avgViews": 14750,
+   "avgLikes": 642,
+   "avgEngagement": 5.55,
+   "totalViews": 5118375
+  },
+  {
+   "tag": "#rcainspired",
+   "count": 19,
+   "avgViews": 12698,
+   "avgLikes": 593,
+   "avgEngagement": 5.66,
+   "totalViews": 101585
+  },
+  {
+   "tag": "#rcahousesystem",
+   "count": 3,
+   "avgViews": 12374,
+   "avgLikes": 318,
+   "avgEngagement": 3.48,
+   "totalViews": 37122
   },
   {
    "tag": "#viral",
@@ -1994,12 +2027,20 @@
    "totalViews": 494246
   },
   {
-   "tag": "#jordancraigdenim",
-   "count": 3,
-   "avgViews": 9962,
-   "avgLikes": 98,
-   "avgEngagement": 0.05,
-   "totalViews": 9962
+   "tag": "#rcaexp",
+   "count": 7,
+   "avgViews": 10923,
+   "avgLikes": 361,
+   "avgEngagement": 3.94,
+   "totalViews": 43694
+  },
+  {
+   "tag": "#ronclarkacademy",
+   "count": 13,
+   "avgViews": 10313,
+   "avgLikes": 410,
+   "avgEngagement": 5.95,
+   "totalViews": 51566
   },
   {
    "tag": "#foryou",
@@ -2018,332 +2059,308 @@
    "totalViews": 561995
   },
   {
+   "tag": "#jordancraigdenim",
+   "count": 3,
+   "avgViews": 8982,
+   "avgLikes": 288,
+   "avgEngagement": 3.87,
+   "totalViews": 17964
+  },
+  {
+   "tag": "#phlyalphas",
+   "count": 7,
+   "avgViews": 8855,
+   "avgLikes": 604,
+   "avgEngagement": 6.73,
+   "totalViews": 35420
+  },
+  {
+   "tag": "#mensfashion",
+   "count": 8,
+   "avgViews": 8808,
+   "avgLikes": 571,
+   "avgEngagement": 6.62,
+   "totalViews": 8808
+  },
+  {
+   "tag": "#teachersofinstagram",
+   "count": 3,
+   "avgViews": 8808,
+   "avgLikes": 712,
+   "avgEngagement": 6.62,
+   "totalViews": 8808
+  },
+  {
+   "tag": "#michaeljackson",
+   "count": 3,
+   "avgViews": 8026,
+   "avgLikes": 70,
+   "avgEngagement": 1.0,
+   "totalViews": 24079
+  },
+  {
+   "tag": "#zetamualphas",
+   "count": 16,
+   "avgViews": 7538,
+   "avgLikes": 509,
+   "avgEngagement": 6.32,
+   "totalViews": 60307
+  },
+  {
+   "tag": "#youthempowerment",
+   "count": 4,
+   "avgViews": 7528,
+   "avgLikes": 328,
+   "avgEngagement": 6.86,
+   "totalViews": 22586
+  },
+  {
+   "tag": "#park100",
+   "count": 10,
+   "avgViews": 7371,
+   "avgLikes": 414,
+   "avgEngagement": 6.74,
+   "totalViews": 7371
+  },
+  {
    "tag": "#atlanta",
    "count": 67,
-   "avgViews": 7219,
-   "avgLikes": 160,
-   "avgEngagement": 4.62,
-   "totalViews": 231032
+   "avgViews": 7188,
+   "avgLikes": 243,
+   "avgEngagement": 6.35,
+   "totalViews": 316303
+  },
+  {
+   "tag": "#zetamuforever",
+   "count": 22,
+   "avgViews": 6897,
+   "avgLikes": 496,
+   "avgEngagement": 6.73,
+   "totalViews": 117263
   },
   {
    "tag": "#emceetips",
    "count": 8,
-   "avgViews": 6883,
-   "avgLikes": 2,
-   "avgEngagement": 0.2,
-   "totalViews": 55067
+   "avgViews": 6884,
+   "avgLikes": 0,
+   "avgEngagement": 0.0,
+   "totalViews": 55072
   },
   {
-   "tag": "#ronclarkacademy",
-   "count": 13,
-   "avgViews": 6709,
-   "avgLikes": 190,
-   "avgEngagement": 0.28,
-   "totalViews": 6709
+   "tag": "#supercon",
+   "count": 3,
+   "avgViews": 6873,
+   "avgLikes": 357,
+   "avgEngagement": 5.92,
+   "totalViews": 13746
   },
   {
    "tag": "#vote",
    "count": 3,
-   "avgViews": 6441,
-   "avgLikes": 116,
-   "avgEngagement": 0.9,
-   "totalViews": 12883
+   "avgViews": 6387,
+   "avgLikes": 173,
+   "avgEngagement": 2.5,
+   "totalViews": 19163
   },
   {
    "tag": "#homecoming",
    "count": 3,
    "avgViews": 6287,
-   "avgLikes": 1,
+   "avgLikes": 0,
    "avgEngagement": 0.0,
    "totalViews": 12574
+  },
+  {
+   "tag": "#thingstodoinatlanta",
+   "count": 3,
+   "avgViews": 6140,
+   "avgLikes": 119,
+   "avgEngagement": 2.57,
+   "totalViews": 18421
   },
   {
    "tag": "#gsu",
    "count": 7,
    "avgViews": 6128,
-   "avgLikes": 193,
+   "avgLikes": 336,
    "avgEngagement": 0.0,
    "totalViews": 12256
   },
   {
-   "tag": "#zetamuforever",
-   "count": 22,
-   "avgViews": 5361,
-   "avgLikes": 406,
-   "avgEngagement": 1.86,
-   "totalViews": 32167
+   "tag": "#gq",
+   "count": 33,
+   "avgViews": 6063,
+   "avgLikes": 453,
+   "avgEngagement": 7.38,
+   "totalViews": 121263
+  },
+  {
+   "tag": "#tcgimpact",
+   "count": 4,
+   "avgViews": 5740,
+   "avgLikes": 108,
+   "avgEngagement": 3.08,
+   "totalViews": 5740
+  },
+  {
+   "tag": "#nationalvoterregistrationday",
+   "count": 5,
+   "avgViews": 5693,
+   "avgLikes": 431,
+   "avgEngagement": 6.78,
+   "totalViews": 17079
   },
   {
    "tag": "#mentalhealth",
    "count": 5,
-   "avgViews": 5135,
-   "avgLikes": 19,
-   "avgEngagement": 0.29,
-   "totalViews": 10271
+   "avgViews": 5437,
+   "avgLikes": 87,
+   "avgEngagement": 5.0,
+   "totalViews": 27188
   },
   {
-   "tag": "#thingstodoinatlanta",
-   "count": 3,
-   "avgViews": 5099,
-   "avgLikes": 80,
-   "avgEngagement": 2.57,
-   "totalViews": 10199
+   "tag": "#mentalhealthawareness",
+   "count": 4,
+   "avgViews": 5238,
+   "avgLikes": 0,
+   "avgEngagement": 0.0,
+   "totalViews": 20954
   },
   {
-   "tag": "#phlyalphas",
-   "count": 7,
-   "avgViews": 4824,
-   "avgLikes": 432,
-   "avgEngagement": 0.19,
-   "totalViews": 4824
-  },
-  {
-   "tag": "#blackboyjoy",
+   "tag": "#livelifeunruely",
    "count": 6,
-   "avgViews": 4801,
-   "avgLikes": 247,
-   "avgEngagement": 3.91,
-   "totalViews": 14403
+   "avgViews": 5135,
+   "avgLikes": 291,
+   "avgEngagement": 5.12,
+   "totalViews": 20543
+  },
+  {
+   "tag": "#accgsu",
+   "count": 3,
+   "avgViews": 5037,
+   "avgLikes": 526,
+   "avgEngagement": 6.47,
+   "totalViews": 5037
+  },
+  {
+   "tag": "#gsuhomecoming",
+   "count": 4,
+   "avgViews": 4966,
+   "avgLikes": 528,
+   "avgEngagement": 10.88,
+   "totalViews": 14900
+  },
+  {
+   "tag": "#e100atl",
+   "count": 10,
+   "avgViews": 4852,
+   "avgLikes": 512,
+   "avgEngagement": 6.74,
+   "totalViews": 14558
   },
   {
    "tag": "#democracy",
    "count": 3,
    "avgViews": 4543,
-   "avgLikes": 106,
-   "avgEngagement": 2.71,
+   "avgLikes": 157,
+   "avgEngagement": 5.3,
    "totalViews": 9086
   },
   {
-   "tag": "#youthempowerment",
-   "count": 4,
-   "avgViews": 4106,
-   "avgLikes": 247,
-   "avgEngagement": 0.28,
-   "totalViews": 8213
-  },
-  {
-   "tag": "#nationalvoterregistrationday",
-   "count": 5,
-   "avgViews": 3745,
-   "avgLikes": 346,
-   "avgEngagement": 0.41,
-   "totalViews": 7491
-  },
-  {
-   "tag": "#zetamualphas",
-   "count": 16,
-   "avgViews": 3620,
-   "avgLikes": 351,
-   "avgEngagement": 1.97,
-   "totalViews": 10860
-  },
-  {
-   "tag": "#e100atl",
-   "count": 10,
-   "avgViews": 3593,
-   "avgLikes": 206,
-   "avgEngagement": 0.17,
-   "totalViews": 7187
-  },
-  {
-   "tag": "#mensmentalhealth",
-   "count": 5,
-   "avgViews": 3536,
-   "avgLikes": 36,
-   "avgEngagement": 1.01,
-   "totalViews": 17683
-  },
-  {
-   "tag": "#togetheratl",
-   "count": 5,
-   "avgViews": 3481,
-   "avgLikes": 102,
-   "avgEngagement": 2.71,
-   "totalViews": 10443
-  },
-  {
-   "tag": "#gq",
-   "count": 33,
-   "avgViews": 3258,
-   "avgLikes": 330,
-   "avgEngagement": 1.54,
-   "totalViews": 19551
-  },
-  {
-   "tag": "#cfga",
-   "count": 3,
-   "avgViews": 3234,
-   "avgLikes": 169,
-   "avgEngagement": 5.3,
-   "totalViews": 6468
-  },
-  {
-   "tag": "#emcee",
-   "count": 11,
-   "avgViews": 3221,
-   "avgLikes": 1,
-   "avgEngagement": 0.55,
-   "totalViews": 19330
-  },
-  {
-   "tag": "#gsuhomecoming",
-   "count": 4,
-   "avgViews": 3079,
-   "avgLikes": 397,
-   "avgEngagement": 0.18,
-   "totalViews": 6159
-  },
-  {
-   "tag": "#mentalhealthawareness",
-   "count": 4,
-   "avgViews": 2959,
-   "avgLikes": 3,
-   "avgEngagement": 0.35,
-   "totalViews": 5918
-  },
-  {
-   "tag": "#finishstrong",
-   "count": 3,
-   "avgViews": 2881,
-   "avgLikes": 44,
-   "avgEngagement": 1.46,
-   "totalViews": 8644
-  },
-  {
-   "tag": "#thevoice",
-   "count": 440,
-   "avgViews": 2468,
-   "avgLikes": 117,
-   "avgEngagement": 2.09,
-   "totalViews": 436994
+   "tag": "#unruelyjoshow",
+   "count": 21,
+   "avgViews": 4438,
+   "avgLikes": 238,
+   "avgEngagement": 5.47,
+   "totalViews": 66570
   },
   {
    "tag": "#quad",
    "count": 4,
-   "avgViews": 2436,
-   "avgLikes": 184,
-   "avgEngagement": 0.62,
-   "totalViews": 4873
+   "avgViews": 4325,
+   "avgLikes": 245,
+   "avgEngagement": 7.41,
+   "totalViews": 17302
   },
   {
-   "tag": "#poolsideaffair",
+   "tag": "#gsuhomecoming2022",
+   "count": 3,
+   "avgViews": 4228,
+   "avgLikes": 609,
+   "avgEngagement": 6.67,
+   "totalViews": 4228
+  },
+  {
+   "tag": "#jojoturnsthreeohh",
    "count": 7,
-   "avgViews": 2400,
-   "avgLikes": 207,
-   "avgEngagement": 0.19,
-   "totalViews": 7202
+   "avgViews": 4108,
+   "avgLikes": 387,
+   "avgEngagement": 9.79,
+   "totalViews": 24652
   },
   {
-   "tag": "#youthspeaker",
-   "count": 149,
-   "avgViews": 2108,
-   "avgLikes": 85,
-   "avgEngagement": 3.04,
-   "totalViews": 122286
-  },
-  {
-   "tag": "#inspiration",
-   "count": 148,
-   "avgViews": 2075,
-   "avgLikes": 81,
-   "avgEngagement": 2.35,
-   "totalViews": 118291
-  },
-  {
-   "tag": "#gsuhomecoming2023",
-   "count": 3,
-   "avgViews": 2043,
-   "avgLikes": 422,
-   "avgEngagement": 0.0,
-   "totalViews": 2043
-  },
-  {
-   "tag": "#keynotespeaker",
-   "count": 154,
-   "avgViews": 2033,
-   "avgLikes": 83,
-   "avgEngagement": 2.96,
-   "totalViews": 128096
-  },
-  {
-   "tag": "#millennialmotivator",
-   "count": 157,
-   "avgViews": 2027,
-   "avgLikes": 89,
-   "avgEngagement": 3.04,
-   "totalViews": 125685
-  },
-  {
-   "tag": "#leadatlanta",
-   "count": 3,
-   "avgViews": 1978,
-   "avgLikes": 3,
-   "avgEngagement": 0.17,
-   "totalViews": 3957
-  },
-  {
-   "tag": "#notyoaveragehost",
-   "count": 3,
-   "avgViews": 1959,
-   "avgLikes": 2,
-   "avgEngagement": 0.26,
-   "totalViews": 3918
-  },
-  {
-   "tag": "#motivationmonday",
-   "count": 163,
-   "avgViews": 1922,
-   "avgLikes": 85,
-   "avgEngagement": 2.77,
-   "totalViews": 151842
-  },
-  {
-   "tag": "#motivation",
-   "count": 178,
-   "avgViews": 1807,
-   "avgLikes": 85,
-   "avgEngagement": 3.04,
-   "totalViews": 135592
-  },
-  {
-   "tag": "#33for33",
-   "count": 3,
-   "avgViews": 1621,
-   "avgLikes": 2,
-   "avgEngagement": 0.27,
-   "totalViews": 4864
-  },
-  {
-   "tag": "#jp33",
-   "count": 3,
-   "avgViews": 1621,
-   "avgLikes": 2,
-   "avgEngagement": 0.27,
-   "totalViews": 4864
-  },
-  {
-   "tag": "#comedy",
+   "tag": "#blackboyjoy",
    "count": 6,
-   "avgViews": 1402,
-   "avgLikes": 0,
-   "avgEngagement": 0.0,
-   "totalViews": 8416
+   "avgViews": 4038,
+   "avgLikes": 247,
+   "avgEngagement": 4.63,
+   "totalViews": 20190
   },
   {
-   "tag": "#dance",
-   "count": 5,
-   "avgViews": 1363,
-   "avgLikes": 0,
-   "avgEngagement": 0.0,
-   "totalViews": 6816
+   "tag": "#e100hsb",
+   "count": 4,
+   "avgViews": 3743,
+   "avgLikes": 358,
+   "avgEngagement": 3.98,
+   "totalViews": 3743
   },
   {
-   "tag": "#nonprofit",
+   "tag": "#blackmensmile",
+   "count": 20,
+   "avgViews": 3716,
+   "avgLikes": 278,
+   "avgEngagement": 7.58,
+   "totalViews": 52034
+  },
+  {
+   "tag": "#mambayear",
    "count": 3,
-   "avgViews": 1357,
-   "avgLikes": 257,
-   "avgEngagement": 0.0,
-   "totalViews": 1357
+   "avgViews": 3707,
+   "avgLikes": 89,
+   "avgEngagement": 2.86,
+   "totalViews": 11123
+  },
+  {
+   "tag": "#cwayzee",
+   "count": 3,
+   "avgViews": 3692,
+   "avgLikes": 204,
+   "avgEngagement": 5.64,
+   "totalViews": 7384
+  },
+  {
+   "tag": "#linkinbio",
+   "count": 17,
+   "avgViews": 3630,
+   "avgLikes": 193,
+   "avgEngagement": 7.63,
+   "totalViews": 50821
+  },
+  {
+   "tag": "#apparel",
+   "count": 17,
+   "avgViews": 3630,
+   "avgLikes": 221,
+   "avgEngagement": 7.63,
+   "totalViews": 50821
+  },
+  {
+   "tag": "#advocate",
+   "count": 18,
+   "avgViews": 3630,
+   "avgLikes": 237,
+   "avgEngagement": 7.63,
+   "totalViews": 50821
   }
  ],
  "crossPosts": [
@@ -2375,6 +2392,60 @@
    "viewDiff": 2400955
   },
   {
+   "title": "GO DAWGS!!! Join our talented @ronclarkacademy students in congratulating the 2022 NCAA Football National Champions, Geo",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ],
+   "posts": [
+    {
+     "id": "ig_2748586088869145582_255410408",
+     "platform": "instagram",
+     "views": 23146,
+     "likes": 1010,
+     "date": "2022-01-10",
+     "url": "https://www.instagram.com/p/CYk8Hw1oCvu/"
+    },
+    {
+     "id": "tt_7051811823615511855",
+     "platform": "tiktok",
+     "views": 454,
+     "likes": 0,
+     "date": "2022-01-11",
+     "url": "https://www.tiktok.com/@notyo_averagejo/video/7051811823615511855"
+    }
+   ],
+   "bestPlatform": "instagram",
+   "viewDiff": 22692
+  },
+  {
+   "title": "Squad so nice, they did it TWICE!\ud83c\udfc6\ud83c\udfc6 Congrats to the 2022-23 National Champions, Georgia Bulldogs! \ud83d\udc36\ud83e\uddb4",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ],
+   "posts": [
+    {
+     "id": "ig_3012383616541600387_255410408",
+     "platform": "instagram",
+     "views": 19503,
+     "likes": 971,
+     "date": "2023-01-09",
+     "url": "https://www.instagram.com/p/CnOIvBfKyqD/"
+    },
+    {
+     "id": "tt_7187270498747682091",
+     "platform": "tiktok",
+     "views": 427,
+     "likes": 0,
+     "date": "2023-01-11",
+     "url": "https://www.tiktok.com/@notyo_averagejo/video/7187270498747682091"
+    }
+   ],
+   "bestPlatform": "instagram",
+   "viewDiff": 19076
+  },
+  {
    "title": "RCA Drill Team/Cheer Leaders Vs. Alumni\ud83d\udd25",
    "platforms": [
     "instagram",
@@ -2385,7 +2456,7 @@
      "id": "ig_3798640984167756431_255410408",
      "platform": "instagram",
      "views": 18177,
-     "likes": 3,
+     "likes": 0,
      "date": "2025-12-29",
      "url": "https://www.instagram.com/p/DS3e9lajzKP/"
     },
@@ -2528,8 +2599,8 @@
     {
      "id": "ig_3960978649737914429_255410408",
      "platform": "instagram",
-     "views": 11815,
-     "likes": 3,
+     "views": 11818,
+     "likes": 0,
      "date": "2026-08-10",
      "url": "https://www.instagram.com/p/Db4ORiEiOg9/"
     },
@@ -2543,7 +2614,7 @@
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 9815
+   "viewDiff": 9818
   },
   {
    "title": "Yall weird for not eating leftovers \ud83e\udee0\ud83d\ude02",
@@ -2646,7 +2717,7 @@
      "id": "ig_3630261868725257829_255410408",
      "platform": "instagram",
      "views": 8062,
-     "likes": 3,
+     "likes": 0,
      "date": "2025-05-11",
      "url": "https://www.instagram.com/p/DJhR--HA8Zl/"
     },
@@ -2663,6 +2734,33 @@
    "viewDiff": 6153
   },
   {
+   "title": "Being the leader of this family as the youngest member means I may fall short, I\u2019ll probably make mistakes, and sometime",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ],
+   "posts": [
+    {
+     "id": "ig_3265870986699959639_255410408",
+     "platform": "instagram",
+     "views": 7642,
+     "likes": 379,
+     "date": "2023-12-25",
+     "url": "https://www.instagram.com/p/C1StFvsgW1X/"
+    },
+    {
+     "id": "tt_7316740189362064670",
+     "platform": "tiktok",
+     "views": 1562,
+     "likes": 0,
+     "date": "2023-12-25",
+     "url": "https://www.tiktok.com/@notyo_averagejo/video/7316740189362064670"
+    }
+   ],
+   "bestPlatform": "instagram",
+   "viewDiff": 6080
+  },
+  {
    "title": "\u201c\u2026and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon",
    "platforms": [
     "instagram",
@@ -2673,7 +2771,7 @@
      "id": "ig_3347088089263643546_255410408",
      "platform": "instagram",
      "views": 5406,
-     "likes": 3,
+     "likes": 0,
      "date": "2024-04-15",
      "url": "https://www.instagram.com/p/C5zPuIwgBua/"
     },
@@ -2690,6 +2788,33 @@
    "viewDiff": 4683
   },
   {
+   "title": "Remember, amidst the celebration of love on Valentine\u2019s Day, the most important relationship you have is with yourself.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ],
+   "posts": [
+    {
+     "id": "ig_3302110644593038800_255410408",
+     "platform": "instagram",
+     "views": 4786,
+     "likes": 145,
+     "date": "2024-02-13",
+     "url": "https://www.instagram.com/p/C3TdCLMARXQ/"
+    },
+    {
+     "id": "tt_7335243549639920942",
+     "platform": "tiktok",
+     "views": 402,
+     "likes": 0,
+     "date": "2024-02-13",
+     "url": "https://www.tiktok.com/@notyo_averagejo/video/7335243549639920942"
+    }
+   ],
+   "bestPlatform": "instagram",
+   "viewDiff": 4384
+  },
+  {
    "title": "On the week of Thanksgiving, my grandmother broke her femur from the turbulent landing on a hot air balloon in New Mexic",
    "platforms": [
     "instagram",
@@ -2700,7 +2825,7 @@
      "id": "ig_3789096129037222626_255410408",
      "platform": "instagram",
      "views": 4587,
-     "likes": 3,
+     "likes": 0,
      "date": "2025-12-16",
      "url": "https://www.instagram.com/p/DSVktqXEkLi/"
     },
@@ -2727,7 +2852,7 @@
      "id": "ig_3712435951701387037_255410408",
      "platform": "instagram",
      "views": 4578,
-     "likes": 3,
+     "likes": 0,
      "date": "2025-09-01",
      "url": "https://www.instagram.com/p/DOFONQojOcd/"
     },
@@ -2753,8 +2878,8 @@
     {
      "id": "ig_3874715788942427969_255410408",
      "platform": "instagram",
-     "views": 4430,
-     "likes": 3,
+     "views": 4431,
+     "likes": 0,
      "date": "2026-04-13",
      "url": "https://www.instagram.com/p/DXFwXsdgsdB/"
     },
@@ -2768,7 +2893,61 @@
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 3579
+   "viewDiff": 3580
+  },
+  {
+   "title": "I\u2019m going to ask you a question that you might not want to answer \ud83d\ude05",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ],
+   "posts": [
+    {
+     "id": "ig_3316562244594301255_255410408",
+     "platform": "instagram",
+     "views": 3953,
+     "likes": 106,
+     "date": "2024-03-04",
+     "url": "https://www.instagram.com/p/C4Gy8ogg_lH/"
+    },
+    {
+     "id": "tt_7342724793898143022",
+     "platform": "tiktok",
+     "views": 440,
+     "likes": 0,
+     "date": "2024-03-04",
+     "url": "https://www.tiktok.com/@notyo_averagejo/video/7342724793898143022"
+    }
+   ],
+   "bestPlatform": "instagram",
+   "viewDiff": 3513
+  },
+  {
+   "title": "INFLUENCERS BE LIKE\ud83d\ude02\ud83e\udea5 (This message will change your mindset to reach your goals\u203c\ufe0f)",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ],
+   "posts": [
+    {
+     "id": "ig_3276122269151258855_255410408",
+     "platform": "instagram",
+     "views": 4220,
+     "likes": 0,
+     "date": "2024-01-08",
+     "url": "https://www.instagram.com/p/C13H9idgejn/"
+    },
+    {
+     "id": "tt_7321910154151071019",
+     "platform": "tiktok",
+     "views": 770,
+     "likes": 0,
+     "date": "2024-01-08",
+     "url": "https://www.tiktok.com/@notyo_averagejo/video/7321910154151071019"
+    }
+   ],
+   "bestPlatform": "instagram",
+   "viewDiff": 3450
   },
   {
    "title": "After writing \u201cStay Jotivated\u00ae\ufe0f: 52 Ways to Awaken Your Inner Dreamer ,\u201d I had to practice what I preach\u2014so I kicked it",
@@ -2796,6 +2975,33 @@
    ],
    "bestPlatform": "instagram",
    "viewDiff": 3434
+  },
+  {
+   "title": "Stay Jotivated Presents: Don\u2019t forget about YOU (Jason David Frank Tribute)",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ],
+   "posts": [
+    {
+     "id": "ig_2977524741197379942_255410408",
+     "platform": "instagram",
+     "views": 4109,
+     "likes": 176,
+     "date": "2022-11-22",
+     "url": "https://www.instagram.com/p/ClSSvn9Ablm/"
+    },
+    {
+     "id": "tt_7169672399170882859",
+     "platform": "tiktok",
+     "views": 770,
+     "likes": 0,
+     "date": "2022-11-24",
+     "url": "https://www.tiktok.com/@notyo_averagejo/video/7169672399170882859"
+    }
+   ],
+   "bestPlatform": "instagram",
+   "viewDiff": 3339
   },
   {
    "title": "Here\u2019s your sign to get back to writing, singing, dancing, or whatever artistic skills you\u2019ve taken a step back from tha",
@@ -2888,8 +3094,8 @@
     {
      "id": "ig_3996400829241867401_255410408",
      "platform": "instagram",
-     "views": 2986,
-     "likes": 3,
+     "views": 2988,
+     "likes": 0,
      "date": "2026-09-28",
      "url": "https://www.instagram.com/p/Dd2EWFfCbyJ/"
     },
@@ -2903,7 +3109,34 @@
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 2765
+   "viewDiff": 2767
+  },
+  {
+   "title": "Think about this when you ask God for your raise, when you say you want a bigger following, when you want more bookings",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ],
+   "posts": [
+    {
+     "id": "ig_3307887952616584135_255410408",
+     "platform": "instagram",
+     "views": 3039,
+     "likes": 0,
+     "date": "2024-02-21",
+     "url": "https://www.instagram.com/p/C3n-pEkgXPH/"
+    },
+    {
+     "id": "tt_7338186724394241322",
+     "platform": "tiktok",
+     "views": 369,
+     "likes": 0,
+     "date": "2024-02-21",
+     "url": "https://www.tiktok.com/@notyo_averagejo/video/7338186724394241322"
+    }
+   ],
+   "bestPlatform": "instagram",
+   "viewDiff": 2670
   },
   {
    "title": "With great power, comes great responsibility. \ud83d\ude24\ud83d\udc3b",
@@ -2951,8 +3184,8 @@
     {
      "id": "ig_3956668792721552979_255410408",
      "platform": "instagram",
-     "views": 2594,
-     "likes": 3,
+     "views": 2596,
+     "likes": 0,
      "date": "2026-08-04",
      "url": "https://www.instagram.com/p/Dbo6U28CrZT/"
     },
@@ -2966,7 +3199,7 @@
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 2493
+   "viewDiff": 2495
   },
   {
    "title": "Unc back at it again \ud83d\ude05\ud83d\ude02",
@@ -2979,7 +3212,7 @@
      "id": "ig_3713560795700707190_255410408",
      "platform": "instagram",
      "views": 5737,
-     "likes": 3,
+     "likes": 0,
      "date": "2025-09-03",
      "url": "https://www.instagram.com/p/DOJN95Pjr92/"
     },
@@ -3006,7 +3239,7 @@
      "id": "ig_3749385135599700856_255410408",
      "platform": "instagram",
      "views": 2724,
-     "likes": 3,
+     "likes": 0,
      "date": "2025-10-22",
      "url": "https://www.instagram.com/p/DQIfeptjMt4/"
     },
@@ -3033,7 +3266,7 @@
      "id": "ig_3686233857075541744_255410408",
      "platform": "instagram",
      "views": 3097,
-     "likes": 3,
+     "likes": 0,
      "date": "2025-07-27",
      "url": "https://www.instagram.com/p/DMoIimaAXbw/"
     },
@@ -3060,7 +3293,7 @@
      "id": "ig_3910851571206355100_255410408",
      "platform": "instagram",
      "views": 3349,
-     "likes": 3,
+     "likes": 0,
      "date": "2026-06-02",
      "url": "https://www.instagram.com/p/DZGIsiPCHic/"
     },
@@ -3087,7 +3320,7 @@
      "id": "ig_3747749741078363647_255410408",
      "platform": "instagram",
      "views": 2279,
-     "likes": 3,
+     "likes": 0,
      "date": "2025-10-20",
      "url": "https://www.instagram.com/p/DQCroh4Cb3_/"
     },
@@ -3141,7 +3374,7 @@
      "id": "ig_3522253066684639195_255410408",
      "platform": "instagram",
      "views": 2293,
-     "likes": 3,
+     "likes": 0,
      "date": "2024-12-13",
      "url": "https://www.instagram.com/p/DDhjoCgxKfb/"
     },
@@ -3158,33 +3391,6 @@
    "viewDiff": 1632
   },
   {
-   "title": "Being the leader of this family as the youngest member means I may fall short, I\u2019ll probably make mistakes, and sometime",
-   "platforms": [
-    "instagram",
-    "tiktok"
-   ],
-   "posts": [
-    {
-     "id": "tt_7316740189362064670",
-     "platform": "tiktok",
-     "views": 1562,
-     "likes": 0,
-     "date": "2023-12-25",
-     "url": "https://www.tiktok.com/@notyo_averagejo/video/7316740189362064670"
-    },
-    {
-     "id": "ig_3265870986699959639_255410408",
-     "platform": "instagram",
-     "views": 0,
-     "likes": 379,
-     "date": "2023-12-25",
-     "url": "https://www.instagram.com/p/C1StFvsgW1X/"
-    }
-   ],
-   "bestPlatform": "tiktok",
-   "viewDiff": 1562
-  },
-  {
    "title": "The light didn\u2019t disappear. It shifted. \u2600\ufe0fWhat was bright at 6am is now bright at 7. Same light. New schedule. And the p",
    "platforms": [
     "instagram",
@@ -3195,7 +3401,7 @@
      "id": "ig_3849402529486134100_255410408",
      "platform": "instagram",
      "views": 1741,
-     "likes": 3,
+     "likes": 0,
      "date": "2026-03-09",
      "url": "https://www.instagram.com/p/DVr0zSfgttU/"
     },
@@ -3303,7 +3509,7 @@
      "id": "ig_3544882020309899272_255410408",
      "platform": "instagram",
      "views": 1587,
-     "likes": 3,
+     "likes": 0,
      "date": "2025-01-13",
      "url": "https://www.instagram.com/p/DEx82p3PZgI/"
     },
@@ -3318,195 +3524,6 @@
    ],
    "bestPlatform": "instagram",
    "viewDiff": 1100
-  },
-  {
-   "title": "INFLUENCERS BE LIKE\ud83d\ude02\ud83e\udea5 (This message will change your mindset to reach your goals\u203c\ufe0f)",
-   "platforms": [
-    "instagram",
-    "tiktok"
-   ],
-   "posts": [
-    {
-     "id": "tt_7321910154151071019",
-     "platform": "tiktok",
-     "views": 770,
-     "likes": 0,
-     "date": "2024-01-08",
-     "url": "https://www.tiktok.com/@notyo_averagejo/video/7321910154151071019"
-    },
-    {
-     "id": "ig_3276122269151258855_255410408",
-     "platform": "instagram",
-     "views": 0,
-     "likes": 3,
-     "date": "2024-01-08",
-     "url": "https://www.instagram.com/p/C13H9idgejn/"
-    }
-   ],
-   "bestPlatform": "tiktok",
-   "viewDiff": 770
-  },
-  {
-   "title": "Stay Jotivated Presents: Don\u2019t forget about YOU (Jason David Frank Tribute)",
-   "platforms": [
-    "instagram",
-    "tiktok"
-   ],
-   "posts": [
-    {
-     "id": "tt_7169672399170882859",
-     "platform": "tiktok",
-     "views": 770,
-     "likes": 0,
-     "date": "2022-11-24",
-     "url": "https://www.tiktok.com/@notyo_averagejo/video/7169672399170882859"
-    },
-    {
-     "id": "ig_2977524741197379942_255410408",
-     "platform": "instagram",
-     "views": 0,
-     "likes": 176,
-     "date": "2022-11-22",
-     "url": "https://www.instagram.com/p/ClSSvn9Ablm/"
-    }
-   ],
-   "bestPlatform": "tiktok",
-   "viewDiff": 770
-  },
-  {
-   "title": "GO DAWGS!!! Join our talented @ronclarkacademy students in congratulating the 2022 NCAA Football National Champions, Geo",
-   "platforms": [
-    "instagram",
-    "tiktok"
-   ],
-   "posts": [
-    {
-     "id": "tt_7051811823615511855",
-     "platform": "tiktok",
-     "views": 454,
-     "likes": 0,
-     "date": "2022-01-11",
-     "url": "https://www.tiktok.com/@notyo_averagejo/video/7051811823615511855"
-    },
-    {
-     "id": "ig_2748586088869145582_255410408",
-     "platform": "instagram",
-     "views": 0,
-     "likes": 1010,
-     "date": "2022-01-10",
-     "url": "https://www.instagram.com/p/CYk8Hw1oCvu/"
-    }
-   ],
-   "bestPlatform": "tiktok",
-   "viewDiff": 454
-  },
-  {
-   "title": "I\u2019m going to ask you a question that you might not want to answer \ud83d\ude05",
-   "platforms": [
-    "instagram",
-    "tiktok"
-   ],
-   "posts": [
-    {
-     "id": "tt_7342724793898143022",
-     "platform": "tiktok",
-     "views": 440,
-     "likes": 0,
-     "date": "2024-03-04",
-     "url": "https://www.tiktok.com/@notyo_averagejo/video/7342724793898143022"
-    },
-    {
-     "id": "ig_3316562244594301255_255410408",
-     "platform": "instagram",
-     "views": 0,
-     "likes": 106,
-     "date": "2024-03-04",
-     "url": "https://www.instagram.com/p/C4Gy8ogg_lH/"
-    }
-   ],
-   "bestPlatform": "tiktok",
-   "viewDiff": 440
-  },
-  {
-   "title": "Squad so nice, they did it TWICE!\ud83c\udfc6\ud83c\udfc6 Congrats to the 2022-23 National Champions, Georgia Bulldogs! \ud83d\udc36\ud83e\uddb4",
-   "platforms": [
-    "instagram",
-    "tiktok"
-   ],
-   "posts": [
-    {
-     "id": "tt_7187270498747682091",
-     "platform": "tiktok",
-     "views": 427,
-     "likes": 0,
-     "date": "2023-01-11",
-     "url": "https://www.tiktok.com/@notyo_averagejo/video/7187270498747682091"
-    },
-    {
-     "id": "ig_3012383616541600387_255410408",
-     "platform": "instagram",
-     "views": 0,
-     "likes": 971,
-     "date": "2023-01-09",
-     "url": "https://www.instagram.com/p/CnOIvBfKyqD/"
-    }
-   ],
-   "bestPlatform": "tiktok",
-   "viewDiff": 427
-  },
-  {
-   "title": "Remember, amidst the celebration of love on Valentine\u2019s Day, the most important relationship you have is with yourself.",
-   "platforms": [
-    "instagram",
-    "tiktok"
-   ],
-   "posts": [
-    {
-     "id": "tt_7335243549639920942",
-     "platform": "tiktok",
-     "views": 402,
-     "likes": 0,
-     "date": "2024-02-13",
-     "url": "https://www.tiktok.com/@notyo_averagejo/video/7335243549639920942"
-    },
-    {
-     "id": "ig_3302110644593038800_255410408",
-     "platform": "instagram",
-     "views": 0,
-     "likes": 145,
-     "date": "2024-02-13",
-     "url": "https://www.instagram.com/p/C3TdCLMARXQ/"
-    }
-   ],
-   "bestPlatform": "tiktok",
-   "viewDiff": 402
-  },
-  {
-   "title": "Think about this when you ask God for your raise, when you say you want a bigger following, when you want more bookings",
-   "platforms": [
-    "instagram",
-    "tiktok"
-   ],
-   "posts": [
-    {
-     "id": "tt_7338186724394241322",
-     "platform": "tiktok",
-     "views": 369,
-     "likes": 0,
-     "date": "2024-02-21",
-     "url": "https://www.tiktok.com/@notyo_averagejo/video/7338186724394241322"
-    },
-    {
-     "id": "ig_3307887952616584135_255410408",
-     "platform": "instagram",
-     "views": 0,
-     "likes": 3,
-     "date": "2024-02-21",
-     "url": "https://www.instagram.com/p/C3n-pEkgXPH/"
-    }
-   ],
-   "bestPlatform": "tiktok",
-   "viewDiff": 369
   },
   {
    "title": "Last night, I was blessed to be honored as one of Network of Atlanta's (@thenetworkofatlanta) Most Impactful Atlantans a",
@@ -3527,7 +3544,7 @@
      "id": "ig_3597065250136587510_255410408",
      "platform": "instagram",
      "views": 0,
-     "likes": 3,
+     "likes": 0,
      "date": "2025-03-26",
      "url": "https://www.instagram.com/p/DHrV8l0Svz2/"
     }
@@ -3647,9 +3664,9 @@
    "postId": "ig_3907842355792347484_55159966596",
    "platform": "instagram",
    "views": 63124,
-   "likes": 3,
-   "engagement": 0.05,
-   "engagementRate": "0.05",
+   "likes": 0,
+   "engagement": 0.0,
+   "engagementRate": "0.00",
    "categories": [
     "music_culture"
    ],
@@ -3712,7 +3729,7 @@
    "postId": "ig_3997814493467442549_255410408",
    "platform": "instagram",
    "views": 25992,
-   "likes": 994,
+   "likes": 995,
    "engagement": 3.97,
    "engagementRate": "3.97",
    "categories": [
@@ -3737,16 +3754,58 @@
    "hook": "\u270f\ufe0fHow to be a Great Emcee: Rule #2\ufe0f\u20e3 - Be in Control \ud83c\udfae",
    "postId": "ig_3921720211887792335_255410408",
    "platform": "instagram",
-   "views": 24921,
-   "likes": 3,
-   "engagement": 0.28,
-   "engagementRate": "0.28",
+   "views": 24922,
+   "likes": 0,
+   "engagement": 0.0,
+   "engagementRate": "0.00",
    "categories": [
     "motivation",
     "emcee",
     "community"
    ],
    "url": "https://www.instagram.com/p/DZsv8EqCqDP/"
+  },
+  {
+   "hook": "House Cheers at RCA EXP!\ud83d\udd25",
+   "postId": "ig_2944006536625729593_255410408",
+   "platform": "instagram",
+   "views": 23376,
+   "likes": 240,
+   "engagement": 1.04,
+   "engagementRate": "1.04",
+   "categories": [
+    "speaking"
+   ],
+   "url": "https://www.instagram.com/p/CjbNljYATA5/"
+  },
+  {
+   "hook": "GO DAWGS!!! Join our talented @ronclarkacademy students in congratulating the 2022 NCAA Football National Champions, Geo",
+   "postId": "ig_2748586088869145582_255410408",
+   "platform": "instagram",
+   "views": 23146,
+   "likes": 1010,
+   "engagement": 4.61,
+   "engagementRate": "4.61",
+   "categories": [
+    "speaking",
+    "sports"
+   ],
+   "url": "https://www.instagram.com/p/CYk8Hw1oCvu/"
+  },
+  {
+   "hook": "I\u2019ll never make fun of Beehivers\ud83d\udc1d. The same way they feel about Beyonc\u00e9, is how I feel about MJ\ud83d\udc10 .",
+   "postId": "ig_3180236828242357050_255410408",
+   "platform": "instagram",
+   "views": 22544,
+   "likes": 212,
+   "engagement": 1.0,
+   "engagementRate": "1.00",
+   "categories": [
+    "emcee",
+    "faith_family",
+    "music_culture"
+   ],
+   "url": "https://www.instagram.com/p/CwieIuxACs6/"
   },
   {
    "hook": "This was wild\u2026",
@@ -3763,13 +3822,27 @@
    "url": "https://www.instagram.com/p/DbCRm5zM9y0/"
   },
   {
+   "hook": "Squad so nice, they did it TWICE!\ud83c\udfc6\ud83c\udfc6 Congrats to the 2022-23 National Champions, Georgia Bulldogs! \ud83d\udc36\ud83e\uddb4",
+   "postId": "ig_3012383616541600387_255410408",
+   "platform": "instagram",
+   "views": 19503,
+   "likes": 971,
+   "engagement": 5.27,
+   "engagementRate": "5.27",
+   "categories": [
+    "speaking",
+    "sports"
+   ],
+   "url": "https://www.instagram.com/p/CnOIvBfKyqD/"
+  },
+  {
    "hook": "RCA Drill Team/Cheer Leaders Vs. Alumni\ud83d\udd25",
    "postId": "ig_3798640984167756431_255410408",
    "platform": "instagram",
    "views": 18177,
-   "likes": 3,
-   "engagement": 0.07,
-   "engagementRate": "0.07",
+   "likes": 0,
+   "engagement": 0.0,
+   "engagementRate": "0.00",
    "categories": [
     "speaking"
    ],
@@ -3804,6 +3877,34 @@
    "url": "https://www.instagram.com/p/DR3NbmdCX7T/"
   },
   {
+   "hook": "\u2026but most of all, we graduate. \ud83e\udd19\ud83c\udffe\ud83c\udf93",
+   "postId": "ig_2842622633898472866_255410408",
+   "platform": "instagram",
+   "views": 16292,
+   "likes": 1236,
+   "engagement": 7.94,
+   "engagementRate": "7.94",
+   "categories": [
+    "brotherhood",
+    "style"
+   ],
+   "url": "https://www.instagram.com/p/CdzBjmEAPWi/"
+  },
+  {
+   "hook": "I had time today \ud83d\ude0e",
+   "postId": "ig_3282711923698931670_255410408",
+   "platform": "instagram",
+   "views": 16230,
+   "likes": 473,
+   "engagement": 3.13,
+   "engagementRate": "3.13",
+   "categories": [
+    "community",
+    "faith_family"
+   ],
+   "url": "https://www.instagram.com/p/C2OiRogA5fW/"
+  },
+  {
    "hook": "Yall been wearing cowboy hats for like 3 years now \ud83d\udc0e\ud83e\udee9",
    "postId": "ig_3673997027617956972_255410408",
    "platform": "instagram",
@@ -3817,13 +3918,31 @@
    "url": "https://www.instagram.com/p/DL8qNS5AmRs/"
   },
   {
+   "hook": "Stay Jotivated Presents: Gas Prices\u26fd\ufe0f",
+   "postId": "ig_2789111239148759643_255410408",
+   "platform": "instagram",
+   "views": 15369,
+   "likes": 513,
+   "engagement": 3.81,
+   "engagementRate": "3.81",
+   "categories": [
+    "motivation",
+    "emcee",
+    "speaking",
+    "community",
+    "brotherhood",
+    "style"
+   ],
+   "url": "https://www.instagram.com/p/Ca06eUIgupb/"
+  },
+  {
    "hook": "Stay Jotivated\u00ae\ufe0f Presents: Paper Cuts\ud83e\ude79",
    "postId": "ig_3357885712442725061_255410408",
    "platform": "instagram",
    "views": 15000,
-   "likes": 3,
-   "engagement": 0.17,
-   "engagementRate": "0.17",
+   "likes": 0,
+   "engagement": 0.0,
+   "engagementRate": "0.00",
    "categories": [
     "motivation",
     "emcee",
@@ -3845,6 +3964,33 @@
    "url": "https://www.tiktok.com/@notyo_averagejo/video/7507370660226845998"
   },
   {
+   "hook": "CELEBRATION\ud83c\udf93",
+   "postId": "ig_3118669401914757971_255410408",
+   "platform": "instagram",
+   "views": 14373,
+   "likes": 933,
+   "engagement": 6.86,
+   "engagementRate": "6.86",
+   "categories": [
+    "speaking",
+    "faith_family"
+   ],
+   "url": "https://www.instagram.com/p/CtHvUwxAlNT/"
+  },
+  {
+   "hook": "Ran into this complete stranger yesterday & this happened\u2026",
+   "postId": "ig_2802507640385599791_255410408",
+   "platform": "instagram",
+   "views": 13316,
+   "likes": 853,
+   "engagement": 7.4,
+   "engagementRate": "7.40",
+   "categories": [
+    "other"
+   ],
+   "url": "https://www.instagram.com/p/CbkgdnBgHkv/"
+  },
+  {
    "hook": "\u201cLife be Life\u2019n\u201d should no longer have a negative meaning. \u2728\ud83d\udcaf",
    "postId": "ig_3381794674112584420_255410408",
    "platform": "instagram",
@@ -3862,9 +4008,9 @@
    "postId": "ig_3793439254794710545_255410408",
    "platform": "instagram",
    "views": 12979,
-   "likes": 3,
-   "engagement": 0.14,
-   "engagementRate": "0.14",
+   "likes": 0,
+   "engagement": 0.0,
+   "engagementRate": "0.00",
    "categories": [
     "emcee",
     "community",
@@ -3873,26 +4019,27 @@
    "url": "https://www.instagram.com/p/DSlAOdbD64R/"
   },
   {
-   "hook": "Yall tryna be too cool with it..KNEES TO CHEST! \ud83d\ude02",
-   "postId": "ig_3713758923070595655_255410408",
+   "hook": "Song so nice we did it twice \ud83c\udfc6\ud83d\ude0e",
+   "postId": "ig_2749209390210078843_255410408",
    "platform": "instagram",
-   "views": 12604,
-   "likes": 3,
-   "engagement": 0.17,
-   "engagementRate": "0.17",
+   "views": 12823,
+   "likes": 709,
+   "engagement": 5.93,
+   "engagementRate": "5.93",
    "categories": [
+    "speaking",
     "music_culture"
    ],
-   "url": "https://www.instagram.com/p/DOJ7BBvD2JH/"
+   "url": "https://www.instagram.com/p/CYnJ1_co9h7/"
   },
   {
    "hook": "\u270f\ufe0fHow to be a Great Emcee: Rule #1 - Build Great Relationships",
    "postId": "ig_3921010878342485919_255410408",
    "platform": "instagram",
-   "views": 12603,
-   "likes": 3,
-   "engagement": 0.68,
-   "engagementRate": "0.68",
+   "views": 12604,
+   "likes": 0,
+   "engagement": 0.0,
+   "engagementRate": "0.00",
    "categories": [
     "emcee",
     "speaking",
@@ -3900,6 +4047,47 @@
     "faith_family"
    ],
    "url": "https://www.instagram.com/p/DZqOp6UC9ef/"
+  },
+  {
+   "hook": "Yall tryna be too cool with it..KNEES TO CHEST! \ud83d\ude02",
+   "postId": "ig_3713758923070595655_255410408",
+   "platform": "instagram",
+   "views": 12604,
+   "likes": 0,
+   "engagement": 0.0,
+   "engagementRate": "0.00",
+   "categories": [
+    "music_culture"
+   ],
+   "url": "https://www.instagram.com/p/DOJ7BBvD2JH/"
+  },
+  {
+   "hook": "It\u2019s really no place like it \u203c\ufe0f \ud83d\ude24",
+   "postId": "ig_2858454221999610101_255410408",
+   "platform": "instagram",
+   "views": 12490,
+   "likes": 715,
+   "engagement": 5.92,
+   "engagementRate": "5.92",
+   "categories": [
+    "speaking",
+    "brotherhood"
+   ],
+   "url": "https://www.instagram.com/p/CerRPhdAJj1/"
+  },
+  {
+   "hook": "God is in EVERY situation. My heart is so full from the support this weekend for @mashupsessions. You are our family, an",
+   "postId": "ig_3230251215220733549_255410408",
+   "platform": "instagram",
+   "views": 12252,
+   "likes": 428,
+   "engagement": 3.69,
+   "engagementRate": "3.69",
+   "categories": [
+    "faith_family",
+    "music_culture"
+   ],
+   "url": "https://www.instagram.com/p/CzUKF2agXZt/"
   },
   {
    "hook": "This would do numbersssss @netflix \ud83d\ude05#thevoice",
@@ -3931,10 +4119,10 @@
    "hook": "Disclaimer: I've wasted entirely too much cologne for this video \ud83d\ude05\ud83d\ude0e #thevoice",
    "postId": "ig_3960978649737914429_255410408",
    "platform": "instagram",
-   "views": 11815,
-   "likes": 3,
-   "engagement": 0.25,
-   "engagementRate": "0.25",
+   "views": 11818,
+   "likes": 0,
+   "engagement": 0.0,
+   "engagementRate": "0.00",
    "categories": [
     "humor"
    ],
@@ -3952,6 +4140,19 @@
     "faith_family"
    ],
    "url": "https://www.instagram.com/p/C8pGAgLRM-l/"
+  },
+  {
+   "hook": "Had to dust it off for the kids \ud83c\udfba\ud83e\udd1e\ud83c\udffe\ud83d\ude0e",
+   "postId": "ig_2720162402367742278_255410408",
+   "platform": "instagram",
+   "views": 11458,
+   "likes": 453,
+   "engagement": 4.21,
+   "engagementRate": "4.21",
+   "categories": [
+    "other"
+   ],
+   "url": "https://www.instagram.com/p/CW_9Ur8gKFG/"
   },
   {
    "hook": "@landondemand is one of the hottest emcees in the city...he just so happens to also be @neyo clone \ud83e\udd23\ud83e\udd37\ud83c\udffe\u200d\u2642\ufe0f",
@@ -3983,6 +4184,20 @@
     "music_culture"
    ],
    "url": "https://www.instagram.com/p/DAtHDDvR0b-/"
+  },
+  {
+   "hook": "Congratulations to my brother @reginald_aj_greene and his beautiful bride on their union! \ud83d\udc8d\u2728",
+   "postId": "ig_2828567517421719998_255410408",
+   "platform": "instagram",
+   "views": 10652,
+   "likes": 720,
+   "engagement": 6.83,
+   "engagementRate": "6.83",
+   "categories": [
+    "brotherhood",
+    "style"
+   ],
+   "url": "https://www.instagram.com/p/CdBFyuzIVG-/"
   },
   {
    "hook": "\"It  was great and apparently I've never been on live television before\" \ud83d\ude02",
@@ -4022,262 +4237,71 @@
     "brotherhood"
    ],
    "url": "https://www.instagram.com/p/DCcAReOR4-L/"
-  },
-  {
-   "hook": "The B.E.S.T. Welcome Back\u270a\ud83c\udffe\ud83d\udc54",
-   "postId": "ig_3425277761239654653_255410408",
-   "platform": "instagram",
-   "views": 10375,
-   "likes": 473,
-   "engagement": 4.7,
-   "engagementRate": "4.70",
-   "categories": [
-    "emcee",
-    "speaking",
-    "community",
-    "brotherhood",
-    "music_culture"
-   ],
-   "url": "https://www.instagram.com/p/C-JB_nXvCD9/"
-  },
-  {
-   "hook": "Cuz the way I almost tore my ACL tryna bend on my first take \ud83d\ude1f\ud83d\ude02",
-   "postId": "ig_3887543644722944679_255410408",
-   "platform": "instagram",
-   "views": 9995,
-   "likes": 3,
-   "engagement": 0.21,
-   "engagementRate": "0.21",
-   "categories": [
-    "other"
-   ],
-   "url": "https://www.instagram.com/p/DXzVFkIidqn/"
-  },
-  {
-   "hook": "Ya boy is celebrating his birthday next week, AND summer 24\u2019 officially begins, so you know I had to lock in with my fam",
-   "postId": "ig_3390298394490007497_255410408",
-   "platform": "instagram",
-   "views": 9962,
-   "likes": 3,
-   "engagement": 0.05,
-   "engagementRate": "0.05",
-   "categories": [
-    "faith_family"
-   ],
-   "url": "https://www.instagram.com/p/C8Mwm1eJ2_J/"
-  },
-  {
-   "hook": "don't ask, just vibe \ud83d\ude02",
-   "postId": "ig_3638358585357667753_255410408",
-   "platform": "instagram",
-   "views": 9840,
-   "likes": 3,
-   "engagement": 0.58,
-   "engagementRate": "0.58",
-   "categories": [
-    "humor"
-   ],
-   "url": "https://www.instagram.com/p/DJ-C9tFvI2p/"
-  },
-  {
-   "hook": "I won\u2019t say I told you so, but I did\ud83e\udd37\ud83c\udffe\u200d\u2642\ufe0f\ud83d\ude05",
-   "postId": "ig_3345558524255113086_255410408",
-   "platform": "instagram",
-   "views": 9559,
-   "likes": 239,
-   "engagement": 2.57,
-   "engagementRate": "2.57",
-   "categories": [
-    "community",
-    "humor"
-   ],
-   "url": "https://www.instagram.com/p/C5tz8CVgY9-/"
-  },
-  {
-   "hook": "GQ Zeta Mu, it's not just a fashion...It's a lifestyle \ud83e\udd19\ud83c\udffe",
-   "postId": "ig_3697088077206725757_255410408",
-   "platform": "instagram",
-   "views": 9524,
-   "likes": 274,
-   "engagement": 3.11,
-   "engagementRate": "3.11",
-   "categories": [
-    "style",
-    "book"
-   ],
-   "url": "https://www.instagram.com/p/DNOsgSpPSR9/"
-  },
-  {
-   "hook": "I appreciate all of the the new subscribers on YouTube! 200 subscribers in one week?!?\ud83e\udd2f\ud83d\ude4f\ud83c\udffd WOW",
-   "postId": "ig_3643420102881077212_255410408",
-   "platform": "instagram",
-   "views": 9511,
-   "likes": 337,
-   "engagement": 3.85,
-   "engagementRate": "3.85",
-   "categories": [
-    "other"
-   ],
-   "url": "https://www.instagram.com/p/DKQB0envmfc/"
-  },
-  {
-   "hook": "The Link Up!\ud83d\udd17",
-   "postId": "ig_3962945955844120900_255410408",
-   "platform": "instagram",
-   "views": 9462,
-   "likes": 3,
-   "engagement": 0.15,
-   "engagementRate": "0.15",
-   "categories": [
-    "community"
-   ],
-   "url": "https://www.instagram.com/p/Db_NlmqKOFE/"
-  },
-  {
-   "hook": "If @chrisbrownofficial had a brown-skinned cousin who can't sing, but can dance a lil bit \ud83d\ude02 #itdependschallenge",
-   "postId": "ig_3688948017794333589_255410408",
-   "platform": "instagram",
-   "views": 9440,
-   "likes": 3,
-   "engagement": 0.49,
-   "engagementRate": "0.49",
-   "categories": [
-    "music_culture"
-   ],
-   "url": "https://www.instagram.com/p/DMxxq1jgzuV/"
-  },
-  {
-   "hook": "There\u2019s no way\u2026\ud83d\ude33\ud83d\ude31",
-   "postId": "ig_3549983900132330998_255410408",
-   "platform": "instagram",
-   "views": 9404,
-   "likes": 3,
-   "engagement": 0.43,
-   "engagementRate": "0.43",
-   "categories": [
-    "other"
-   ],
-   "url": "https://www.instagram.com/p/DFEE4xtvk32/"
-  },
-  {
-   "hook": "\u270f\ufe0fHow to be a Great Emcee: Rule #3\ufe0f\u20e3 - Create Magical Memories\u2728",
-   "postId": "ig_3923132724500088933_255410408",
-   "platform": "instagram",
-   "views": 9060,
-   "likes": 3,
-   "engagement": 0.19,
-   "engagementRate": "0.19",
-   "categories": [
-    "emcee",
-    "community",
-    "music_culture"
-   ],
-   "url": "https://www.instagram.com/p/DZxxG1iichl/"
-  },
-  {
-   "hook": "Y'all was calling me Unc in the comments of the last one so I had to run it back foreal \ud83d\ude05\ud83d\ude0e",
-   "postId": "ig_3692621141815369136_255410408",
-   "platform": "instagram",
-   "views": 9046,
-   "likes": 314,
-   "engagement": 3.92,
-   "engagementRate": "3.92",
-   "categories": [
-    "music_culture",
-    "humor"
-   ],
-   "url": "https://www.instagram.com/p/DM-0104AJ2w/"
-  },
-  {
-   "hook": "@boosieig2024 was my LAST straw! Can't keep letting my people go out sad",
-   "postId": "ig_4002216068772485665_255410408",
-   "platform": "instagram",
-   "views": 8947,
-   "likes": 372,
-   "engagement": 5.4,
-   "engagementRate": "5.40",
-   "categories": [
-    "music_culture"
-   ],
-   "url": "https://www.instagram.com/p/DeKuk9Vi1oh/"
-  },
-  {
-   "hook": "LEGACY. @essentialsstepteam @ronclarkacademy",
-   "postId": "ig_3791469161122372140_255410408",
-   "platform": "instagram",
-   "views": 8760,
-   "likes": 3,
-   "engagement": 0.09,
-   "engagementRate": "0.09",
-   "categories": [
-    "speaking"
-   ],
-   "url": "https://www.instagram.com/p/DSeAR0tjBos/"
   }
  ],
  "hookTypes": [
   {
    "type": "other",
    "count": 830,
-   "avgViews": 4032,
-   "avgLikes": 120,
-   "avgEngagement": 2.27,
-   "totalViews": 1794526,
+   "avgViews": 4361,
+   "avgLikes": 178,
+   "avgEngagement": 5.47,
+   "totalViews": 2651983,
    "topPost": "Had to get that pill \ud83d\udc8a\ud83d\udc74\ud83c\udffd\ud83d\ude02#stayjotivated #foryou #fyp #agp #viral #alphaphialpha"
   },
   {
    "type": "question",
    "count": 67,
-   "avgViews": 6731,
-   "avgLikes": 122,
-   "avgEngagement": 2.46,
-   "totalViews": 275988,
+   "avgViews": 6208,
+   "avgLikes": 157,
+   "avgEngagement": 4.53,
+   "totalViews": 335270,
    "topPost": "Look, our crew is so ATL & ready to turn up with @BankrollNi at #OMF2025, is yours? \ud83d\udc40"
   },
   {
    "type": "emotional",
    "count": 54,
-   "avgViews": 126328,
-   "avgLikes": 1644,
-   "avgEngagement": 3.47,
-   "totalViews": 3158209,
+   "avgViews": 94313,
+   "avgLikes": 2465,
+   "avgEngagement": 5.75,
+   "totalViews": 3206659,
    "topPost": "Become a version of yourself your inner child would be proud of #stayjotivated"
   },
   {
    "type": "controversy",
    "count": 43,
-   "avgViews": 144792,
-   "avgLikes": 3268,
-   "avgEngagement": 1.91,
-   "totalViews": 4198991,
+   "avgViews": 128253,
+   "avgLikes": 4532,
+   "avgEngagement": 4.04,
+   "totalViews": 4232381,
    "topPost": "Become a version of yourself your inner child would be proud of, and people who knew previous versions of you don't reco"
   },
   {
    "type": "story",
    "count": 11,
-   "avgViews": 5308,
-   "avgLikes": 238,
-   "avgEngagement": 8.61,
-   "totalViews": 26540,
+   "avgViews": 4768,
+   "avgLikes": 434,
+   "avgEngagement": 11.45,
+   "totalViews": 38150,
    "topPost": "Cuz the way I almost tore my ACL tryna bend on my first take \ud83d\ude1f\ud83d\ude02"
   },
   {
    "type": "listicle",
    "count": 9,
-   "avgViews": 1453,
-   "avgLikes": 45,
-   "avgEngagement": 1.97,
-   "totalViews": 8722,
-   "topPost": "After writing \u201cStay Jotivated\u00ae\ufe0f: 52 Ways to Awaken Your Inner Dreamer ,\u201d I had to practice what I preach\u2014so I kicked it"
+   "avgViews": 2305,
+   "avgLikes": 67,
+   "avgEngagement": 4.42,
+   "totalViews": 20749,
+   "topPost": "4 WAYS TO IMPROVE YOUR QUALITY OF LIFE IN 2024\u270d\ud83c\udffd"
   },
   {
    "type": "statistic",
    "count": 5,
-   "avgViews": 997,
-   "avgLikes": 99,
-   "avgEngagement": 0.63,
-   "totalViews": 3990,
-   "topPost": "Thank you for 16k! To those new here, look forward to authentic content that will make you dance, laugh, live, and embra"
+   "avgViews": 2507,
+   "avgLikes": 124,
+   "avgEngagement": 5.96,
+   "totalViews": 12535,
+   "topPost": "Y\u2019all can spend hundreds of dollars at a club, buying $1000 bottles you don\u2019t finish, in a section of ppl who don\u2019t danc"
   }
  ],
  "lastPosted": {

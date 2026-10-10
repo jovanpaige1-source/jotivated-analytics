@@ -131,6 +131,16 @@ Studio in the dashboard window: have him open studio.youtube.com or
 tiktok.com/tiktokstudio there once, then rerun just that platform with
 `--platforms tiktok` or `--platforms youtube`.
 
+**Instagram likes he hid.** He hid like counts on 330 of his Instagram posts.
+Instagram reports those as 3 likes with `like_and_view_counts_disabled`; the reader
+stores `likes: 0` and `likesHidden: true`, the dashboard shows "hidden", and they
+are left out of like and engagement averages. Views and comments still count.
+Untested so far: whether his OWN signed-in session gets the real counts back. To
+check, once he is signed in to Instagram in the dashboard window, run
+`python3 -c "import json; print(sum(1 for p in json.load(open('public/data/instagram_posts.json')) if p.get('likesHidden')))"`
+before and after `python3 scrape/run.py --platforms instagram --full`. If the number
+stays at 330, the counts are owner-only in the app, and "hidden" is the right answer.
+
 ## Part E. The weekly refresh (the routine)
 
 Every week (or before a sponsor meeting), with the dashboard Chrome window open:

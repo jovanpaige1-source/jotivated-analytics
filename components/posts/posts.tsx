@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { loadAllPosts } from "@/lib/data";
 import type { Post, Platform } from "@/lib/types";
-import { PLATFORMS, avgEngagementRate, byPlatform, hasViews, postHasViews, toNum, totals } from "@/lib/derive";
+import { PLATFORMS, avgEngagementRate, byPlatform, engagementText, hasViews, likesText, postHasViews, toNum, totals } from "@/lib/derive";
 import { HeroPanel, HeroRow, PageHero } from "@/components/layout/page-hero";
 import { PlatformDot } from "@/components/charts/platform-badge";
 import { fmt, fmtDate, fmtPct, fmtShort, platformLabel } from "@/lib/format";
@@ -263,19 +263,19 @@ export function Posts() {
                     fmt(p.views)
                   ) : (
                     <span className="text-ink-soft" title="No view count for this post; likes are its reach">
-                      {fmt(p.likes)}
+                      {likesText(p, fmt)}
                       <span className="ml-1 font-mono text-[10px] text-ink-muted">likes</span>
                     </span>
                   )}
                 </td>
                 <td className="px-2 py-2 text-right text-ink-soft">
-                  {fmt(p.likes)}
+                  {likesText(p, fmt)}
                 </td>
                 <td className="px-2 py-2 text-right text-ink-soft">
                   {fmt(p.comments)}
                 </td>
                 <td className="px-5 py-2 text-right text-brand">
-                  {fmtPct(toNum(p.engagementRate))}
+                  {engagementText(p, fmtPct)}
                 </td>
               </tr>
             ))}
@@ -354,14 +354,14 @@ function PostDetailDialog({
             <div className="grid grid-cols-4 gap-3 py-3">
               <Stat
                 label={postHasViews(post) ? "Views" : "Likes as reach"}
-                value={postHasViews(post) ? fmt(post.views) : fmt(post.likes)}
+                value={postHasViews(post) ? fmt(post.views) : likesText(post, fmt)}
                 emphasis
               />
-              <Stat label="Likes" value={fmt(post.likes)} />
+              <Stat label="Likes" value={likesText(post, fmt)} />
               <Stat label="Comments" value={fmt(post.comments)} />
               <Stat
                 label="Engage"
-                value={fmtPct(toNum(post.engagementRate))}
+                value={engagementText(post, fmtPct)}
               />
             </div>
             {post.caption && (

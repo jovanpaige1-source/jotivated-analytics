@@ -7,9 +7,10 @@ import { fmt, fmtPct, fmtDate, platformLabel, platformShort } from "@/lib/format
 import {
   PLATFORMS,
   TOP_POSTS_WINDOWS,
+  engagementText,
+  likesText,
   postHasViews,
   topPosts,
-  toNum,
   windowLabel,
   type TopPostsDays,
 } from "@/lib/derive";
@@ -208,19 +209,19 @@ export function TopPosts({ posts, days: overviewDays = 30 }: { posts: Post[]; da
                       fmt(p.views)
                     ) : (
                       <span className="text-ink-soft" title="No view count for this post; likes are its reach">
-                        {fmt(p.likes)}
+                        {likesText(p, fmt)}
                         <span className="ml-1 font-mono text-[10px] text-ink-muted">likes</span>
                       </span>
                     )}
                   </td>
                   <td className="px-2 py-3 text-right text-ink-soft">
-                    {fmt(p.likes)}
+                    {likesText(p, fmt)}
                   </td>
                   <td className="px-2 py-3 text-right text-ink-soft">
                     {fmt(p.comments)}
                   </td>
                   <td className="px-5 py-3 text-right text-brand">
-                    {fmtPct(toNum(p.engagementRate))}
+                    {engagementText(p, fmtPct)}
                   </td>
                 </tr>
               ))

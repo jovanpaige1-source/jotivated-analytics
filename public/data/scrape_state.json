@@ -16,7 +16,7 @@
   "followersUpdated": {
     "youtube": "2026-10-10T14:40:46+00:00",
     "tiktok": "2026-10-10T14:29:36+00:00",
-    "instagram": "2026-10-10T14:36:53+00:00"
+    "instagram": "2026-10-10T16:27:03+00:00"
   },
   "tiktok": {
     "lastScrapedDate": "2026-10-10T14:29:36+00:00",
@@ -26,10 +26,10 @@
     "lastRunNewPosts": 244
   },
   "instagram": {
-    "lastScrapedDate": "2026-10-10T14:36:53+00:00",
+    "lastScrapedDate": "2026-10-10T16:27:03+00:00",
     "status": "complete",
     "totalScraped": 684,
     "lastPostId": "ig_4004522974685823225_255410408",
-    "lastRunNewPosts": 684
+    "lastRunNewPosts": 0
   }
 }

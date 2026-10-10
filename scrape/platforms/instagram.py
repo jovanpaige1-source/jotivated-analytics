@@ -100,7 +100,14 @@ APP_ID = "936619743392459"
 # per-media info endpoint still answers from a logged-in tab (verified
 # 2026-09-04: 200 + play_count), so we top up zero-view reels with it.
 ENRICH_CAP_INCREMENTAL = 60
-ENRICH_CAP_FULL = 200
+ENRICH_CAP_FULL = 800  # a whole catalog: 200 left every reel older than ~2 years at 0 views
+
+# When the creator hides like counts on a post, Instagram reports like_count 3
+# and like_and_view_counts_disabled true (verified 2026-10-10: 330 of 684 posts
+# on one account). The 3 is a placeholder, not a measurement: store likes 0 and
+# likesHidden true, and leave the post out of anything that averages likes or
+# engagement. Only the owner, signed in, sees the real count.
+HIDDEN_LIKES_PLACEHOLDER = 3
 
 
 # Instagram reports play counts for reels and videos only. Carousels and
@@ -118,7 +125,7 @@ def recompute_viewless_engagement(posts: list[dict], followers: int) -> int:
         return 0
     changed = 0
     for p in posts:
-        if p.get("type") not in VIEWLESS_TYPES or p.get("views"):
+        if p.get("type") not in VIEWLESS_TYPES or p.get("views") or p.get("likesHidden"):
             continue
         rate = f"{(int(p.get('likes') or 0) + int(p.get('comments') or 0)) / followers * 100:.2f}"
         if p.get("engagementRate") != rate:
@@ -127,13 +134,38 @@ def recompute_viewless_engagement(posts: list[dict], followers: int) -> int:
     return changed
 
 
+def apply_hidden_likes(merged: list[dict], fresh: list[dict] | None = None) -> int:
+    """Make likesHidden stick through merge(), which keeps an old value when the
+    new one is 0 or False. A fresh reading of the flag always wins, then hidden
+    posts get likes 0 and an unmeasured engagement rate. Returns hidden count."""
+    flags = {p["id"]: p["likesHidden"] for p in fresh or [] if "likesHidden" in p}
+    hidden = 0
+    for p in merged:
+        if p.get("id") in flags:
+            p["likesHidden"] = flags[p["id"]]
+        if p.get("likesHidden"):
+            p["likes"] = 0
+            p["engagementRate"] = "0.00"
+            hidden += 1
+    return hidden
+
+
+def _needs_media_info(p: dict) -> bool:
+    """A reel or video still at 0 views, or a post showing the hidden-likes
+    placeholder whose flag has not been read yet."""
+    if not p.get("id", "").startswith("ig_"):
+        return False
+    if not p.get("views") and p.get("type") in ("reel", "video"):
+        return True
+    return "likesHidden" not in p and int(p.get("likes") or 0) == HIDDEN_LIKES_PLACEHOLDER
+
+
 def _enrich_views(cdp: CDP, posts: list[dict], cap: int, on_progress=None) -> int:
-    """Fill in views (and bump likes/comments) for reels/videos that have
-    views == 0, newest first, up to `cap` media-info calls. Returns count."""
-    targets = [
-        p for p in posts
-        if not p.get("views") and p.get("type") in ("reel", "video") and p.get("id", "").startswith("ig_")
-    ]
+    """Per-post media info, newest first, up to `cap` calls: fills views on
+    reels/videos at 0, reads the hidden-likes flag, bumps likes/comments.
+    Stops on the first non-200 (throttled); the next run picks up the rest,
+    since filled posts drop out of the target list. Returns count."""
+    targets = [p for p in posts if _needs_media_info(p)]
     targets.sort(key=lambda p: p.get("date") or "", reverse=True)
     done = 0
     for p in targets[:cap]:
@@ -141,7 +173,7 @@ def _enrich_views(cdp: CDP, posts: list[dict], cap: int, on_progress=None) -> in
         expr = (
             f"fetch('/api/v1/media/{pk}/info/', {{ headers: {{ 'X-IG-App-ID': '{APP_ID}' }}, credentials: 'include' }})"
             ".then(r => r.text().then(t => { try { const d = JSON.parse(t); const it = (d.items || [])[0] || {}; "
-            "return { status: r.status, play: it.play_count || it.ig_play_count || it.view_count || 0, like: it.like_count || 0, comment: it.comment_count || 0 }; }"
+            "return { status: r.status, play: it.play_count || it.ig_play_count || it.view_count || 0, like: it.like_count || 0, comment: it.comment_count || 0, hidden: !!it.like_and_view_counts_disabled }; }"
             " catch (e) { return { status: r.status, error: 'parse' }; } }))"
             ".catch(e => ({ status: 0, error: String(e) }))"
         )
@@ -155,11 +187,18 @@ def _enrich_views(cdp: CDP, posts: list[dict], cap: int, on_progress=None) -> in
                 on_progress("view enrichment stopped", {"status": r.get("status"), "done": done})
             break
         views = int(r.get("play") or 0)
+        p["likesHidden"] = bool(r.get("hidden"))
+        if p["likesHidden"]:
+            p["likes"] = 0
+        else:
+            p["likes"] = max(int(p.get("likes") or 0), int(r.get("like") or 0))
+        p["comments"] = max(int(p.get("comments") or 0), int(r.get("comment") or 0))
         if views:
             p["views"] = views
-            p["likes"] = max(int(p.get("likes") or 0), int(r.get("like") or 0))
-            p["comments"] = max(int(p.get("comments") or 0), int(r.get("comment") or 0))
-            p["engagementRate"] = f"{(p['likes'] + p['comments']) / views * 100:.2f}"
+        if p["likesHidden"]:
+            p["engagementRate"] = "0.00"
+        elif p.get("views"):
+            p["engagementRate"] = f"{(p['likes'] + p['comments']) / p['views'] * 100:.2f}"
         done += 1
         time.sleep(0.45)
     if on_progress and done:
@@ -237,12 +276,15 @@ def _parse_post(item: dict) -> dict:
     type_str = "reel" if product_type == "clips" else "carousel" if media_type == 8 else "video" if media_type == 2 else "post"
     views = item.get("play_count") or item.get("view_count") or 0
     likes = item.get("like_count") or 0
+    hidden = item.get("like_and_view_counts_disabled")  # absent on some queries: then media info decides
+    if hidden:
+        likes = 0
     comments = item.get("comment_count") or 0
     taken_at = item.get("taken_at")
     iso_dt = time.strftime("%Y-%m-%d", time.localtime(taken_at)) if taken_at else ""
     iso_t = time.strftime("%H:%M", time.localtime(taken_at)) if taken_at else ""
     thumb = ((item.get("image_versions2") or {}).get("candidates") or [{}])[0].get("url") or ""
-    eng = ((likes + comments) / views * 100) if views else 0
+    eng = ((likes + comments) / views * 100) if views and not hidden else 0
     hashtags = " ".join(t for t in caption.split() if t.startswith("#"))
     return {
         "id": f"ig_{node_id}",
@@ -259,6 +301,7 @@ def _parse_post(item: dict) -> dict:
         "shares": 0,
         "saves": 0,
         "engagementRate": f"{eng:.2f}",
+        **({"likesHidden": bool(hidden)} if hidden is not None else {}),
         "hashtags": hashtags,
         "duration": "",
         "thumbnailUrl": thumb,
@@ -364,8 +407,10 @@ def scrape(max_pages: int = 60, on_progress=None, full: bool = False) -> dict:
 
         new_posts = list(posts_by_id.values())
         merged = merge(existing, new_posts)
-        # Top up play counts while the logged-in tab is still open.
+        apply_hidden_likes(merged, new_posts)
+        # Top up play counts and hidden-like flags while the logged-in tab is still open.
         _enrich_views(cdp, merged, ENRICH_CAP_FULL if full else ENRICH_CAP_INCREMENTAL, on_progress)
+        apply_hidden_likes(merged)
     finally:
         cdp.close_owned()
         cdp.detach()

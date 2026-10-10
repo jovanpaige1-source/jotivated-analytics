@@ -61,7 +61,19 @@ MIN_HEATMAP_COUNT = 3
 VIEWS_ONLY_READERS = {"tiktok", "youtube"}
 
 
+def _likes_known(p: dict) -> bool:
+    """False when the creator hid like counts on the post (scrape/platforms/
+    instagram.py stores likes 0 + likesHidden). Mirrors likesKnown() in lib/derive.ts."""
+    return not p.get("likesHidden")
+
+
+def _avg_likes(posts: Iterable[dict]) -> float:
+    return _avg(_num(p.get("likes")) for p in posts if _likes_known(p))
+
+
 def _has_engagement(p: dict) -> bool:
+    if not _likes_known(p):
+        return False
     if p.get("platform") not in VIEWS_ONLY_READERS:
         return True
     if p.get("engagementMeasured"):  # stamped by scrape/platforms/studio.py
@@ -216,7 +228,7 @@ def platform_averages(posts: list[dict]) -> dict:
         viewed = [p for p in ps if _num(p.get("views")) > 0]
         out[plat] = {
             "avgViews": int(_avg(_num(p["views"]) for p in viewed)),
-            "avgLikes": int(_avg(_num(p.get("likes")) for p in ps)),
+            "avgLikes": int(_avg_likes(ps)),
             "avgComments": int(_avg(_num(p.get("comments")) for p in ps)),
             "avgEngagement": _r(_avg_eng(viewed)),
             "posts": len(ps),
@@ -261,7 +273,7 @@ def content_categories(posts: list[dict], cats: dict[str, list[str]]) -> dict:
         out[slug] = {
             "count": len(ps),
             "avgViews": int(_avg(_num(p["views"]) for p in viewed)),
-            "avgLikes": int(_avg(_num(p.get("likes")) for p in ps)),
+            "avgLikes": int(_avg_likes(ps)),
             "avgEngagement": _r(_avg_eng(viewed)),
             "totalViews": int(sum(_num(p.get("views")) for p in ps)),
         }
@@ -274,6 +286,8 @@ def engagement_funnel(posts: list[dict]) -> dict:
         ps = [p for p in posts if p.get("platform") == plat]
         views = sum(_num(p.get("views")) for p in ps)
         likes = sum(_num(p.get("likes")) for p in ps)
+        # Like rate only over posts whose likes are visible, or hidden posts' views dilute it.
+        like_views = sum(_num(p.get("views")) for p in ps if _likes_known(p))
         comments = sum(_num(p.get("comments")) for p in ps)
         shares = sum(_num(p.get("shares")) for p in ps)
         out[plat] = {
@@ -281,7 +295,7 @@ def engagement_funnel(posts: list[dict]) -> dict:
             "likes": int(likes),
             "comments": int(comments),
             "shares": int(shares),
-            "likeRate": _r(likes / views * 100) if views else 0,
+            "likeRate": _r(likes / like_views * 100) if like_views else 0,
             "commentRate": _r(comments / views * 100) if views else 0,
             "shareRate": _r(shares / views * 100) if views else 0,
         }
@@ -320,7 +334,7 @@ def hashtag_performance(posts: list[dict]) -> list[dict]:
             "tag": tag,
             "count": len(ps),
             "avgViews": int(_avg(_num(p["views"]) for p in viewed)),
-            "avgLikes": int(_avg(_num(p.get("likes")) for p in ps)),
+            "avgLikes": int(_avg_likes(ps)),
             "avgEngagement": _r(_avg_eng(viewed)),
             "totalViews": int(sum(_num(p.get("views")) for p in ps)),
         })
@@ -402,7 +416,7 @@ def hooks(posts: list[dict], cats: dict[str, list[str]]) -> tuple[list[dict], li
             "type": t,
             "count": len(ps),
             "avgViews": int(_avg(_num(p["views"]) for p in viewed)),
-            "avgLikes": int(_avg(_num(p.get("likes")) for p in ps)),
+            "avgLikes": int(_avg_likes(ps)),
             "avgEngagement": _r(_avg_eng(viewed)),
             "totalViews": int(sum(_num(p.get("views")) for p in ps)),
             "topPost": _title(best),

@@ -22,6 +22,9 @@ export interface Post {
   engagementRate?: string | number; // stringified in raw JSON
   /** Set by the studio pass: likes and comments were counted, so a zero is real. */
   engagementMeasured?: boolean;
+  /** Instagram: the creator hid like counts on this post. likes is 0 and is
+   *  not a measurement (Instagram itself reports a placeholder 3). */
+  likesHidden?: boolean;
   notes?: string;
 }
 

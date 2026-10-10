@@ -76,9 +76,29 @@ export const VIEWS_ONLY_READERS: ReadonlySet<Platform> = new Set<Platform>(["tik
  *  counted, so their zeros are real; older posts count when any figure is
  *  filled. */
 export function engagementMeasured(p: Post): boolean {
+  if (!likesKnown(p)) return false;
   if (!VIEWS_ONLY_READERS.has(p.platform)) return true;
   if (p.engagementMeasured) return true;
   return toNum(p.likes) > 0 || toNum(p.comments) > 0 || toNum(p.shares) > 0;
+}
+
+/** False when the creator hid like counts on the post (Instagram). Its likes
+ *  are 0 by convention and must not be shown, averaged or ranked as a number.
+ *  Mirrors _likes_known() in scrape/analyze.py. */
+export function likesKnown(p: Post): boolean {
+  return !p.likesHidden;
+}
+
+/** A post's likes for display: "hidden" when the creator hid them. */
+export function likesText(p: Post, fmt: (n: number) => string): string {
+  return likesKnown(p) ? fmt(toNum(p.likes)) : "hidden";
+}
+
+/** A post's engagement rate for display: "n/a" when it was not measured
+ *  (hidden likes, or a views-only reader before the studio pass), so a
+ *  reader's 0 never reads as 0%. */
+export function engagementText(p: Post, fmtPct: (n: number) => string): string {
+  return engagementMeasured(p) ? fmtPct(toNum(p.engagementRate)) : "n/a";
 }
 
 export function avgEngagementRate(posts: Post[]): number {

@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { loadAllPosts, loadContentVault } from "@/lib/data";
 import type { ContentVault, Platform, Post, VaultCategory } from "@/lib/types";
-import { PLATFORMS, postHasViews, toNum } from "@/lib/derive";
+import { PLATFORMS, likesText, postHasViews, toNum } from "@/lib/derive";
 import { fmt, fmtDate, fmtShort, platformLabel, platformShort } from "@/lib/format";
 import { cn } from "@/lib/utils";
 import { HeroPanel, PageHero } from "@/components/layout/page-hero";
@@ -505,9 +505,9 @@ function PostCard({
           {postHasViews(post) ? (
             <Stat label="Views" value={fmt(post.views)} emphasis />
           ) : (
-            <Stat label="Likes as reach" value={fmt(post.likes)} emphasis />
+            <Stat label="Likes as reach" value={likesText(post, fmt)} emphasis />
           )}
-          <Stat label="Likes" value={fmt(post.likes)} />
+          <Stat label="Likes" value={likesText(post, fmt)} />
           <Stat label="Cmts" value={fmt(post.comments)} />
         </dl>
 
