@@ -1,0 +1,249 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  /* Archivo body and Big Shoulders display, same as the Stay Jotivated site.
+     Loaded with next/font/local in app/layout.tsx, which sets these variables. */
+  --font-sans:
+    var(--font-archivo), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --font-display: var(--font-big-shoulders), var(--font-sans);
+  --font-heading: var(--font-big-shoulders), var(--font-sans);
+
+  /* shadcn semantic tokens (mapped to the brand palette below) */
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  /* Dashboard-specific tokens */
+  --color-brand: var(--brand);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-deep: var(--brand-deep);
+  --color-positive: var(--positive);
+  --color-positive-soft: var(--positive-soft);
+  --color-negative: var(--negative);
+  --color-negative-soft: var(--negative-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-ig: var(--ig);
+  --color-tt: var(--tt);
+  --color-yt: var(--yt);
+  --color-th: var(--th);
+  --color-li: var(--li);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-muted: var(--ink-muted);
+
+  --radius-sm: calc(var(--radius) * 0.5);
+  --radius-md: calc(var(--radius) * 0.75);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.5);
+}
+
+:root {
+  /* === Brand Palette ====================================== */
+  /* Stay Jotivated: stone page, black ink, one red accent (matches stay-jotivated.vercel.app) */
+  --background: #f2f0ec;
+  --foreground: #0b0b0b;
+
+  /* Surfaces */
+  --card: #ffffff;
+  --card-foreground: #0b0b0b;
+  --popover: #ffffff;
+  --popover-foreground: #0b0b0b;
+
+  /* Brand red family (single dominant accent) */
+  --brand: #be1d19;
+  --brand-soft: #f6dcdb;
+  --brand-deep: #6e0f0c;
+
+  /* shadcn primary maps to brand */
+  --primary: #be1d19;
+  --primary-foreground: #ffffff;
+  --secondary: #ebe8e2;
+  --secondary-foreground: #0b0b0b;
+  --muted: #ebe8e2;
+  --muted-foreground: #6b6b6b;
+  --accent: #f6dcdb;
+  --accent-foreground: #6e0f0c;
+
+  /* Borders, inputs, focus ring */
+  --border: #dcd8d0;
+  --input: #dcd8d0;
+  --ring: #be1d19;
+
+  /* Finance signaling — sparse, high-meaning */
+  --positive: #16a34a;
+  --positive-soft: #dcfce7;
+  --negative: #dc2626;
+  --negative-soft: #fee2e2;
+  --warn: #d97706;
+  --warn-soft: #fef3c7;
+  --destructive: #dc2626;
+
+  /* Typography helpers */
+  --ink: #0b0b0b;
+  --ink-soft: #2e2e2e;
+  --ink-muted: #6b6b6b;
+
+  /* Per-platform brand colors (used sparingly in badges) */
+  --ig: #c13584;
+  --tt: #111111;
+  --yt: #cc0000;
+  --th: #0b0b0b;
+  --li: #0a66c2;
+
+  /* Recharts series — brand-blue family + accents */
+  --chart-1: #be1d19;
+  --chart-2: #0b0b0b;
+  --chart-3: #16a34a;
+  --chart-4: #d97706;
+  --chart-5: #c13584;
+
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "cv11";
+  }
+  html {
+    @apply font-sans;
+  }
+  /* Editorial display type */
+  .font-display {
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
+    letter-spacing: -0.015em;
+  }
+  /* Tabular figures for KPIs and data tables */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  /* Thin rules for data tables (no rounded corners on data) */
+  .data-table {
+    border-radius: 0;
+  }
+}
+
+/* === Redesign 2026-09 ======================================================
+   One dark band (the Overview hero), watermark numerals, and a short
+   fade-up on mount. Everything else stays light cards on the blue page. */
+
+.hero {
+  background: var(--ink);
+  box-shadow: inset 0 -6px 0 var(--brand);
+}
+
+.hero-grid {
+  pointer-events: none;
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: linear-gradient(to bottom, rgb(0 0 0 / 0.9), transparent 90%);
+}
+
+/* Positive / negative on the dark band: lifted toward white so they read. */
+.on-dark-up {
+  color: color-mix(in oklab, var(--positive) 55%, white);
+}
+.on-dark-down {
+  color: color-mix(in oklab, var(--negative) 55%, white);
+}
+.on-dark-warn {
+  color: color-mix(in oklab, var(--warn) 60%, white);
+}
+
+/* Card treatment below the hero: no hairline border, a soft brand-tinted
+   shadow and a 4% ink ring so white reads as a surface on the blue page. */
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow:
+    0 1px 2px rgb(10 22 40 / 0.05),
+    0 10px 30px -14px rgb(30 111 217 / 0.28),
+    inset 0 0 0 1px rgb(10 22 40 / 0.04);
+}
+.card-hover {
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.card-hover:hover {
+  box-shadow:
+    0 2px 4px rgb(10 22 40 / 0.06),
+    0 16px 40px -16px rgb(30 111 217 / 0.4),
+    inset 0 0 0 1px rgb(30 111 217 / 0.25);
+}
+
+/* Faint dot grid on the page so the cards float on something that rhymes
+   with the hero's line grid. Cards are opaque, so it only shows in the gaps. */
+.page-texture {
+  background-image: radial-gradient(circle, rgb(30 111 217 / 0.13) 1px, transparent 1.2px);
+  background-size: 22px 22px;
+}
+
+/* Watermark ordinal stamped on a card by <Numbered n>. */
+.numbered::before {
+  content: attr(data-n);
+  position: absolute;
+  right: 1rem;
+  top: 0.15rem;
+  z-index: 1;
+  pointer-events: none;
+  user-select: none;
+  font-family: var(--font-display);
+  font-size: 88px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  font-variant-numeric: tabular-nums;
+  color: color-mix(in oklab, var(--brand) 9%, transparent);
+}
+
+/* Fade-up on mount. Elements opt in with .rise and stagger via --rise-delay. */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .rise {
+    animation: rise 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+    animation-delay: var(--rise-delay, 0ms);
+  }
+}

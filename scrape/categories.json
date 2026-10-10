@@ -1,0 +1,210 @@
+{
+  "_readme": "Jovan's topic map for the Content Vault, built from his own captions and hashtags (Oct 2026). Matching is whole-word, case-insensitive, against title + caption + hashtags (# stripped). A post can land in several topics; posts matching nothing go to `other`. Brand tags (#stayjotivated, #thevoice) are left out on purpose: they are on almost every post. Edit freely, then run: python3 scrape/run.py --analyze-only",
+  "motivation": {
+    "label": "Motivation & Mindset",
+    "keywords": [
+      "motivation",
+      "motivationmonday",
+      "motivation monday",
+      "mindset",
+      "purpose",
+      "dream",
+      "dreams",
+      "dreamer",
+      "dreamers",
+      "inspiration",
+      "inspired",
+      "believe",
+      "goals",
+      "growth",
+      "discipline",
+      "courage",
+      "millennialmotivator",
+      "empowerment",
+      "jotivation",
+      "keep going",
+      "never give up"
+    ]
+  },
+  "emcee": {
+    "label": "Emcee & Hosting",
+    "keywords": [
+      "emcee",
+      "emceed",
+      "emceeing",
+      "emceetips",
+      "host",
+      "hosted",
+      "hosting",
+      "mc",
+      "crowd",
+      "crowd control",
+      "stage",
+      "mic",
+      "microphone",
+      "event",
+      "events",
+      "presents",
+      "party"
+    ]
+  },
+  "speaking": {
+    "label": "Keynotes & Youth",
+    "keywords": [
+      "keynote",
+      "keynotespeaker",
+      "keynote speaker",
+      "speaker",
+      "speaking",
+      "youthspeaker",
+      "youth",
+      "students",
+      "student",
+      "school",
+      "schools",
+      "graduation",
+      "graduates",
+      "class of",
+      "ronclarkacademy",
+      "rca",
+      "rcainspired",
+      "workshop",
+      "mentor",
+      "mentorship",
+      "teachers",
+      "college",
+      "conference"
+    ]
+  },
+  "community": {
+    "label": "Atlanta & Community",
+    "keywords": [
+      "atlanta",
+      "atl",
+      "community",
+      "fundraiser",
+      "nonprofit",
+      "park100",
+      "park 100",
+      "empoweratl",
+      "emerging100atl",
+      "e100atl",
+      "volunteer",
+      "advocate",
+      "giving back",
+      "city"
+    ]
+  },
+  "faith_family": {
+    "label": "Faith & Family",
+    "keywords": [
+      "god",
+      "faith",
+      "blessed",
+      "blessing",
+      "grateful",
+      "gratitude",
+      "family",
+      "mom",
+      "mother",
+      "dad",
+      "father",
+      "birthday",
+      "wedding",
+      "love",
+      "thankful",
+      "pray",
+      "prayer"
+    ]
+  },
+  "brotherhood": {
+    "label": "Brotherhood",
+    "keywords": [
+      "alphaphialpha",
+      "alpha phi alpha",
+      "alpha",
+      "alphas",
+      "zetamu",
+      "zetamuforever",
+      "zetamualphas",
+      "zmla",
+      "fraternity",
+      "frat",
+      "brothers",
+      "brotherhood",
+      "blackmensmile",
+      "black men"
+    ]
+  },
+  "style": {
+    "label": "Style & Apparel",
+    "keywords": [
+      "gq",
+      "fashion",
+      "style",
+      "mensfashion",
+      "outfit",
+      "fit",
+      "drip",
+      "apparel",
+      "jotivate",
+      "crewneck",
+      "merch",
+      "suit"
+    ]
+  },
+  "book": {
+    "label": "The Book",
+    "keywords": [
+      "book",
+      "ebook",
+      "author",
+      "chapter",
+      "52 ways",
+      "amazon",
+      "gumroad",
+      "inner dreamer",
+      "audiobook",
+      "reading"
+    ]
+  },
+  "music_culture": {
+    "label": "Music & Culture",
+    "keywords": [
+      "onemusicfest",
+      "music",
+      "festival",
+      "song",
+      "dance",
+      "dancing",
+      "dj",
+      "concert",
+      "thejumpoffseries",
+      "jump off",
+      "mashupsessions",
+      "poolsideaffair",
+      "culture"
+    ]
+  },
+  "travel": {
+    "label": "Travel",
+    "keywords": [
+      "travel",
+      "trip",
+      "madrid",
+      "spain",
+      "vacation",
+      "flight",
+      "abroad",
+      "st. louis",
+      "new york",
+      "miami",
+      "london",
+      "paris"
+    ]
+  },
+  "other": {
+    "label": "Other",
+    "keywords": []
+  }
+}
