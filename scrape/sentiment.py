@@ -26,7 +26,6 @@ from __future__ import annotations
 import json
 import os
 import re
-import sys
 import time
 import urllib.error
 import urllib.request
@@ -158,7 +157,7 @@ MIN_SECONDS_BETWEEN_CALLS_PER_MODEL = 9.0
 # Groq's edge returns 403 "error code: 1010" to non-browser user agents.
 _UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
 
-_SYSTEM_PROMPT = """You label social media comments left on a finance and lifestyle creator's posts (Instagram, TikTok, YouTube, Threads, LinkedIn). Refer to the account owner as the creator.
+_SYSTEM_PROMPT = """You label social media comments left on a creator's posts (Instagram, TikTok, YouTube, Threads, LinkedIn). Refer to the account owner as the creator.
 
 For each comment return its sentiment toward the creator or the post, and whether it is a question for the creator.
 

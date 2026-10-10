@@ -22,7 +22,6 @@ from __future__ import annotations
 import json
 import sys
 import threading
-import time
 import uuid
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, HTTPServer
@@ -35,6 +34,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from scrape import analyze  # noqa: E402
 from scrape.cdp import CDPError  # noqa: E402
 from scrape.platforms import instagram, linkedin, tiktok, youtube, threads  # noqa: E402
+from scrape.platforms import studio  # noqa: E402
 
 PORT = 5556
 VERSION = "0.3.0"
@@ -138,6 +138,14 @@ def run_scrape(job_id: str, platforms: list[str], full: bool = False) -> None:
             result = runner(on_progress=progress, full=full)
             record_platform_result(state, platform, result)
             save_scrape_state(state)
+            # Same studio pass as run.py: the public pages give TikTok/YouTube views only.
+            # A studio failure (not signed in) never undoes the base reader's result.
+            if platform in studio.ENRICHERS:
+                try:
+                    result["studio"] = studio.ENRICHERS[platform](on_progress=progress)
+                except Exception as e:  # noqa: BLE001
+                    result["studioError"] = str(e)
+                    update_job(job_id, currentStage=f"{platform}: studio skipped ({str(e)[:120]})")
         except CDPError as e:
             errors[platform] = str(e)
             sub = state.get(platform, {}) or {}

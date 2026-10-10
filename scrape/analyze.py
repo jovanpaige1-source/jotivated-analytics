@@ -537,6 +537,15 @@ def last_posted_and_cadence(posts: list[dict]) -> tuple[dict, dict]:
 # --------------------------------------------------------------------------
 # follower history
 # --------------------------------------------------------------------------
+def _local_day(stamp) -> str:
+    """ISO timestamp (UTC from server.now_iso) -> local YYYY-MM-DD, or "" if unreadable."""
+    try:
+        d = datetime.fromisoformat(str(stamp))
+    except ValueError:
+        return ""
+    return (d if d.tzinfo is None else d.astimezone()).date().isoformat()
+
+
 def update_follower_history(state: dict, seed: list[dict] | None) -> list[dict]:
     """Append today's follower counts, but only when a scrape actually ran
     today. Re-running the analyzer on old data must not invent data points."""
@@ -546,7 +555,8 @@ def update_follower_history(state: dict, seed: list[dict] | None) -> list[dict]:
     followers = state.get("followers") or {}
     today = date.today().isoformat()
     updated = state.get("followersUpdated") or {}
-    fresh_today = any(str(updated.get(p) or "").startswith(today) for p in PLATFORMS)
+    # The stamps are UTC; compare them as LOCAL dates or every US-evening scrape is skipped.
+    fresh_today = any(_local_day(updated.get(p)) == today for p in PLATFORMS)
     if fresh_today and any(int(_num(followers.get(p))) > 0 for p in PLATFORMS):
         snap = {"date": today, **{p: int(_num(followers.get(p))) for p in PLATFORMS}}
         history = [h for h in history if h.get("date") != today] + [snap]
