@@ -12,9 +12,10 @@ python3 -m pip install websocket-client
 
 ## Run it
 
-From the project folder (`cd ~/projects/social-analytics-dashboard`):
+From the project folder (`cd ~/projects/jotivated-analytics`):
 
-- `python3 scrape/run.py` incremental, all five platforms
+- `python3 scrape/run.py` incremental, every platform in `ENABLED` in
+  `scrape/handles.py` (Instagram, TikTok and YouTube in this copy)
 - `python3 scrape/run.py --platforms instagram` one platform
 - `python3 scrape/run.py --full` master sweep (see below)
 - `python3 scrape/run.py --analyze-only` just rebuild the analytics and vault JSON

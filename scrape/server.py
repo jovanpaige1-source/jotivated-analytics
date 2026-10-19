@@ -301,7 +301,7 @@ def main() -> None:
     print(f"Creator Dashboard scraper service v{VERSION} on http://localhost:{PORT}")
     print(f"  data dir: {DATA_DIR}")
     print(f"  Chrome CDP port: {default_port()} (override with CHROME_CDP_PORT)")
-    print("  platforms: instagram, tiktok, youtube, threads, linkedin (all real, Chrome-CDP)")
+    print(f"  platforms: {', '.join(PLATFORMS)} (ENABLED in scrape/handles.py)")
     print("  endpoints: GET /ping  POST /scrape {platforms?, mode?: 'full'}  GET /scrape-status?id=<jobId>")
     HTTPServer(("127.0.0.1", PORT), Handler).serve_forever()
 

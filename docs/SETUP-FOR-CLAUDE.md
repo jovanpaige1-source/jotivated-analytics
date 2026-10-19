@@ -1,5 +1,8 @@
 # For Claude Code: the setup as a checklist
 
+> In Jovan's copy (`jotivated-analytics`), `docs/WORKBOOK.md` replaces this
+> checklist: it is already set up and filled. Keep this file as reference only.
+
 You are reading this because a person wants this dashboard set up and asked
 you to do it. Assume they have never used Terminal unless they say otherwise.
 The human guide (`docs/Setup-Guide.pdf`, same text in `docs/setup-guide.html`)
