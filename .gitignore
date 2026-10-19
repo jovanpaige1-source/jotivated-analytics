@@ -43,3 +43,10 @@ next-env.d.ts
 # python
 __pycache__/
 *.pyc
+.venv/
+venv/
+.ruff_cache/
+
+# scrape run logs and Claude Code's per-machine settings
+*.log
+.claude/settings.local.json
