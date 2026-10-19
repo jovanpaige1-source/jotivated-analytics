@@ -23,7 +23,8 @@ they sign in to the dashboard Chrome window themselves).
 - Next.js 16 App Router · TypeScript · Tailwind v4 · shadcn/ui
 - Recharts (line/bar/doughnut). The 7×24 heatmap is hand-rolled.
 - Zustand + localStorage persistence (key: `creator_dashboard_v2`)
-- System font stack
+- Fonts: Archivo (body) and Big Shoulders (display), local woff2 in
+  `app/fonts/`, loaded with `next/font/local` in `app/layout.tsx`
 - Python 3.9+ standard library plus `websocket-client`
 
 ## Tabs
@@ -36,8 +37,10 @@ they sign in to the dashboard Chrome window themselves).
 | Content Vault | `/vault` | `components/vault/vault.tsx` | content_vault + posts × 5 |
 
 ## Design system (don't drift)
-- Background `#eaf3fb`, brand `#1e6fd9` as the single accent, white cards.
-- Text: `#0a1628` ink, `#334155` soft, `#64748b` muted.
+- Stay Jotivated palette: stone background `#f2f0ec`, red brand `#be1d19` as
+  the single accent, white cards. The tokens in `app/globals.css` `:root` are
+  the source of truth.
+- Text: `#0b0b0b` ink, `#2e2e2e` soft, `#6b6b6b` muted.
 - Positive `#16a34a`, Negative `#dc2626`, Warn `#d97706`, sparingly.
 - Per-platform colors live in `app/globals.css` (`--ig`, `--tt`, `--yt`, `--th`, `--li`).
 - Every tab opens on one dark hero band (`PageHero`); everything else is light cards.
