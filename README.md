@@ -5,7 +5,13 @@ Jovan Paige's private analytics dashboard: Instagram, TikTok and YouTube
 Python scraper that reads the platforms through a separate Chrome window he
 signs in to. Built and filled by Intellovate on 2026-10-10.
 
-**Jovan, start here:** open Claude Code in this folder (`claude`) and paste:
+**Before you start:** you need a paid Claude plan and Claude Code on your Mac.
+Install it with Anthropic's Claude Code quickstart (or, if you already have
+Homebrew, `brew install --cask claude-code`), then check it in Terminal with
+`claude --version`. This folder belongs at `~/projects/jotivated-analytics`.
+
+**Jovan, start here:** open Terminal, go to this folder with
+`cd ~/projects/jotivated-analytics`, start Claude Code with `claude`, and paste:
 
 > Read docs/WORKBOOK.md and set up my dashboard, one part at a time. Never ask
 > me for a password, a key or my PIN; the workbook says which steps I do myself.
@@ -18,11 +24,16 @@ signs in to. Built and filled by Intellovate on 2026-10-10.
 weekly refresh, topics, publishing, and fixes. The general setup guide
 (`docs/Setup-Guide.pdf`, `docs/SETUP-FOR-CLAUDE.md`) is kept as reference.
 
-## Quick start
+## Quick start (the general template, for reference)
+
+Jovan's copy is already past most of this. On his Mac, follow
+`docs/WORKBOOK.md` instead; the folder and repository are named
+`jotivated-analytics`, not `social-analytics-dashboard`.
 
 1. Unpack the paid template ZIP into `~/projects/social-analytics-dashboard`.
 2. Create your own private repository with `gh repo create social-analytics-dashboard --private --source=. --remote=origin --push`.
-3. Run `pnpm install` and `python3 -m pip install websocket-client`.
+3. Run `pnpm install` (pnpm 10: `npm install -g pnpm@10`; pnpm 12 stops on
+   this lockfile) and `python3 -m pip install websocket-client`.
 4. Put your handles in `scrape/handles.py`.
 5. Open the dashboard Chrome window (setup guide, Part D1) and sign in to your
    accounts in it the first time. Chrome 136 and later ignore
@@ -47,8 +58,8 @@ app/            one route per tab
 components/     charts, layout, overview, posts, comments, insights, vault
 lib/            data loaders, calculations, formatting, PIN check, types
 scrape/         run.py, analyze.py, sentiment.py, categories.json, handles.py, platforms/
-public/data/    the JSON the site reads (empty in the template, the scraper fills it)
-docs/           the setup guide
+public/data/    the JSON the site reads (filled with Jovan's posts, the scraper refreshes it)
+docs/           WORKBOOK.md (the handover) and the general setup guide
 ```
 
 ## Rules
