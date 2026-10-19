@@ -15,12 +15,16 @@ check, and only then move on.
 |---|---|
 | Handles | `scrape/handles.py`: `notyo_averagejo` on all three, YouTube channel `UCjz0bqe7SN8DSGFlYG2IiCQ`, `ENABLED = ["instagram", "tiktok", "youtube"]` |
 | Data | First full pull on 2026-10-10: 684 Instagram posts, 244 TikToks, 95 YouTube Shorts |
-| Topics | `scrape/categories.json`: ten topics built from his own captions (Motivation & Mindset, Emcee & Hosting, Keynotes & Youth, Atlanta & Community, Faith & Family, Brotherhood, Style & Apparel, The Book, Music & Culture, Travel) |
+| Topics | `scrape/categories.json`: twelve topics built from his own captions (Motivation & Mindset, Emcee & Hosting, Keynotes & Youth, Atlanta & Community, Faith & Family, Brotherhood, Style & Apparel, The Book, Music & Culture, Humor & Skits, Sports & Game Day, Travel) |
 | Look | Stay Jotivated colors and fonts (`app/globals.css`, `app/fonts/`) |
 | Not yet | His PIN, his dashboard Chrome window and sign-ins, TikTok Studio / YouTube Studio numbers, publishing |
 
 The first pull read his **public** pages, so TikTok and YouTube have views but no
 likes, comments, shares or saves yet. Part D fills those in from his own Studio.
+
+The dashboard screens and the scraper's error messages point to parts of the
+general setup guide. In this workbook those are: D1 (the dashboard Chrome window)
+is Part C, C2 (the PIN in `.env.local`) is Part B, H1 to H3 (publishing) is Part G.
 
 ## Rules (never break these)
 
@@ -41,7 +45,9 @@ likes, comments, shares or saves yet. Part D fills those in from his own Studio.
 
 ## Part 0. Getting the folder onto his Mac
 
-He receives it one of two ways. Ask which.
+He receives it one of two ways. Ask which. Both need `git` and `gh` from Part A: on
+a new Mac, do Part A's checks and installs first (everything except `pnpm install`),
+then come back here.
 
 **A. GitHub transfer** (the repository moves to his GitHub account):
 ```
@@ -64,7 +70,10 @@ Check: `ls scrape/handles.py public/data/instagram_posts.json` lists both files.
 ## Part A. Tools
 
 Run these checks and install only what is missing (Homebrew: Jovan runs the
-install line from brew.sh himself, it asks for his Mac password):
+install line from brew.sh himself, it asks for his Mac password, then he runs the
+lines it prints under "Next steps". If `brew` is still not found in your shell
+after that, start your commands with `eval "$(/opt/homebrew/bin/brew shellenv)";`
+or ask him to restart Claude Code):
 ```
 brew --version
 git --version
@@ -74,8 +83,23 @@ pnpm -v
 python3 -c "import websocket"
 ls /Applications | grep -i chrome
 ```
-Fixes: `brew install git gh node pnpm`, `python3 -m pip install websocket-client`,
-`gh auth login` (he finishes it in the browser). Then:
+Fixes:
+- `brew install git gh node`, then `npm install -g pnpm@10`. Use pnpm 10, not
+  `brew install pnpm`: Homebrew now ships pnpm 12, which stops `pnpm install` here
+  with `ERR_PNPM_IGNORED_BUILDS`, and pnpm 10 is what `pnpm-lock.yaml` and the
+  publish workflow use. If Homebrew's pnpm is already installed, run
+  `brew uninstall pnpm` first. Check: `pnpm -v` prints 10.x.
+- `brew install --cask google-chrome` if Chrome is missing.
+- `python3 -m pip install websocket-client`. The first `python3` may offer to
+  install Apple's developer tools: he says yes and waits. If pip reports an
+  "externally managed environment", use
+  `python3 -m pip install --user --break-system-packages websocket-client`.
+- `gh auth login` (he finishes it in the browser).
+- If `git config --global user.name` prints nothing, set his name and the email
+  on his GitHub account once with `git config --global user.name "..."` and
+  `git config --global user.email "..."`.
+
+Then:
 ```
 pnpm install
 ```
@@ -157,6 +181,18 @@ already seen, so it takes a few minutes. Report to Jovan, in this shape:
 - one thing worth his attention: the newest post in Insights > Viral Posts, or a
   topic in the Content Vault that moved
 
+**The Refresh data button.** The "Live" or "Stale" chip in the dashboard's top bar
+opens a menu with Refresh data, at http://localhost:3000 only (it is hidden on the
+published site). It runs the same pull, Studio
+pass included, through a small helper that must be running in its own Terminal
+window, from the project folder:
+```
+python3 scrape/server.py
+```
+It listens on port 5556 and answers only a dashboard on port 3000, so if `pnpm dev`
+picked another port, free 3000 and restart it. Without the helper, the menu says the
+scraper service is not running. After a Refresh, commit `public/data` the same way.
+
 Want it on a schedule instead? Claude Code's `/schedule` (or a weekly reminder) can
 run the same three lines, but only while the Mac is awake and the dashboard Chrome
 window is open and signed in. Say that plainly; never promise an unattended refresh.
@@ -181,6 +217,12 @@ even when the repository is private (the PIN hides the page, it does not encrypt
 the data files), and publishing from a private repository needs GitHub Pro.
 Everything here is public profile data, so most people accept that.
 
+**Skipping this part?** Every `git push` still starts the publish workflow. It stops
+at "Require a PIN", so nothing is published, but GitHub emails him a failed run each
+time. To stop that, turn the workflow off with `gh workflow disable deploy.yml`. This
+switches publishing off; it never removes the PIN check. If he publishes later, turn
+it back on first with `gh workflow enable deploy.yml`.
+
 ```
 gh api -X POST repos/{owner}/{repo}/pages -f build_type=workflow
 ```
@@ -188,7 +230,8 @@ Then he sets the PIN fingerprint as a repository secret, in his own Terminal:
 ```
 read -s HASH; gh secret set DASHBOARD_PIN_HASH --body "$HASH"; unset HASH
 ```
-Publish and confirm:
+Publish and confirm. If `git push` says "Everything up-to-date", no run starts, so
+start one with `gh workflow run deploy.yml` instead:
 ```
 git push
 gh run watch
@@ -211,6 +254,9 @@ does not.
 | Comments tab is empty | No reader collects comments yet | Expected; say so, do not invent numbers |
 | Styles look stale in `pnpm dev` | Next's dev cache | `rm -rf .next/dev .next/cache` then restart |
 | `gh run watch` fails at "Require a PIN" | The `DASHBOARD_PIN_HASH` secret is missing | Part G secret step; never remove the check |
+| A GitHub email "Run failed: Deploy to GitHub Pages" after each push | He is not publishing, and the workflow is still on | Part G, "Skipping this part?" |
+| Refresh data says the scraper service is not running | The helper is not started | `python3 scrape/server.py` in its own Terminal window (Part E) |
+| `ERR_PNPM_IGNORED_BUILDS` from `pnpm install`, or `pnpm -v` is not 10.x | A newer pnpm major (Homebrew's) | `brew uninstall pnpm` if it came from Homebrew, `npm install -g pnpm@10`, then `pnpm install` again |
 
 ## Adding Facebook later
 
