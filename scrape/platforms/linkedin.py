@@ -185,7 +185,7 @@ def _followers_from_profile(cdp: CDP) -> int:
 def _check_wall(cdp: CDP) -> None:
     href = (cdp.evaluate("window.location.href") or "").lower()
     if any(k in href for k in _WALL_MARKERS) or cdp.evaluate("!!document.querySelector('form.login__form, input[name=\"session_key\"]')"):
-        raise CDPError("LinkedIn shows a login or checkpoint wall; sign in to linkedin.com in the dashboard Chrome window (setup guide, Part D1) and rerun.")
+        raise CDPError("LinkedIn shows a login or checkpoint wall; sign in to linkedin.com in the dashboard Chrome window (docs/WORKBOOK.md, Part C) and rerun.")
 
 
 def scrape(max_pages: int = 40, on_progress=None, full: bool = False) -> dict:

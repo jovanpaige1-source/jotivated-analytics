@@ -304,7 +304,7 @@ def scrape(max_pages: int = 80, on_progress=None, full: bool = False) -> dict:
         if f"@{HANDLE}".lower() not in href.lower():
             raise CDPError(
                 f"Threads did not open the profile (landed on {href or 'no URL'}). "
-                "If that is a login page, sign in to threads.com in the dashboard Chrome window (setup guide, Part D1) and rerun."
+                "If that is a login page, sign in to threads.com in the dashboard Chrome window (docs/WORKBOOK.md, Part C) and rerun."
             )
         time.sleep(2.5)
         # Re-install hook (reload wiped it)

@@ -1,8 +1,8 @@
 # Creator Dashboard scraper
 
 Python (stdlib + `websocket-client`) that re-scrapes Instagram / TikTok /
-YouTube / Threads / LinkedIn through the dashboard Chrome window (setup guide,
-Part D1), then rebuilds every derived JSON the dashboard reads.
+YouTube / Threads / LinkedIn through the dashboard Chrome window (docs/WORKBOOK.md,
+Part C), then rebuilds every derived JSON the dashboard reads.
 
 One time:
 
@@ -47,7 +47,7 @@ Run it deliberately, not on a schedule.
 
 ## Chrome
 
-Start the dashboard Chrome window with the lines in setup guide Part D1:
+Start the dashboard Chrome window with the lines in docs/WORKBOOK.md Part C:
 
 ```bash
 DIR="$HOME/.chrome-dashboard"

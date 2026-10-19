@@ -367,7 +367,7 @@ def scrape(max_pages: int = 60, on_progress=None, full: bool = False) -> dict:
             "!!document.querySelector('input[name=\"username\"]') || /Log in/.test(document.title)"
         )
         if logged_out:
-            raise CDPError("Instagram shows the login wall. Sign in to instagram.com in the dashboard Chrome window (setup guide, Part D1) and rerun.")
+            raise CDPError("Instagram shows the login wall. Sign in to instagram.com in the dashboard Chrome window (docs/WORKBOOK.md, Part C) and rerun.")
 
         if on_progress:
             on_progress("hook installed", {

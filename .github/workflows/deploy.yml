@@ -40,7 +40,7 @@ jobs:
       - name: Require a PIN
         run: |
           if [ -z "$NEXT_PUBLIC_DASHBOARD_PIN_HASH" ]; then
-            echo "::error::Set the DASHBOARD_PIN_HASH repository secret first (setup guide, Part H2). Nothing was published."
+            echo "::error::Set the DASHBOARD_PIN_HASH repository secret first (docs/WORKBOOK.md, Part G). Nothing was published."
             exit 1
           fi
         env:

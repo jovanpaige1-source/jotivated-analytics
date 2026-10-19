@@ -4,8 +4,8 @@ Minimal Chrome DevTools Protocol client.
 Connects to an already-running Chrome on a debugging port (CHROME_CDP_PORT,
 default 9222), opens ITS OWN tab, and runs JavaScript via Runtime.evaluate
 to capture API responses. Cookies and auth flow naturally because the tab
-lives in the dashboard Chrome window's own signed-in profile (setup guide,
-Part D1).
+lives in the dashboard Chrome window's own signed-in profile (docs/WORKBOOK.md,
+Part C).
 
 Tab ownership rule: this client never navigates or closes a tab it did not
 create, because the user may browse in the same window. Every tab opened
@@ -75,7 +75,7 @@ class CDP:
         except Exception as e:  # noqa: BLE001
             raise CDPError(
                 f"Cannot reach Chrome on :{self.port} ({e}). "
-                "Open the dashboard Chrome window first (setup guide, Part D1)."
+                "Open the dashboard Chrome window first (docs/WORKBOOK.md, Part C)."
             ) from e
 
     def list_tabs(self) -> list[Tab]:

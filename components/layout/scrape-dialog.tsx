@@ -147,7 +147,7 @@ export function ScrapeDialog({
           </DialogTitle>
           <DialogDescription>
             Choose how much to fetch and which platforms. The local scraper
-            service runs it in the dashboard Chrome window (setup guide, Part D1).
+            service runs it in the dashboard Chrome window (docs/WORKBOOK.md, Part C).
           </DialogDescription>
         </DialogHeader>
 
@@ -401,7 +401,7 @@ function ReadyToStart({
           </span>
         </div>
         <ul className="mt-1.5 space-y-0.5">
-          <li>Needs the dashboard Chrome window from setup guide Part D1 open, signed in to each platform you picked.</li>
+          <li>Needs the dashboard Chrome window from docs/WORKBOOK.md Part C open, signed in to each platform you picked.</li>
           <li>Insights, the Vault and follower history are rebuilt after the last platform finishes.</li>
         </ul>
       </div>

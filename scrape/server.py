@@ -4,7 +4,7 @@ Creator Dashboard scraper service, port 5556
 
 Stdlib-only HTTP service the dashboard's Refresh data menu calls to start
 a re-scrape of Instagram / TikTok / YouTube / Threads / LinkedIn, using the
-dashboard Chrome window from setup guide Part D1. It listens on 127.0.0.1
+dashboard Chrome window from docs/WORKBOOK.md Part C. It listens on 127.0.0.1
 only and answers only the local dashboard (http://localhost:3000).
 
 Run, in its own Terminal window from the project folder:

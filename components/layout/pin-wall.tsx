@@ -71,8 +71,8 @@ export function PinWall({ onSuccess }: PinWallProps) {
           </h1>
           <p className="mt-4 text-sm text-ink-muted">
             Add your PIN hash as the <code>DASHBOARD_PIN_HASH</code> repository
-            secret (setup guide, Part H2), then push again. Running on your Mac,
-            put it in <code>.env.local</code> instead (Part C2).
+            secret (docs/WORKBOOK.md, Part G), then push again. Running on your Mac,
+            put it in <code>.env.local</code> instead (Part B).
           </p>
         </div>
       </div>

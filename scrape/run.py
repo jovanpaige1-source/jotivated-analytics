@@ -13,7 +13,7 @@ Skip the analytics and vault rebuild:
 Just rebuild the derived JSON:
     python3 scrape/run.py --analyze-only
 
-Talks to the dashboard Chrome window from setup guide Part D1
+Talks to the dashboard Chrome window from docs/WORKBOOK.md Part C
 (CHROME_CDP_PORT, default 9222), which carries your logins. It opens its own
 tabs and closes them on every exit path.
 

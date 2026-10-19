@@ -21,8 +21,8 @@ Homebrew, `brew install --cask claude-code`), then check it in Terminal with
 > Read docs/WORKBOOK.md Part E and refresh my dashboard.
 
 `docs/WORKBOOK.md` is the handover: what is done, what is left on his Mac, the
-weekly refresh, topics, publishing, and fixes. The general setup guide
-(`docs/Setup-Guide.pdf`, `docs/SETUP-FOR-CLAUDE.md`) is kept as reference.
+weekly refresh, topics, publishing, and fixes. The template's own setup checklist
+(`docs/SETUP-FOR-CLAUDE.md`) is kept as reference.
 
 ## Quick start (the general template, for reference)
 
@@ -35,7 +35,7 @@ Jovan's copy is already past most of this. On his Mac, follow
 3. Run `pnpm install` (pnpm 10: `npm install -g pnpm@10`; pnpm 12 stops on
    this lockfile) and `python3 -m pip install websocket-client`.
 4. Put your handles in `scrape/handles.py`.
-5. Open the dashboard Chrome window (setup guide, Part D1) and sign in to your
+5. Open the dashboard Chrome window (docs/WORKBOOK.md, Part C) and sign in to your
    accounts in it the first time. Chrome 136 and later ignore
    `--remote-debugging-port` on your everyday profile, so it needs its own:
 
@@ -59,7 +59,7 @@ components/     charts, layout, overview, posts, comments, insights, vault
 lib/            data loaders, calculations, formatting, PIN check, types
 scrape/         run.py, analyze.py, sentiment.py, categories.json, handles.py, platforms/
 public/data/    the JSON the site reads (filled with Jovan's posts, the scraper refreshes it)
-docs/           WORKBOOK.md (the handover) and the general setup guide
+docs/           WORKBOOK.md (the handover) and the template's setup checklist
 ```
 
 ## Rules

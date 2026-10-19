@@ -78,7 +78,7 @@ they sign in to the dashboard Chrome window themselves).
 - `analyze.py` only appends a follower snapshot on a day a scrape ran.
 
 ## Scraper rules
-- Uses the dashboard Chrome window from setup guide Part D1 (port 9222). Opens
+- Uses the dashboard Chrome window from docs/WORKBOOK.md Part C (port 9222). Opens
   its own tabs and closes only those. Chrome 136 and later ignore
   `--remote-debugging-port` on the default profile, so D1 starts a separate
   profile with `--user-data-dir="$HOME/.chrome-dashboard"`. If port 9222 is

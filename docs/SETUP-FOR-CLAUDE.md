@@ -5,9 +5,8 @@
 
 You are reading this because a person wants this dashboard set up and asked
 you to do it. Assume they have never used Terminal unless they say otherwise.
-The human guide (`docs/Setup-Guide.pdf`, same text in `docs/setup-guide.html`)
-is the source of truth for every command and every "Expect" line. This file is
-the order of work, the checks, and the rules. Work one part at a time, show the
+The template's human guide is not part of this copy; `docs/WORKBOOK.md` is the
+source of truth for Jovan's dashboard. This file is the template's order of work, the checks, and the rules. Work one part at a time, show the
 checkpoint, and only then move on.
 
 If you are reading this inside an already cloned copy, Part C1 is done. Start at

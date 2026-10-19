@@ -22,9 +22,9 @@ check, and only then move on.
 The first pull read his **public** pages, so TikTok and YouTube have views but no
 likes, comments, shares or saves yet. Part D fills those in from his own Studio.
 
-The dashboard screens and the scraper's error messages point to parts of the
-general setup guide. In this workbook those are: D1 (the dashboard Chrome window)
-is Part C, C2 (the PIN in `.env.local`) is Part B, H1 to H3 (publishing) is Part G.
+The dashboard screens and the scraper's error messages point to the parts of this
+workbook: the dashboard Chrome window is Part C, the PIN in `.env.local` is Part B,
+and publishing is Part G.
 
 ## Rules (never break these)
 
