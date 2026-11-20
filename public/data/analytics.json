@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T23:48:25+00:00",
+ "generatedAt": "2026-11-20T23:51:57+00:00",
  "dataAsOf": {
   "posts": "2026-11-20T21:27:10+00:00",
   "comments": "2026-11-20"
@@ -4491,30 +4491,30 @@
  ],
  "topCommenters": [
   {
-   "username": "big_sliide",
-   "count": 70,
+   "username": "keeek101",
+   "count": 73,
    "platforms": [
     "instagram"
    ]
   },
   {
-   "username": "keeek101",
-   "count": 69,
+   "username": "jt_the_brand",
+   "count": 73,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "yourhostuptown",
-   "count": 65,
+   "count": 72,
    "platforms": [
     "instagram",
     "tiktok"
    ]
   },
   {
-   "username": "jt_the_brand",
-   "count": 65,
+   "username": "big_sliide",
+   "count": 70,
    "platforms": [
     "instagram"
    ]
@@ -4535,6 +4535,13 @@
    ]
   },
   {
+   "username": "_lenataasira",
+   "count": 54,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
    "username": "gbabydollz",
    "count": 53,
    "platforms": [
@@ -4542,22 +4549,22 @@
    ]
   },
   {
-   "username": "_lenataasira",
-   "count": 51,
+   "username": "avioncainion",
+   "count": 52,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "unruely_",
-   "count": 50,
+   "count": 52,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "reginald.aj.greene.esq",
-   "count": 48,
+   "count": 49,
    "platforms": [
     "instagram"
    ]
@@ -4565,13 +4572,6 @@
   {
    "username": "lydibittiplant",
    "count": 47,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "avioncainion",
-   "count": 46,
    "platforms": [
     "instagram"
    ]
@@ -4598,6 +4598,34 @@
    ]
   },
   {
+   "username": "kickingskate",
+   "count": 45,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "ed__senat0r_xciii",
+   "count": 44,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "cyril.ky",
+   "count": 44,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "theatlbroker",
+   "count": 44,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
    "username": "bkbabyy06",
    "count": 43,
    "platforms": [
@@ -4605,36 +4633,15 @@
    ]
   },
   {
-   "username": "theatlbroker",
-   "count": 42,
+   "username": "thinkvxjb_",
+   "count": 43,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "platgamma",
-   "count": 42,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "thinkvxjb_",
-   "count": 40,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "kickingskate",
-   "count": 40,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "ed__senat0r_xciii",
-   "count": 38,
+   "count": 43,
    "platforms": [
     "instagram"
    ]
@@ -4647,7 +4654,7 @@
    ]
   },
   {
-   "username": "cyril.ky",
+   "username": "theysay_jaydee",
    "count": 38,
    "platforms": [
     "instagram"
@@ -4655,7 +4662,7 @@
   },
   {
    "username": "kirkandre",
-   "count": 37,
+   "count": 38,
    "platforms": [
     "instagram",
     "tiktok"
@@ -4671,13 +4678,6 @@
   {
    "username": "naturallychels",
    "count": 37,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "theysay_jaydee",
-   "count": 36,
    "platforms": [
     "instagram"
    ]
@@ -4713,8 +4713,8 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 65,
-    "totalLikes": 94
+    "commentCount": 72,
+    "totalLikes": 101
    },
    {
     "username": "mariacorinaera",
@@ -4731,8 +4731,8 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 37,
-    "totalLikes": 77
+    "commentCount": 38,
+    "totalLikes": 78
    },
    {
     "username": "helloqori",
@@ -4780,6 +4780,15 @@
     "totalLikes": 34
    },
    {
+    "username": "iambmw_",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 9,
+    "totalLikes": 9
+   },
+   {
     "username": "idreamofky",
     "platforms": [
      "instagram",
@@ -4787,15 +4796,6 @@
     ],
     "commentCount": 8,
     "totalLikes": 4
-   },
-   {
-    "username": "iambmw_",
-    "platforms": [
-     "instagram",
-     "tiktok"
-    ],
-    "commentCount": 8,
-    "totalLikes": 8
    },
    {
     "username": "trayyyci",
@@ -4915,9 +4915,9 @@
     "totalLikes": 3
    }
   ],
-  "totalUniqueUsers": 3514,
+  "totalUniqueUsers": 3561,
   "platformBreakdown": {
-   "instagram": 2787,
+   "instagram": 2834,
    "tiktok": 520,
    "youtube": 230,
    "threads": 0,
@@ -5184,6 +5184,19 @@
    "date": "2026-10-07",
    "postUrl": "https://www.instagram.com/p/DeKuk9Vi1oh/",
    "postTitle": "@boosieig2024 was my LAST straw! Can't keep letting my people go out sad"
+  },
+  {
+   "id": "igc_17977068292364455",
+   "postId": "ig_2534497318871418846_255410408",
+   "platform": "instagram",
+   "username": "adoverload",
+   "text": "What mode is this man in?\nA) X\nB) x\nC) ex\nD) all of the above!!!",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 5,
+   "date": "2021-03-21",
+   "postUrl": "https://www.instagram.com/p/CMsV-IXgsfe/",
+   "postTitle": "This the part of my life my, \u201cLifetime Movie\u201d probably bout\u2019 \ud83c\udfdd"
   },
   {
    "id": "igc_18110009021186575",
@@ -5561,28 +5574,15 @@
    "date": "2024-03-28",
    "postUrl": "https://www.instagram.com/p/C5ChNLFgxmu/",
    "postTitle": "I can explain\u2026nevermind I can\u2019t \ud83e\udd26\ud83c\udffd\u200d\u2642\ufe0f\ud83e\udd23 @abehyde"
-  },
-  {
-   "id": "igc_18000441602445283",
-   "postId": "ig_3325270932540519932_255410408",
-   "platform": "instagram",
-   "username": "ohjoknows",
-   "text": "LOL do you hate me?!",
-   "sentiment": "neutral",
-   "isQuestion": true,
-   "likes": 2,
-   "date": "2024-03-16",
-   "postUrl": "https://www.instagram.com/p/C4lvEuMAnX8/",
-   "postTitle": "One of them \u201cdump\u201d things yall be doing \ud83d\ude0e"
   }
  ],
- "questionCount": 241,
+ "questionCount": 251,
  "commentSentiment": {
-  "positive": 7735,
-  "neutral": 2147,
-  "negative": 40
+  "positive": 7981,
+  "neutral": 2212,
+  "negative": 41
  },
  "sentimentSources": {
-  "lexicon": 9922
+  "lexicon": 10234
  }
 }
