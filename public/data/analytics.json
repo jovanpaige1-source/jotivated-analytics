@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T22:41:26+00:00",
+ "generatedAt": "2026-11-20T22:57:22+00:00",
  "dataAsOf": {
   "posts": "2026-11-20T21:27:10+00:00",
   "comments": "2026-11-20"
@@ -4492,31 +4492,76 @@
  "topCommenters": [
   {
    "username": "big_sliide",
-   "count": 33,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "itsdjreese",
-   "count": 19,
+   "count": 38,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "bobby_clean",
-   "count": 19,
+   "count": 24,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "yourhostuptown",
-   "count": 17,
+   "count": 22,
    "platforms": [
     "instagram",
     "tiktok"
+   ]
+  },
+  {
+   "username": "mariacorinaera",
+   "count": 21,
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "username": "itsdjreese",
+   "count": 20,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "kachetherockstar",
+   "count": 19,
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "username": "michaelbonner_",
+   "count": 19,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "keeek101",
+   "count": 18,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "helloqori",
+   "count": 18,
+   "platforms": [
+    "instagram",
+    "youtube"
+   ]
+  },
+  {
+   "username": "tundeo__",
+   "count": 17,
+   "platforms": [
+    "instagram"
    ]
   },
   {
@@ -4527,59 +4572,78 @@
    ]
   },
   {
-   "username": "keeek101",
+   "username": "adoverload",
    "count": 16,
    "platforms": [
     "instagram"
    ]
   },
   {
-   "username": "kachetherockstar",
-   "count": 16,
-   "platforms": [
-    "instagram",
-    "tiktok"
-   ]
-  },
-  {
-   "username": "mariacorinaera",
-   "count": 16,
-   "platforms": [
-    "instagram",
-    "tiktok"
-   ]
-  },
-  {
    "username": "theysay_jaydee",
-   "count": 15,
+   "count": 16,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "zeusluby",
+   "count": 16,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "jt_the_brand",
    "count": 15,
    "platforms": [
     "instagram"
    ]
   },
   {
-   "username": "michaelbonner_",
+   "username": "curatedbygianni",
    "count": 14,
    "platforms": [
     "instagram"
    ]
   },
   {
-   "username": "helloqori",
-   "count": 13,
+   "username": "dejavelasquezmpp",
+   "count": 14,
    "platforms": [
-    "instagram",
-    "youtube"
+    "instagram"
    ]
   },
   {
    "username": "ohjoknows",
+   "count": 14,
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "username": "manib.easy",
+   "count": 14,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "pictureworthitstill",
+   "count": 13,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "phallyberry",
+   "count": 13,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "kirkandre",
    "count": 13,
    "platforms": [
     "instagram",
@@ -4594,6 +4658,13 @@
    ]
   },
   {
+   "username": "platgamma",
+   "count": 13,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
    "username": "livelitemarcel",
    "count": 12,
    "platforms": [
@@ -4601,107 +4672,36 @@
    ]
   },
   {
-   "username": "pictureworthitstill",
-   "count": 12,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "tundeo__",
-   "count": 12,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "adoverload",
-   "count": 12,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "kirkandre",
-   "count": 12,
-   "platforms": [
-    "instagram",
-    "tiktok"
-   ]
-  },
-  {
-   "username": "cyril.ky",
-   "count": 11,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
    "username": "unruely_",
-   "count": 11,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "dejavelasquezmpp",
-   "count": 11,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "abrilelon",
-   "count": 11,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "reginald.aj.greene.esq",
-   "count": 11,
+   "count": 12,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "keishaswrld_",
+   "count": 12,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "gbabydollz",
+   "count": 12,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "_sterlinglmorris",
+   "count": 12,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "cyril.ky",
    "count": 11,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "smartttt",
-   "count": 10,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "curatedbygianni",
-   "count": 10,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "_beeshaaa",
-   "count": 10,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "itsdjteey",
-   "count": 10,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "jt_the_brand",
-   "count": 10,
    "platforms": [
     "instagram"
    ]
@@ -4715,17 +4715,8 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 17,
-    "totalLikes": 39
-   },
-   {
-    "username": "kachetherockstar",
-    "platforms": [
-     "instagram",
-     "tiktok"
-    ],
-    "commentCount": 16,
-    "totalLikes": 13
+    "commentCount": 22,
+    "totalLikes": 42
    },
    {
     "username": "mariacorinaera",
@@ -4733,7 +4724,16 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 16,
+    "commentCount": 21,
+    "totalLikes": 21
+   },
+   {
+    "username": "kachetherockstar",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 19,
     "totalLikes": 16
    },
    {
@@ -4742,8 +4742,8 @@
      "instagram",
      "youtube"
     ],
-    "commentCount": 13,
-    "totalLikes": 11
+    "commentCount": 18,
+    "totalLikes": 18
    },
    {
     "username": "ohjoknows",
@@ -4751,7 +4751,7 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 13,
+    "commentCount": 14,
     "totalLikes": 20
    },
    {
@@ -4760,7 +4760,7 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 12,
+    "commentCount": 13,
     "totalLikes": 33
    },
    {
@@ -4769,8 +4769,8 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 5,
-    "totalLikes": 22
+    "commentCount": 6,
+    "totalLikes": 23
    },
    {
     "username": "myohhmaia",
@@ -4836,10 +4836,10 @@
     "totalLikes": 1
    }
   ],
-  "totalUniqueUsers": 1969,
+  "totalUniqueUsers": 2090,
   "platformBreakdown": {
-   "instagram": 1262,
-   "tiktok": 491,
+   "instagram": 1354,
+   "tiktok": 520,
    "youtube": 230,
    "threads": 0,
    "linkedin": 0
@@ -4884,6 +4884,19 @@
    "date": "2026-10-06",
    "postUrl": "https://www.instagram.com/p/DeKuk9Vi1oh/",
    "postTitle": "@boosieig2024 was my LAST straw! Can't keep letting my people go out sad"
+  },
+  {
+   "id": "igc_18346810921139253",
+   "postId": "ig_3411417289226998298_255410408",
+   "platform": "instagram",
+   "username": "unruely_",
+   "text": "\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02 Ayooooooooo im crackin uppp!! Why yall do me like this ??? \ud83d\ude02\ud83d\ude02 Love yall man",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 22,
+   "date": "2024-07-13",
+   "postUrl": "https://www.instagram.com/p/C9XyfM5AFIa/",
+   "postTitle": "Nah these impressions are spot on \ud83d\ude02"
   },
   {
    "id": "igc_17871722574569537",
@@ -5105,6 +5118,19 @@
    "date": "2026-08-15",
    "postUrl": "https://www.instagram.com/p/Db_NlmqKOFE/",
    "postTitle": "The Link Up!\ud83d\udd17"
+  },
+  {
+   "id": "igc_17844924336258765",
+   "postId": "ig_3411417289226998298_255410408",
+   "platform": "instagram",
+   "username": "beeword",
+   "text": "This came out soo cute omg \ud83e\udd79lmaooo and @omosblack part has me WEAK \ud83d\ude02\ud83d\ude02 we love you rooski (Rueski?) \ud83e\udef6\ud83c\udffe\ud83c\udf89",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 3,
+   "date": "2024-07-13",
+   "postUrl": "https://www.instagram.com/p/C9XyfM5AFIa/",
+   "postTitle": "Nah these impressions are spot on \ud83d\ude02"
   },
   {
    "id": "ttc_6986703492522672901",
@@ -5469,41 +5495,15 @@
    "date": "2025-12-05",
    "postUrl": "https://www.instagram.com/p/DR2De0Rjv_B/",
    "postTitle": "Nobody:"
-  },
-  {
-   "id": "igc_18074423678209518",
-   "postId": "ig_3770257336989549359_255410408",
-   "platform": "instagram",
-   "username": "yunekwah",
-   "text": "You wanted someone to pay you because you in the photo we don\u2019t even know who you are and you say for your likeness like what ? Yall men are taking social media to the extreme. Like your not a celebrity",
-   "sentiment": "neutral",
-   "isQuestion": true,
-   "likes": 1,
-   "date": "2025-11-25",
-   "postUrl": "https://www.instagram.com/p/DRSpRKDEoMv/",
-   "postTitle": "\ud83d\udde3\ufe0f\ud83c\udf99\ufe0fOuuuuweeeeeee"
-  },
-  {
-   "id": "ytc_Ugx-X_Um02EZ6CE6u8Z4AaABAg",
-   "postId": "yt_780l3ywRetE",
-   "platform": "youtube",
-   "username": "madebyThePottersHand1rx",
-   "text": "What in the ACTUAL HECK is FRAGILE MASCULINITY?!!?!!!!!!\ud83d\ude2e\ud83d\ude2e\ud83d\ude2e\ud83d\ude2e\ud83d\ude2e\ud83d\ude2e\ud83e\udd14\ud83e\uddd0\ud83e\udd14\ud83e\uddd0\ud83e\uddd0\ud83e\uddd0\ud83e\uddd0\ud83e\uddd0\ud83e\uddd0\ud83e\udd14\ud83e\udd14\ud83e\udd14\ud83e\udd2a\ud83e\udd2a\ud83e\udd2a",
-   "sentiment": "neutral",
-   "isQuestion": true,
-   "likes": 1,
-   "date": "2025-11-20",
-   "postUrl": "https://www.youtube.com/shorts/780l3ywRetE",
-   "postTitle": "We she wants you to hold her purse, hold it, dont let it hold you \ud83d\ude0e\ud83d\ude05"
   }
  ],
- "questionCount": 103,
+ "questionCount": 111,
  "commentSentiment": {
-  "positive": 2459,
-  "neutral": 825,
+  "positive": 2767,
+  "neutral": 928,
   "negative": 19
  },
  "sentimentSources": {
-  "lexicon": 3303
+  "lexicon": 3714
  }
 }
