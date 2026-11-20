@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T23:12:05+00:00",
+ "generatedAt": "2026-11-20T23:16:37+00:00",
  "dataAsOf": {
   "posts": "2026-11-20T21:27:10+00:00",
   "comments": "2026-11-20"
@@ -4492,24 +4492,46 @@
  "topCommenters": [
   {
    "username": "big_sliide",
-   "count": 55,
+   "count": 58,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "bobby_clean",
-   "count": 33,
+   "count": 40,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "jt_the_brand",
+   "count": 39,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "yourhostuptown",
-   "count": 32,
+   "count": 37,
    "platforms": [
     "instagram",
     "tiktok"
+   ]
+  },
+  {
+   "username": "mariacorinaera",
+   "count": 33,
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "username": "keeek101",
+   "count": 32,
+   "platforms": [
+    "instagram"
    ]
   },
   {
@@ -4521,30 +4543,8 @@
    ]
   },
   {
-   "username": "keeek101",
-   "count": 31,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "mariacorinaera",
-   "count": 31,
-   "platforms": [
-    "instagram",
-    "tiktok"
-   ]
-  },
-  {
-   "username": "jt_the_brand",
-   "count": 31,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
    "username": "kachetherockstar",
-   "count": 30,
+   "count": 31,
    "platforms": [
     "instagram",
     "tiktok"
@@ -4552,6 +4552,20 @@
   },
   {
    "username": "michaelbonner_",
+   "count": 29,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "itsdjreese",
+   "count": 28,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "mightykev",
    "count": 28,
    "platforms": [
     "instagram"
@@ -4559,37 +4573,45 @@
   },
   {
    "username": "unruely_",
-   "count": 26,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "mightykev",
-   "count": 25,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "itsdjreese",
-   "count": 24,
+   "count": 27,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "theysay_jaydee",
-   "count": 23,
+   "count": 27,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "gbabydollz",
+   "count": 24,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "curatedbygianni",
    "count": 23,
    "platforms": [
     "instagram"
+   ]
+  },
+  {
+   "username": "raycryer",
+   "count": 23,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "ohjoknows",
+   "count": 22,
+   "platforms": [
+    "instagram",
+    "tiktok"
    ]
   },
   {
@@ -4601,27 +4623,34 @@
   },
   {
    "username": "cyril.ky",
-   "count": 20,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "curatedbygianni",
-   "count": 20,
+   "count": 21,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "dejavelasquezmpp",
-   "count": 19,
+   "count": 21,
    "platforms": [
     "instagram"
    ]
   },
   {
-   "username": "ohjoknows",
+   "username": "manib.easy",
+   "count": 21,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "platgamma",
+   "count": 21,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "queenquenise",
    "count": 19,
    "platforms": [
     "instagram",
@@ -4629,14 +4658,28 @@
    ]
   },
   {
-   "username": "platgamma",
-   "count": 19,
+   "username": "livelitemarcel",
+   "count": 18,
    "platforms": [
     "instagram"
    ]
   },
   {
-   "username": "manib.easy",
+   "username": "adoverload",
+   "count": 18,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "ms_cali_in_ga",
+   "count": 18,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "reginald.aj.greene.esq",
    "count": 18,
    "platforms": [
     "instagram"
@@ -4650,21 +4693,7 @@
    ]
   },
   {
-   "username": "adoverload",
-   "count": 17,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "queenquenise",
-   "count": 17,
-   "platforms": [
-    "tiktok"
-   ]
-  },
-  {
-   "username": "raycryer",
+   "username": "pictureworthitstill",
    "count": 17,
    "platforms": [
     "instagram"
@@ -4677,34 +4706,6 @@
     "instagram",
     "tiktok"
    ]
-  },
-  {
-   "username": "ms_cali_in_ga",
-   "count": 16,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "reginald.aj.greene.esq",
-   "count": 16,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "theaaronelijah",
-   "count": 16,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "livelitemarcel",
-   "count": 15,
-   "platforms": [
-    "instagram"
-   ]
   }
  ],
  "audienceOverlap": {
@@ -4715,8 +4716,17 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 32,
-    "totalLikes": 54
+    "commentCount": 37,
+    "totalLikes": 61
+   },
+   {
+    "username": "mariacorinaera",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 33,
+    "totalLikes": 34
    },
    {
     "username": "helloqori",
@@ -4728,22 +4738,13 @@
     "totalLikes": 33
    },
    {
-    "username": "mariacorinaera",
-    "platforms": [
-     "instagram",
-     "tiktok"
-    ],
-    "commentCount": 31,
-    "totalLikes": 32
-   },
-   {
     "username": "kachetherockstar",
     "platforms": [
      "instagram",
      "tiktok"
     ],
-    "commentCount": 30,
-    "totalLikes": 29
+    "commentCount": 31,
+    "totalLikes": 30
    },
    {
     "username": "ohjoknows",
@@ -4751,8 +4752,17 @@
      "instagram",
      "tiktok"
     ],
+    "commentCount": 22,
+    "totalLikes": 29
+   },
+   {
+    "username": "queenquenise",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
     "commentCount": 19,
-    "totalLikes": 26
+    "totalLikes": 10
    },
    {
     "username": "kirkandre",
@@ -4769,8 +4779,26 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 7,
-    "totalLikes": 24
+    "commentCount": 8,
+    "totalLikes": 25
+   },
+   {
+    "username": "_msharrison",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 4,
+    "totalLikes": 5
+   },
+   {
+    "username": "_lovesmiley",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 4,
+    "totalLikes": 14
    },
    {
     "username": "myohhmaia",
@@ -4782,25 +4810,25 @@
     "totalLikes": 25
    },
    {
-    "username": "_msharrison",
-    "platforms": [
-     "instagram",
-     "tiktok"
-    ],
-    "commentCount": 3,
-    "totalLikes": 4
-   },
-   {
-    "username": "_lovesmiley",
-    "platforms": [
-     "instagram",
-     "tiktok"
-    ],
-    "commentCount": 3,
-    "totalLikes": 13
-   },
-   {
     "username": "johnnaedidthat",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 3,
+    "totalLikes": 2
+   },
+   {
+    "username": "iambmw_",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 3,
+    "totalLikes": 3
+   },
+   {
+    "username": "trayyyci",
     "platforms": [
      "instagram",
      "tiktok"
@@ -4843,11 +4871,20 @@
     ],
     "commentCount": 2,
     "totalLikes": 2
+   },
+   {
+    "username": "thundaaliyah",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 2,
+    "totalLikes": 1
    }
   ],
-  "totalUniqueUsers": 2520,
+  "totalUniqueUsers": 2696,
   "platformBreakdown": {
-   "instagram": 1785,
+   "instagram": 1965,
    "tiktok": 520,
    "youtube": 230,
    "threads": 0,
@@ -5023,6 +5060,32 @@
    "date": "2025-02-23",
    "postUrl": "https://www.tiktok.com/@notyo_averagejo/video/7474329841794338094",
    "postTitle": "Legend had it, the dude who made it rain has never been identified"
+  },
+  {
+   "id": "igc_18076410349374453",
+   "postId": "ig_3132513713672894475_255410408",
+   "platform": "instagram",
+   "username": "tangienicole_",
+   "text": "What\u2019s all that movement back there?! \ud83e\udd23",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 6,
+   "date": "2023-06-24",
+   "postUrl": "https://www.instagram.com/p/Ct47KA1gzgL/",
+   "postTitle": "\u201cOld Folks Function\u201d We still got it \ud83d\udc74\ud83c\udffd\ud83d\udc75\ud83c\udffd"
+  },
+  {
+   "id": "igc_18062256004396033",
+   "postId": "ig_3118669401914757971_255410408",
+   "platform": "instagram",
+   "username": "lovelifemax",
+   "text": "Aww! How do you remember all the handshakes?",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 6,
+   "date": "2023-06-05",
+   "postUrl": "https://www.instagram.com/p/CtHvUwxAlNT/",
+   "postTitle": "CELEBRATION\ud83c\udf93"
   },
   {
    "id": "igc_18479713270113646",
@@ -5376,6 +5439,19 @@
    "postTitle": "God will take you to greater heights than you ever imagined \ud83d\ude80"
   },
   {
+   "id": "igc_18189207418261849",
+   "postId": "ig_3118669401914757971_255410408",
+   "platform": "instagram",
+   "username": "itsdjreese",
+   "text": "How do you remember all of this \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 2,
+   "date": "2023-06-05",
+   "postUrl": "https://www.instagram.com/p/CtHvUwxAlNT/",
+   "postTitle": "CELEBRATION\ud83c\udf93"
+  },
+  {
    "id": "ttc_6986727608578900742",
    "postId": "tt_6986350498693549317",
    "platform": "tiktok",
@@ -5465,54 +5541,15 @@
    "date": "2026-06-17",
    "postUrl": "https://www.instagram.com/p/DZqOp6UC9ef/",
    "postTitle": "\u270f\ufe0fHow to be a Great Emcee: Rule #1 - Build Great Relationships"
-  },
-  {
-   "id": "igc_18576874735019456",
-   "postId": "ig_3895490074935480166_255410408",
-   "platform": "instagram",
-   "username": "thechasitycofield",
-   "text": "Chris brown who?!",
-   "sentiment": "neutral",
-   "isQuestion": true,
-   "likes": 1,
-   "date": "2026-05-12",
-   "postUrl": "https://www.instagram.com/p/DYPj5V-ls9m/",
-   "postTitle": "One thing about meeeee, imma dance\ud83d\udd7a\ud83c\udffd\ud83d\ude0e #swipe"
-  },
-  {
-   "id": "igc_18004891235911300",
-   "postId": "ig_3887543644722944679_255410408",
-   "platform": "instagram",
-   "username": "alyxransom",
-   "text": "Who selling they tickets to cinnamon toasted \ud83d\udc40\ud83d\udc40\ud83d\udc40",
-   "sentiment": "neutral",
-   "isQuestion": true,
-   "likes": 1,
-   "date": "2026-05-01",
-   "postUrl": "https://www.instagram.com/p/DXzVFkIidqn/",
-   "postTitle": "Cuz the way I almost tore my ACL tryna bend on my first take \ud83d\ude1f\ud83d\ude02"
-  },
-  {
-   "id": "igc_18063856412376311",
-   "postId": "ig_3880563827116525203_255410408",
-   "platform": "instagram",
-   "username": "mickeyjames___",
-   "text": "When she say, \u201cdo that lil\u2019 dance for Chris Brown & Usher tickets\u201d\ud83d\ude02",
-   "sentiment": "positive",
-   "isQuestion": true,
-   "likes": 1,
-   "date": "2026-04-22",
-   "postUrl": "https://www.instagram.com/p/DXaiD2bgsaT/",
-   "postTitle": "Im not saying yall aren't Michael Jackson fans..just not as big as me \ud83d\ude0e"
   }
  ],
- "questionCount": 133,
+ "questionCount": 150,
  "commentSentiment": {
-  "positive": 3880,
-  "neutral": 1221,
-  "negative": 29
+  "positive": 4341,
+  "neutral": 1354,
+  "negative": 31
  },
  "sentimentSources": {
-  "lexicon": 5130
+  "lexicon": 5726
  }
 }
