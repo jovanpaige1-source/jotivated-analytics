@@ -1,15 +1,15 @@
 {
- "generatedAt": "2026-11-20T21:06:28+00:00",
+ "generatedAt": "2026-11-20T21:33:23+00:00",
  "dataAsOf": {
-  "posts": "2026-11-20T21:05:22+00:00",
+  "posts": "2026-11-20T21:27:10+00:00",
   "comments": ""
  },
  "postingHeatmap": [
   [
    {
     "count": 1,
-    "avgEngagement": 0,
-    "avgViews": 190
+    "avgEngagement": 3.85,
+    "avgViews": 208
    },
    {
     "count": 1,
@@ -63,42 +63,42 @@
    },
    {
     "count": 6,
-    "avgEngagement": 4.85,
+    "avgEngagement": 6.74,
     "avgViews": 2327
    },
    {
     "count": 8,
-    "avgEngagement": 7.45,
-    "avgViews": 3041
+    "avgEngagement": 6.88,
+    "avgViews": 3043
    },
    {
     "count": 11,
-    "avgEngagement": 7.85,
-    "avgViews": 4124
+    "avgEngagement": 8.34,
+    "avgViews": 4125
    },
    {
     "count": 13,
-    "avgEngagement": 4.95,
+    "avgEngagement": 4.98,
     "avgViews": 2956
    },
    {
     "count": 8,
-    "avgEngagement": 2.68,
-    "avgViews": 57488
+    "avgEngagement": 5.0,
+    "avgViews": 57543
    },
    {
     "count": 8,
-    "avgEngagement": 2.1,
+    "avgEngagement": 3.12,
     "avgViews": 2636
    },
    {
     "count": 11,
-    "avgEngagement": 4.6,
-    "avgViews": 1322
+    "avgEngagement": 4.77,
+    "avgViews": 1324
    },
    {
     "count": 6,
-    "avgEngagement": 1.53,
+    "avgEngagement": 3.77,
     "avgViews": 1189
    },
    {
@@ -113,12 +113,12 @@
    },
    {
     "count": 5,
-    "avgEngagement": 5.64,
-    "avgViews": 1280
+    "avgEngagement": 5.5,
+    "avgViews": 1283
    },
    {
     "count": 3,
-    "avgEngagement": 2.14,
+    "avgEngagement": 2.82,
     "avgViews": 456
    },
    {
@@ -155,8 +155,8 @@
    },
    {
     "count": 1,
-    "avgEngagement": 0,
-    "avgViews": 921
+    "avgEngagement": 6.07,
+    "avgViews": 922
    },
    {
     "count": 0,
@@ -165,7 +165,7 @@
    },
    {
     "count": 4,
-    "avgEngagement": 3.7,
+    "avgEngagement": 6.14,
     "avgViews": 2749
    },
    {
@@ -175,12 +175,12 @@
    },
    {
     "count": 3,
-    "avgEngagement": 5.68,
+    "avgEngagement": 7.26,
     "avgViews": 1390
    },
    {
     "count": 4,
-    "avgEngagement": 7.27,
+    "avgEngagement": 6.06,
     "avgViews": 1541
    },
    {
@@ -190,74 +190,74 @@
    },
    {
     "count": 6,
-    "avgEngagement": 3.58,
-    "avgViews": 2183
+    "avgEngagement": 4.44,
+    "avgViews": 2187
    },
    {
     "count": 11,
-    "avgEngagement": 4.24,
-    "avgViews": 7292
+    "avgEngagement": 5.05,
+    "avgViews": 7291
    },
    {
     "count": 16,
-    "avgEngagement": 3.5,
+    "avgEngagement": 3.25,
     "avgViews": 1895
    },
    {
     "count": 20,
-    "avgEngagement": 5.92,
+    "avgEngagement": 6.15,
     "avgViews": 2448
    },
    {
     "count": 22,
-    "avgEngagement": 2.91,
-    "avgViews": 958
-   },
-   {
-    "count": 18,
-    "avgEngagement": 6.07,
-    "avgViews": 2679
+    "avgEngagement": 3.16,
+    "avgViews": 959
    },
    {
     "count": 19,
-    "avgEngagement": 6.42,
+    "avgEngagement": 5.47,
+    "avgViews": 2538
+   },
+   {
+    "count": 19,
+    "avgEngagement": 6.49,
     "avgViews": 2677
    },
    {
     "count": 31,
-    "avgEngagement": 4.84,
+    "avgEngagement": 5.34,
     "avgViews": 3538
    },
    {
     "count": 45,
-    "avgEngagement": 5.36,
+    "avgEngagement": 4.9,
     "avgViews": 2252
    },
    {
     "count": 38,
-    "avgEngagement": 6.22,
+    "avgEngagement": 6.05,
     "avgViews": 3146
    },
    {
     "count": 22,
-    "avgEngagement": 5.21,
+    "avgEngagement": 4.99,
     "avgViews": 2938
    },
    {
     "count": 11,
-    "avgEngagement": 4.49,
+    "avgEngagement": 5.36,
     "avgViews": 5214
    }
   ],
   [
    {
     "count": 3,
-    "avgEngagement": 2.12,
-    "avgViews": 651
+    "avgEngagement": 3.88,
+    "avgViews": 652
    },
    {
     "count": 1,
-    "avgEngagement": 0,
+    "avgEngagement": 3.6,
     "avgViews": 444
    },
    {
@@ -272,7 +272,7 @@
    },
    {
     "count": 2,
-    "avgEngagement": 3.44,
+    "avgEngagement": 4.18,
     "avgViews": 2405
    },
    {
@@ -282,12 +282,12 @@
    },
    {
     "count": 4,
-    "avgEngagement": 5.2,
-    "avgViews": 1694
+    "avgEngagement": 4.74,
+    "avgViews": 1695
    },
    {
     "count": 3,
-    "avgEngagement": 1.94,
+    "avgEngagement": 4.07,
     "avgViews": 1926
    },
    {
@@ -297,48 +297,48 @@
    },
    {
     "count": 7,
-    "avgEngagement": 4.08,
+    "avgEngagement": 4.07,
     "avgViews": 572377
    },
    {
     "count": 13,
-    "avgEngagement": 5.57,
+    "avgEngagement": 5.08,
     "avgViews": 129974
    },
    {
-    "count": 10,
-    "avgEngagement": 2.33,
-    "avgViews": 1688
+    "count": 11,
+    "avgEngagement": 4.65,
+    "avgViews": 1604
+   },
+   {
+    "count": 14,
+    "avgEngagement": 5.03,
+    "avgViews": 20967
    },
    {
     "count": 13,
-    "avgEngagement": 4.38,
-    "avgViews": 1888
-   },
-   {
-    "count": 13,
-    "avgEngagement": 4.59,
+    "avgEngagement": 5.2,
     "avgViews": 2289
    },
    {
     "count": 18,
-    "avgEngagement": 2.32,
-    "avgViews": 2583
+    "avgEngagement": 2.76,
+    "avgViews": 2584
    },
    {
-    "count": 25,
-    "avgEngagement": 5.37,
-    "avgViews": 2595
+    "count": 26,
+    "avgEngagement": 5.36,
+    "avgViews": 2502
    },
    {
     "count": 13,
-    "avgEngagement": 3.8,
-    "avgViews": 1636
+    "avgEngagement": 5.34,
+    "avgViews": 1638
    },
    {
     "count": 21,
-    "avgEngagement": 5.0,
-    "avgViews": 3083
+    "avgEngagement": 5.33,
+    "avgViews": 3094
    },
    {
     "count": 7,
@@ -347,18 +347,18 @@
    },
    {
     "count": 8,
-    "avgEngagement": 6.14,
+    "avgEngagement": 7.28,
     "avgViews": 3175
    },
    {
-    "count": 16,
-    "avgEngagement": 5.77,
-    "avgViews": 2147
+    "count": 17,
+    "avgEngagement": 6.07,
+    "avgViews": 2088
    },
    {
     "count": 8,
-    "avgEngagement": 5.75,
-    "avgViews": 3426
+    "avgEngagement": 6.57,
+    "avgViews": 3427
    },
    {
     "count": 2,
@@ -367,19 +367,19 @@
    },
    {
     "count": 2,
-    "avgEngagement": 0,
+    "avgEngagement": 2.73,
     "avgViews": 905
    }
   ],
   [
    {
-    "count": 0,
-    "avgEngagement": 0,
-    "avgViews": 0
+    "count": 1,
+    "avgEngagement": 8.0,
+    "avgViews": 100
    },
    {
     "count": 2,
-    "avgEngagement": 0,
+    "avgEngagement": 4.17,
     "avgViews": 1106
    },
    {
@@ -414,82 +414,82 @@
    },
    {
     "count": 3,
-    "avgEngagement": 0,
+    "avgEngagement": 2.73,
     "avgViews": 1157
    },
    {
     "count": 4,
-    "avgEngagement": 4.58,
+    "avgEngagement": 4.12,
     "avgViews": 3168
    },
    {
     "count": 7,
-    "avgEngagement": 2.62,
+    "avgEngagement": 6.96,
     "avgViews": 20760
    },
    {
     "count": 7,
-    "avgEngagement": 5.83,
+    "avgEngagement": 5.61,
     "avgViews": 2059
    },
    {
     "count": 12,
-    "avgEngagement": 3.49,
-    "avgViews": 1602
+    "avgEngagement": 5.02,
+    "avgViews": 1603
    },
    {
     "count": 11,
-    "avgEngagement": 5.14,
+    "avgEngagement": 5.27,
     "avgViews": 2327
    },
    {
     "count": 16,
-    "avgEngagement": 4.95,
+    "avgEngagement": 5.62,
     "avgViews": 1334
    },
    {
     "count": 25,
-    "avgEngagement": 3.81,
-    "avgViews": 2928
+    "avgEngagement": 3.99,
+    "avgViews": 2961
    },
    {
     "count": 24,
-    "avgEngagement": 4.03,
+    "avgEngagement": 4.88,
     "avgViews": 1288
    },
    {
-    "count": 21,
-    "avgEngagement": 3.54,
-    "avgViews": 2677
+    "count": 20,
+    "avgEngagement": 5.2,
+    "avgViews": 2788
    },
    {
-    "count": 11,
-    "avgEngagement": 3.25,
-    "avgViews": 1080
+    "count": 12,
+    "avgEngagement": 4.44,
+    "avgViews": 1034
    },
    {
     "count": 15,
-    "avgEngagement": 3.66,
+    "avgEngagement": 3.72,
     "avgViews": 2156
    },
    {
     "count": 4,
-    "avgEngagement": 3.54,
-    "avgViews": 2236
+    "avgEngagement": 4.84,
+    "avgViews": 2244
    },
    {
     "count": 12,
-    "avgEngagement": 5.07,
+    "avgEngagement": 5.09,
     "avgViews": 1531
    },
    {
     "count": 3,
-    "avgEngagement": 3.13,
+    "avgEngagement": 2.8,
     "avgViews": 5967
    },
    {
     "count": 2,
-    "avgEngagement": 2.33,
+    "avgEngagement": 2.13,
     "avgViews": 641
    }
   ],
@@ -501,7 +501,7 @@
    },
    {
     "count": 1,
-    "avgEngagement": 0,
+    "avgEngagement": 6.23,
     "avgViews": 3241
    },
    {
@@ -526,12 +526,12 @@
    },
    {
     "count": 1,
-    "avgEngagement": 0,
-    "avgViews": 38800
+    "avgEngagement": 5.8,
+    "avgViews": 38784
    },
    {
     "count": 1,
-    "avgEngagement": 0,
+    "avgEngagement": 3.85,
     "avgViews": 624
    },
    {
@@ -546,43 +546,43 @@
    },
    {
     "count": 6,
-    "avgEngagement": 3.76,
+    "avgEngagement": 3.18,
     "avgViews": 1217
    },
    {
-    "count": 7,
-    "avgEngagement": 3.09,
-    "avgViews": 2468
+    "count": 8,
+    "avgEngagement": 4.46,
+    "avgViews": 6804
    },
    {
     "count": 16,
-    "avgEngagement": 2.69,
+    "avgEngagement": 3.23,
     "avgViews": 3488
    },
    {
     "count": 10,
-    "avgEngagement": 3.04,
+    "avgEngagement": 2.85,
     "avgViews": 1436
    },
    {
     "count": 12,
-    "avgEngagement": 4.73,
+    "avgEngagement": 4.67,
     "avgViews": 3536
    },
    {
     "count": 10,
-    "avgEngagement": 3.56,
+    "avgEngagement": 3.87,
     "avgViews": 2179
    },
    {
     "count": 18,
-    "avgEngagement": 3.62,
-    "avgViews": 8202
+    "avgEngagement": 6.21,
+    "avgViews": 8200
    },
    {
     "count": 13,
-    "avgEngagement": 7.2,
-    "avgViews": 989
+    "avgEngagement": 6.07,
+    "avgViews": 994
    },
    {
     "count": 14,
@@ -591,17 +591,17 @@
    },
    {
     "count": 11,
-    "avgEngagement": 3.16,
+    "avgEngagement": 3.57,
     "avgViews": 832
    },
    {
     "count": 15,
-    "avgEngagement": 4.9,
+    "avgEngagement": 5.65,
     "avgViews": 95589
    },
    {
     "count": 4,
-    "avgEngagement": 2.64,
+    "avgEngagement": 3.74,
     "avgViews": 1282
    },
    {
@@ -611,8 +611,8 @@
    },
    {
     "count": 4,
-    "avgEngagement": 2.62,
-    "avgViews": 1077
+    "avgEngagement": 5.0,
+    "avgViews": 1078
    }
   ],
   [
@@ -628,7 +628,7 @@
    },
    {
     "count": 2,
-    "avgEngagement": 4.01,
+    "avgEngagement": 5.25,
     "avgViews": 269
    },
    {
@@ -653,17 +653,17 @@
    },
    {
     "count": 1,
-    "avgEngagement": 0,
+    "avgEngagement": 5.61,
     "avgViews": 321
    },
    {
     "count": 2,
-    "avgEngagement": 2.81,
+    "avgEngagement": 6.4,
     "avgViews": 1368
    },
    {
     "count": 4,
-    "avgEngagement": 5.59,
+    "avgEngagement": 8.42,
     "avgViews": 2087
    },
    {
@@ -673,42 +673,42 @@
    },
    {
     "count": 5,
-    "avgEngagement": 6.74,
-    "avgViews": 1678
-   },
-   {
-    "count": 8,
-    "avgEngagement": 1.85,
-    "avgViews": 9396
+    "avgEngagement": 5.46,
+    "avgViews": 1679
    },
    {
     "count": 9,
-    "avgEngagement": 2.96,
-    "avgViews": 17008
+    "avgEngagement": 3.72,
+    "avgViews": 8376
+   },
+   {
+    "count": 9,
+    "avgEngagement": 4.93,
+    "avgViews": 17461
    },
    {
     "count": 10,
-    "avgEngagement": 4.68,
-    "avgViews": 1647
+    "avgEngagement": 4.98,
+    "avgViews": 1653
    },
    {
     "count": 6,
-    "avgEngagement": 3.25,
-    "avgViews": 2707
+    "avgEngagement": 4.77,
+    "avgViews": 2709
    },
    {
     "count": 10,
-    "avgEngagement": 2.38,
-    "avgViews": 2806
+    "avgEngagement": 2.08,
+    "avgViews": 2807
    },
    {
     "count": 11,
-    "avgEngagement": 1.85,
-    "avgViews": 1244
+    "avgEngagement": 4.79,
+    "avgViews": 1245
    },
    {
     "count": 12,
-    "avgEngagement": 6.54,
+    "avgEngagement": 6.13,
     "avgViews": 2601
    },
    {
@@ -718,7 +718,7 @@
    },
    {
     "count": 7,
-    "avgEngagement": 2.25,
+    "avgEngagement": 3.05,
     "avgViews": 1935
    },
    {
@@ -728,7 +728,7 @@
    },
    {
     "count": 6,
-    "avgEngagement": 13.76,
+    "avgEngagement": 12.59,
     "avgViews": 1671
    },
    {
@@ -739,9 +739,9 @@
   ],
   [
    {
-    "count": 0,
-    "avgEngagement": 0,
-    "avgViews": 0
+    "count": 1,
+    "avgEngagement": 3.11,
+    "avgViews": 837
    },
    {
     "count": 0,
@@ -775,8 +775,8 @@
    },
    {
     "count": 1,
-    "avgEngagement": 0,
-    "avgViews": 535
+    "avgEngagement": 6.57,
+    "avgViews": 548
    },
    {
     "count": 0,
@@ -784,9 +784,9 @@
     "avgViews": 0
    },
    {
-    "count": 0,
-    "avgEngagement": 0,
-    "avgViews": 0
+    "count": 1,
+    "avgEngagement": 7.57,
+    "avgViews": 185
    },
    {
     "count": 3,
@@ -795,12 +795,12 @@
    },
    {
     "count": 6,
-    "avgEngagement": 8.84,
-    "avgViews": 2450
+    "avgEngagement": 7.05,
+    "avgViews": 2451
    },
    {
     "count": 7,
-    "avgEngagement": 3.06,
+    "avgEngagement": 4.13,
     "avgViews": 1123
    },
    {
@@ -810,27 +810,27 @@
    },
    {
     "count": 4,
-    "avgEngagement": 4.05,
-    "avgViews": 9081
+    "avgEngagement": 7.72,
+    "avgViews": 9082
    },
    {
     "count": 11,
-    "avgEngagement": 5.66,
+    "avgEngagement": 5.95,
     "avgViews": 2650
    },
    {
     "count": 10,
-    "avgEngagement": 4.75,
+    "avgEngagement": 4.63,
     "avgViews": 2025
    },
    {
     "count": 8,
-    "avgEngagement": 2.38,
+    "avgEngagement": 2.69,
     "avgViews": 641
    },
    {
     "count": 3,
-    "avgEngagement": 6.76,
+    "avgEngagement": 7.47,
     "avgViews": 2973
    },
    {
@@ -840,7 +840,7 @@
    },
    {
     "count": 4,
-    "avgEngagement": 6.0,
+    "avgEngagement": 5.04,
     "avgViews": 3580
    },
    {
@@ -855,8 +855,8 @@
    },
    {
     "count": 1,
-    "avgEngagement": 0,
-    "avgViews": 1379
+    "avgEngagement": 6.74,
+    "avgViews": 1380
    }
   ]
  ],
@@ -865,43 +865,50 @@
    "day": 2,
    "hour": 9,
    "count": 7,
-   "avgEngagement": 4.08,
+   "avgEngagement": 4.07,
    "avgViews": 572377
   },
   {
    "day": 2,
    "hour": 10,
    "count": 13,
-   "avgEngagement": 5.57,
+   "avgEngagement": 5.08,
    "avgViews": 129974
   },
   {
    "day": 4,
    "hour": 20,
    "count": 15,
-   "avgEngagement": 4.9,
+   "avgEngagement": 5.65,
    "avgViews": 95589
   },
   {
    "day": 0,
    "hour": 15,
    "count": 8,
-   "avgEngagement": 2.68,
-   "avgViews": 57488
+   "avgEngagement": 5.0,
+   "avgViews": 57543
+  },
+  {
+   "day": 2,
+   "hour": 12,
+   "count": 14,
+   "avgEngagement": 5.03,
+   "avgViews": 20967
   },
   {
    "day": 3,
    "hour": 10,
    "count": 7,
-   "avgEngagement": 2.62,
+   "avgEngagement": 6.96,
    "avgViews": 20760
   },
   {
    "day": 5,
    "hour": 13,
    "count": 9,
-   "avgEngagement": 2.96,
-   "avgViews": 17008
+   "avgEngagement": 4.93,
+   "avgViews": 17461
   },
   {
    "day": 2,
@@ -911,25 +918,25 @@
    "avgViews": 15580
   },
   {
-   "day": 5,
-   "hour": 12,
-   "count": 8,
-   "avgEngagement": 1.85,
-   "avgViews": 9396
-  },
-  {
    "day": 6,
    "hour": 14,
    "count": 4,
-   "avgEngagement": 4.05,
-   "avgViews": 9081
+   "avgEngagement": 7.72,
+   "avgViews": 9082
+  },
+  {
+   "day": 5,
+   "hour": 12,
+   "count": 9,
+   "avgEngagement": 3.72,
+   "avgViews": 8376
   },
   {
    "day": 4,
    "hour": 16,
    "count": 18,
-   "avgEngagement": 3.62,
-   "avgViews": 8202
+   "avgEngagement": 6.21,
+   "avgViews": 8200
   },
   {
    "day": 6,
@@ -942,21 +949,28 @@
    "day": 1,
    "hour": 13,
    "count": 11,
-   "avgEngagement": 4.24,
-   "avgViews": 7292
+   "avgEngagement": 5.05,
+   "avgViews": 7291
+  },
+  {
+   "day": 4,
+   "hour": 11,
+   "count": 8,
+   "avgEngagement": 4.46,
+   "avgViews": 6804
   },
   {
    "day": 3,
    "hour": 22,
    "count": 3,
-   "avgEngagement": 3.13,
+   "avgEngagement": 2.8,
    "avgViews": 5967
   },
   {
    "day": 1,
    "hour": 23,
    "count": 11,
-   "avgEngagement": 4.49,
+   "avgEngagement": 5.36,
    "avgViews": 5214
   },
   {
@@ -977,8 +991,8 @@
    "day": 0,
    "hour": 13,
    "count": 11,
-   "avgEngagement": 7.85,
-   "avgViews": 4124
+   "avgEngagement": 8.34,
+   "avgViews": 4125
   },
   {
    "day": 4,
@@ -986,20 +1000,6 @@
    "count": 4,
    "avgEngagement": 4.54,
    "avgViews": 3968
-  },
-  {
-   "day": 6,
-   "hour": 20,
-   "count": 4,
-   "avgEngagement": 6.0,
-   "avgViews": 3580
-  },
-  {
-   "day": 1,
-   "hour": 19,
-   "count": 31,
-   "avgEngagement": 4.84,
-   "avgViews": 3538
   }
  ],
  "platformAverages": {
@@ -1011,11 +1011,11 @@
    "posts": 737
   },
   "tiktok": {
-   "avgViews": 3719,
-   "avgLikes": 0,
-   "avgComments": 0,
-   "avgEngagement": 0.0,
-   "posts": 244
+   "avgViews": 4854,
+   "avgLikes": 446,
+   "avgComments": 4,
+   "avgEngagement": 5.86,
+   "posts": 254
   },
   "youtube": {
    "avgViews": 20217,
@@ -1061,13 +1061,13 @@
    "id": "tt_6986350498693549317",
    "title": "Had to get that pill \ud83d\udc8a\ud83d\udc74\ud83c\udffd\ud83d\ude02#stayjotivated #foryou #fyp #agp #viral #alphaphialpha",
    "platform": "tiktok",
-   "views": 456300,
-   "likes": 0,
-   "comments": 0,
-   "engagementRate": "0.00",
-   "viralityScore": 122.69,
-   "multiplier": 122.69,
-   "avgViewsForPlatform": 3719,
+   "views": 456736,
+   "likes": 55497,
+   "comments": 228,
+   "engagementRate": "13.07",
+   "viralityScore": 94.09,
+   "multiplier": 94.09,
+   "avgViewsForPlatform": 4854,
    "date": "2021-07-18",
    "categories": [
     "brotherhood"
@@ -1109,16 +1109,33 @@
    "url": "https://www.instagram.com/p/C6NCBKjgSwD/"
   },
   {
+   "id": "tt_7309162580151405855",
+   "title": "Replying to @shuntyringfield  They can get the Grammy. Im fine with the Best BF award \ud83d\ude0e \u201cYou Know Damn Well\u201d ft. The Voi",
+   "platform": "tiktok",
+   "views": 268984,
+   "likes": 25111,
+   "comments": 86,
+   "engagementRate": "10.09",
+   "viralityScore": 55.41,
+   "multiplier": 55.41,
+   "avgViewsForPlatform": 4854,
+   "date": "2023-12-05",
+   "categories": [
+    "other"
+   ],
+   "url": "https://www.tiktok.com/@notyo_averagejo/video/7309162580151405855"
+  },
+  {
    "id": "tt_7362227386768837931",
    "title": "Black Love \ud83e\udef6\ud83c\udffd",
    "platform": "tiktok",
-   "views": 132100,
-   "likes": 0,
-   "comments": 0,
-   "engagementRate": "0.00",
-   "viralityScore": 35.52,
-   "multiplier": 35.52,
-   "avgViewsForPlatform": 3719,
+   "views": 136184,
+   "likes": 11611,
+   "comments": 165,
+   "engagementRate": "11.30",
+   "viralityScore": 28.06,
+   "multiplier": 28.06,
+   "avgViewsForPlatform": 4854,
    "date": "2024-04-26",
    "categories": [
     "faith_family"
@@ -1129,35 +1146,18 @@
    "id": "tt_7042259380087196975",
    "title": "Answer @tpain went cwayzee #fyp #foryou #stayjotivated",
    "platform": "tiktok",
-   "views": 38800,
-   "likes": 0,
-   "comments": 0,
-   "engagementRate": "0.00",
-   "viralityScore": 10.43,
-   "multiplier": 10.43,
-   "avgViewsForPlatform": 3719,
+   "views": 38784,
+   "likes": 2160,
+   "comments": 4,
+   "engagementRate": "5.80",
+   "viralityScore": 7.99,
+   "multiplier": 7.99,
+   "avgViewsForPlatform": 4854,
    "date": "2021-12-16",
    "categories": [
     "music_culture"
    ],
    "url": "https://www.tiktok.com/@notyo_averagejo/video/7042259380087196975"
-  },
-  {
-   "id": "tt_7311398972860632366",
-   "title": "Replying to @L A U R E N  YLDW - The Realest ft. The Voice @QORI B. @Monroe The Guru @user2437263290322 @Neaver\u2019a @slay.",
-   "platform": "tiktok",
-   "views": 32800,
-   "likes": 0,
-   "comments": 0,
-   "engagementRate": "0.00",
-   "viralityScore": 8.82,
-   "multiplier": 8.82,
-   "avgViewsForPlatform": 3719,
-   "date": "2023-12-11",
-   "categories": [
-    "music_culture"
-   ],
-   "url": "https://www.tiktok.com/@notyo_averagejo/video/7311398972860632366"
   },
   {
    "id": "ig_3708483826282564102_183807392",
@@ -1178,16 +1178,50 @@
    "url": "https://www.instagram.com/p/DN3LmRA2ooG/"
   },
   {
+   "id": "tt_7702113526067891469",
+   "title": "Every fill-up lately feels like a cover charge I never agreed to \ud83d\ude2e\u200d\ud83d\udca8  I\u2019m on the road all over Atlanta for work, and bet",
+   "platform": "tiktok",
+   "views": 37159,
+   "likes": 988,
+   "comments": 30,
+   "engagementRate": "2.77",
+   "viralityScore": 7.66,
+   "multiplier": 7.66,
+   "avgViewsForPlatform": 4854,
+   "date": "2026-10-29",
+   "categories": [
+    "community"
+   ],
+   "url": "https://www.tiktok.com/@notyo_averagejo/video/7702113526067891469"
+  },
+  {
+   "id": "tt_7311398972860632366",
+   "title": "Replying to @L A U R E N  YLDW - The Realest ft. The Voice @QORI B. @Monroe The Guru @user2437263290322 @Neaver\u2019a @slay.",
+   "platform": "tiktok",
+   "views": 32789,
+   "likes": 948,
+   "comments": 14,
+   "engagementRate": "3.13",
+   "viralityScore": 6.76,
+   "multiplier": 6.76,
+   "avgViewsForPlatform": 4854,
+   "date": "2023-12-11",
+   "categories": [
+    "music_culture"
+   ],
+   "url": "https://www.tiktok.com/@notyo_averagejo/video/7311398972860632366"
+  },
+  {
    "id": "tt_7474329841794338094",
    "title": "Legend had it, the dude who made it rain has never been identified",
    "platform": "tiktok",
-   "views": 26200,
-   "likes": 0,
-   "comments": 0,
-   "engagementRate": "0.00",
-   "viralityScore": 7.04,
-   "multiplier": 7.04,
-   "avgViewsForPlatform": 3719,
+   "views": 26204,
+   "likes": 2319,
+   "comments": 69,
+   "engagementRate": "11.39",
+   "viralityScore": 5.4,
+   "multiplier": 5.4,
+   "avgViewsForPlatform": 4854,
    "date": "2025-02-22",
    "categories": [
     "humor"
@@ -1210,23 +1244,6 @@
     "humor"
    ],
    "url": "https://www.youtube.com/shorts/780l3ywRetE"
-  },
-  {
-   "id": "tt_7507370660226845998",
-   "title": "Tell @GoOff\u203c\ufe0f I'm on that\ud83d\ude02",
-   "platform": "tiktok",
-   "views": 14900,
-   "likes": 0,
-   "comments": 0,
-   "engagementRate": "0.00",
-   "viralityScore": 4.01,
-   "multiplier": 4.01,
-   "avgViewsForPlatform": 3719,
-   "date": "2025-05-22",
-   "categories": [
-    "other"
-   ],
-   "url": "https://www.tiktok.com/@notyo_averagejo/video/7507370660226845998"
   },
   {
    "id": "ig_3907842355792347484_55159966596",
@@ -1263,114 +1280,114 @@
    "url": "https://www.youtube.com/shorts/mS7-Cp1L2kM"
   },
   {
-   "id": "tt_7161076827551812907",
-   "title": "Watch till the end \ud83d\udcf2\u2604\ufe0f & yes it is confirmed that she retrieved her phone \ud83d\ude05\ud83d\ude02  #gsu #homecoming #fyp #alphaphialpha",
+   "id": "tt_7507370660226845998",
+   "title": "Tell @GoOff\u203c\ufe0f I'm on that\ud83d\ude02",
    "platform": "tiktok",
-   "views": 12000,
-   "likes": 0,
-   "comments": 0,
-   "engagementRate": "0.00",
-   "viralityScore": 3.23,
-   "multiplier": 3.23,
-   "avgViewsForPlatform": 3719,
-   "date": "2022-11-01",
+   "views": 14868,
+   "likes": 2515,
+   "comments": 187,
+   "engagementRate": "19.02",
+   "viralityScore": 3.06,
+   "multiplier": 3.06,
+   "avgViewsForPlatform": 4854,
+   "date": "2025-05-22",
    "categories": [
-    "brotherhood"
+    "other"
    ],
-   "url": "https://www.tiktok.com/@notyo_averagejo/video/7161076827551812907"
+   "url": "https://www.tiktok.com/@notyo_averagejo/video/7507370660226845998"
   }
  ],
  "contentCategories": {
   "motivation": {
-   "count": 340,
-   "avgViews": 23826,
-   "avgLikes": 894,
-   "avgEngagement": 5.22,
-   "totalViews": 6409434
+   "count": 341,
+   "avgViews": 23742,
+   "avgLikes": 899,
+   "avgEngagement": 5.01,
+   "totalViews": 6410542
   },
   "faith_family": {
-   "count": 291,
-   "avgViews": 11327,
-   "avgLikes": 694,
-   "avgEngagement": 6.17,
-   "totalViews": 2220275
+   "count": 292,
+   "avgViews": 11295,
+   "avgLikes": 760,
+   "avgEngagement": 6.2,
+   "totalViews": 2225202
   },
   "speaking": {
    "count": 288,
-   "avgViews": 3719,
-   "avgLikes": 218,
-   "avgEngagement": 5.02,
-   "totalViews": 777373
+   "avgViews": 3720,
+   "avgLikes": 226,
+   "avgEngagement": 4.78,
+   "totalViews": 777520
   },
   "emcee": {
    "count": 260,
-   "avgViews": 3466,
-   "avgLikes": 160,
-   "avgEngagement": 4.44,
-   "totalViews": 644810
+   "avgViews": 3472,
+   "avgLikes": 168,
+   "avgEngagement": 4.3,
+   "totalViews": 645804
   },
   "community": {
-   "count": 237,
-   "avgViews": 4767,
-   "avgLikes": 248,
-   "avgEngagement": 5.27,
-   "totalViews": 600661
+   "count": 239,
+   "avgViews": 4999,
+   "avgLikes": 264,
+   "avgEngagement": 5.26,
+   "totalViews": 639941
   },
   "other": {
-   "count": 233,
-   "avgViews": 2315,
-   "avgLikes": 139,
-   "avgEngagement": 4.67,
-   "totalViews": 393683
+   "count": 238,
+   "avgViews": 3832,
+   "avgLikes": 315,
+   "avgEngagement": 5.59,
+   "totalViews": 663036
   },
   "music_culture": {
    "count": 171,
-   "avgViews": 6278,
-   "avgLikes": 207,
-   "avgEngagement": 4.85,
-   "totalViews": 791028
+   "avgViews": 6281,
+   "avgLikes": 254,
+   "avgEngagement": 5.51,
+   "totalViews": 791432
   },
   "brotherhood": {
    "count": 96,
-   "avgViews": 12537,
-   "avgLikes": 324,
-   "avgEngagement": 6.39,
-   "totalViews": 752250
+   "avgViews": 12546,
+   "avgLikes": 1102,
+   "avgEngagement": 6.41,
+   "totalViews": 752760
   },
   "style": {
    "count": 94,
-   "avgViews": 4764,
-   "avgLikes": 336,
-   "avgEngagement": 6.74,
-   "totalViews": 238245
+   "avgViews": 4765,
+   "avgLikes": 341,
+   "avgEngagement": 6.49,
+   "totalViews": 238277
   },
   "humor": {
    "count": 46,
-   "avgViews": 8495,
-   "avgLikes": 239,
-   "avgEngagement": 3.17,
-   "totalViews": 365320
+   "avgViews": 8501,
+   "avgLikes": 330,
+   "avgEngagement": 4.58,
+   "totalViews": 365564
   },
   "book": {
    "count": 36,
-   "avgViews": 3718,
-   "avgLikes": 238,
-   "avgEngagement": 5.81,
-   "totalViews": 104130
+   "avgViews": 3719,
+   "avgLikes": 242,
+   "avgEngagement": 6.0,
+   "totalViews": 104136
   },
   "travel": {
-   "count": 25,
-   "avgViews": 3879,
-   "avgLikes": 362,
-   "avgEngagement": 8.99,
-   "totalViews": 65946
+   "count": 26,
+   "avgViews": 3710,
+   "avgLikes": 347,
+   "avgEngagement": 8.01,
+   "totalViews": 66784
   },
   "sports": {
    "count": 16,
    "avgViews": 4791,
-   "avgLikes": 309,
-   "avgEngagement": 6.5,
-   "totalViews": 67083
+   "avgLikes": 315,
+   "avgEngagement": 5.46,
+   "totalViews": 67087
   }
  },
  "engagementFunnel": {
@@ -1384,13 +1401,13 @@
    "shareRate": 0.0
   },
   "tiktok": {
-   "views": 907668,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "likeRate": 0.0,
-   "commentRate": 0.0,
-   "shareRate": 0.0
+   "views": 1223336,
+   "likes": 113472,
+   "comments": 1151,
+   "shares": 6907,
+   "likeRate": 9.28,
+   "commentRate": 0.09,
+   "shareRate": 0.56
   },
   "youtube": {
    "views": 1981356,
@@ -1452,44 +1469,44 @@
   {
    "month": "2020-03",
    "posts": 3,
-   "views": 3381,
-   "likes": 0,
+   "views": 3382,
+   "likes": 91,
    "comments": 0
   },
   {
    "month": "2020-04",
    "posts": 5,
-   "views": 2701,
-   "likes": 0,
-   "comments": 0
+   "views": 2704,
+   "likes": 134,
+   "comments": 2
   },
   {
    "month": "2020-05",
    "posts": 1,
    "views": 818,
-   "likes": 0,
-   "comments": 0
+   "likes": 40,
+   "comments": 3
   },
   {
    "month": "2020-12",
    "posts": 1,
    "views": 363,
-   "likes": 0,
-   "comments": 0
+   "likes": 21,
+   "comments": 1
   },
   {
    "month": "2021-01",
    "posts": 3,
    "views": 7896,
-   "likes": 0,
-   "comments": 0
+   "likes": 607,
+   "comments": 28
   },
   {
    "month": "2021-02",
-   "posts": 8,
+   "posts": 9,
    "views": 11298,
-   "likes": 1714,
-   "comments": 179
+   "likes": 1742,
+   "comments": 181
   },
   {
    "month": "2021-03",
@@ -1502,120 +1519,120 @@
    "month": "2021-04",
    "posts": 9,
    "views": 9087,
-   "likes": 3005,
-   "comments": 187
+   "likes": 3028,
+   "comments": 188
   },
   {
    "month": "2021-05",
    "posts": 11,
    "views": 10433,
-   "likes": 1749,
+   "likes": 1761,
    "comments": 183
   },
   {
    "month": "2021-06",
    "posts": 7,
-   "views": 2065,
-   "likes": 2299,
+   "views": 2066,
+   "likes": 2326,
    "comments": 284
   },
   {
    "month": "2021-07",
-   "posts": 24,
-   "views": 483434,
-   "likes": 3591,
-   "comments": 266
+   "posts": 25,
+   "views": 484710,
+   "likes": 59837,
+   "comments": 501
   },
   {
    "month": "2021-08",
    "posts": 16,
-   "views": 19277,
-   "likes": 2544,
+   "views": 19284,
+   "likes": 2656,
    "comments": 247
   },
   {
    "month": "2021-09",
    "posts": 12,
-   "views": 12294,
-   "likes": 3163,
-   "comments": 168
+   "views": 12299,
+   "likes": 3221,
+   "comments": 171
   },
   {
    "month": "2021-10",
    "posts": 17,
-   "views": 17153,
-   "likes": 5913,
-   "comments": 719
+   "views": 17155,
+   "likes": 6029,
+   "comments": 721
   },
   {
    "month": "2021-11",
    "posts": 13,
    "views": 16689,
-   "likes": 4710,
+   "likes": 4762,
    "comments": 494
   },
   {
    "month": "2021-12",
    "posts": 22,
-   "views": 74634,
-   "likes": 7516,
-   "comments": 361
+   "views": 74622,
+   "likes": 9931,
+   "comments": 374
   },
   {
    "month": "2022-01",
    "posts": 14,
-   "views": 51242,
-   "likes": 3962,
-   "comments": 458
+   "views": 51244,
+   "likes": 4133,
+   "comments": 465
   },
   {
    "month": "2022-02",
    "posts": 14,
    "views": 29688,
-   "likes": 2134,
-   "comments": 115
+   "likes": 2250,
+   "comments": 117
   },
   {
    "month": "2022-03",
    "posts": 19,
-   "views": 78378,
-   "likes": 5614,
-   "comments": 406
+   "views": 78380,
+   "likes": 5689,
+   "comments": 408
   },
   {
    "month": "2022-04",
    "posts": 12,
    "views": 23177,
-   "likes": 3157,
-   "comments": 230
+   "likes": 3189,
+   "comments": 232
   },
   {
    "month": "2022-05",
-   "posts": 18,
-   "views": 60531,
-   "likes": 5336,
+   "posts": 19,
+   "views": 60532,
+   "likes": 5415,
    "comments": 234
   },
   {
    "month": "2022-06",
    "posts": 16,
    "views": 44843,
-   "likes": 3216,
+   "likes": 3242,
    "comments": 280
   },
   {
    "month": "2022-07",
    "posts": 15,
    "views": 31076,
-   "likes": 2755,
-   "comments": 343
+   "likes": 2787,
+   "comments": 345
   },
   {
    "month": "2022-08",
    "posts": 15,
    "views": 29789,
-   "likes": 1077,
-   "comments": 149
+   "likes": 1148,
+   "comments": 151
   },
   {
    "month": "2022-09",
@@ -1628,64 +1645,64 @@
    "month": "2022-10",
    "posts": 10,
    "views": 43855,
-   "likes": 3937,
+   "likes": 3950,
    "comments": 285
   },
   {
    "month": "2022-11",
    "posts": 11,
-   "views": 33451,
-   "likes": 2274,
-   "comments": 145
+   "views": 33457,
+   "likes": 3395,
+   "comments": 166
   },
   {
    "month": "2022-12",
    "posts": 18,
    "views": 29897,
-   "likes": 2774,
-   "comments": 200
+   "likes": 2895,
+   "comments": 202
   },
   {
    "month": "2023-01",
    "posts": 15,
-   "views": 41064,
-   "likes": 3358,
+   "views": 41065,
+   "likes": 3380,
    "comments": 190
   },
   {
    "month": "2023-02",
    "posts": 16,
    "views": 21130,
-   "likes": 993,
+   "likes": 1084,
    "comments": 122
   },
   {
    "month": "2023-03",
    "posts": 16,
-   "views": 34957,
-   "likes": 2124,
-   "comments": 215
+   "views": 34960,
+   "likes": 2206,
+   "comments": 218
   },
   {
    "month": "2023-04",
    "posts": 17,
    "views": 37946,
-   "likes": 5024,
-   "comments": 274
+   "likes": 5139,
+   "comments": 279
   },
   {
    "month": "2023-05",
    "posts": 16,
    "views": 24151,
-   "likes": 1748,
-   "comments": 170
+   "likes": 1773,
+   "comments": 172
   },
   {
    "month": "2023-06",
    "posts": 14,
-   "views": 45502,
-   "likes": 5052,
-   "comments": 529
+   "views": 45509,
+   "likes": 5314,
+   "comments": 531
   },
   {
    "month": "2023-07",
@@ -1697,23 +1714,23 @@
   {
    "month": "2023-08",
    "posts": 13,
-   "views": 49607,
-   "likes": 1989,
+   "views": 49609,
+   "likes": 2005,
    "comments": 191
   },
   {
    "month": "2023-09",
    "posts": 14,
    "views": 16620,
-   "likes": 1648,
-   "comments": 229
+   "likes": 1693,
+   "comments": 230
   },
   {
    "month": "2023-10",
    "posts": 15,
-   "views": 41498,
-   "likes": 2695,
-   "comments": 280
+   "views": 41504,
+   "likes": 2852,
+   "comments": 284
   },
   {
    "month": "2023-11",
@@ -1724,52 +1741,52 @@
   },
   {
    "month": "2023-12",
-   "posts": 16,
-   "views": 76509,
-   "likes": 1225,
-   "comments": 151
+   "posts": 17,
+   "views": 345482,
+   "likes": 27439,
+   "comments": 254
   },
   {
    "month": "2024-01",
    "posts": 22,
    "views": 60735,
-   "likes": 1332,
-   "comments": 228
+   "likes": 1593,
+   "comments": 237
   },
   {
    "month": "2024-02",
    "posts": 13,
-   "views": 24578,
-   "likes": 258,
-   "comments": 43
+   "views": 24601,
+   "likes": 468,
+   "comments": 47
   },
   {
    "month": "2024-03",
    "posts": 11,
-   "views": 31959,
-   "likes": 106,
-   "comments": 85
+   "views": 31968,
+   "likes": 240,
+   "comments": 86
   },
   {
    "month": "2024-04",
    "posts": 17,
-   "views": 1575714,
-   "likes": 83467,
-   "comments": 1250
+   "views": 1579812,
+   "likes": 95237,
+   "comments": 1420
   },
   {
    "month": "2024-05",
    "posts": 10,
    "views": 24775,
-   "likes": 1042,
+   "likes": 1049,
    "comments": 184
   },
   {
    "month": "2024-06",
-   "posts": 8,
-   "views": 50983,
-   "likes": 2680,
-   "comments": 412
+   "posts": 9,
+   "views": 51766,
+   "likes": 2795,
+   "comments": 417
   },
   {
    "month": "2024-07",
@@ -1781,16 +1798,16 @@
   {
    "month": "2024-08",
    "posts": 8,
-   "views": 35529,
-   "likes": 922,
-   "comments": 90
+   "views": 35567,
+   "likes": 1071,
+   "comments": 93
   },
   {
    "month": "2024-09",
    "posts": 10,
-   "views": 9970,
-   "likes": 80,
-   "comments": 45
+   "views": 9981,
+   "likes": 131,
+   "comments": 47
   },
   {
    "month": "2024-10",
@@ -1802,176 +1819,176 @@
   {
    "month": "2024-11",
    "posts": 16,
-   "views": 54268,
-   "likes": 2157,
-   "comments": 162
+   "views": 54286,
+   "likes": 2286,
+   "comments": 164
   },
   {
    "month": "2024-12",
    "posts": 10,
    "views": 15596,
-   "likes": 796,
-   "comments": 32
+   "likes": 824,
+   "comments": 34
   },
   {
    "month": "2025-01",
    "posts": 13,
-   "views": 28605,
-   "likes": 258,
-   "comments": 123
+   "views": 28612,
+   "likes": 556,
+   "comments": 134
   },
   {
    "month": "2025-02",
    "posts": 12,
-   "views": 49497,
-   "likes": 679,
-   "comments": 97
+   "views": 49501,
+   "likes": 3037,
+   "comments": 168
   },
   {
    "month": "2025-03",
    "posts": 28,
-   "views": 38776,
-   "likes": 206,
-   "comments": 213
+   "views": 38835,
+   "likes": 563,
+   "comments": 228
   },
   {
    "month": "2025-04",
    "posts": 22,
-   "views": 34538,
-   "likes": 235,
-   "comments": 141
+   "views": 34556,
+   "likes": 342,
+   "comments": 144
   },
   {
    "month": "2025-05",
    "posts": 29,
-   "views": 172795,
-   "likes": 2727,
-   "comments": 252
+   "views": 172776,
+   "likes": 5842,
+   "comments": 486
   },
   {
    "month": "2025-06",
    "posts": 15,
-   "views": 29698,
-   "likes": 576,
-   "comments": 67
+   "views": 29699,
+   "likes": 1294,
+   "comments": 89
   },
   {
    "month": "2025-07",
    "posts": 29,
-   "views": 212486,
-   "likes": 5267,
-   "comments": 343
+   "views": 212490,
+   "likes": 5748,
+   "comments": 361
   },
   {
    "month": "2025-08",
    "posts": 21,
-   "views": 209884,
-   "likes": 4137,
-   "comments": 275
+   "views": 209885,
+   "likes": 4359,
+   "comments": 284
   },
   {
    "month": "2025-09",
    "posts": 16,
    "views": 5715204,
-   "likes": 176057,
-   "comments": 794
+   "likes": 176818,
+   "comments": 809
   },
   {
    "month": "2025-10",
    "posts": 17,
    "views": 20668,
-   "likes": 14,
-   "comments": 70
+   "likes": 219,
+   "comments": 72
   },
   {
    "month": "2025-11",
    "posts": 11,
-   "views": 20672,
-   "likes": 201,
+   "views": 20679,
+   "likes": 218,
    "comments": 69
   },
   {
    "month": "2025-12",
    "posts": 20,
-   "views": 79596,
-   "likes": 861,
-   "comments": 172
+   "views": 79610,
+   "likes": 1377,
+   "comments": 184
   },
   {
    "month": "2026-01",
    "posts": 31,
-   "views": 49806,
-   "likes": 1043,
-   "comments": 180
+   "views": 49816,
+   "likes": 1385,
+   "comments": 186
   },
   {
    "month": "2026-02",
    "posts": 15,
-   "views": 23333,
-   "likes": 795,
-   "comments": 70
+   "views": 23342,
+   "likes": 916,
+   "comments": 74
   },
   {
    "month": "2026-03",
    "posts": 14,
-   "views": 27961,
-   "likes": 548,
-   "comments": 188
+   "views": 28016,
+   "likes": 793,
+   "comments": 210
   },
   {
    "month": "2026-04",
    "posts": 20,
-   "views": 29612,
-   "likes": 483,
-   "comments": 172
+   "views": 29654,
+   "likes": 540,
+   "comments": 179
   },
   {
    "month": "2026-05",
    "posts": 16,
-   "views": 97163,
-   "likes": 1466,
-   "comments": 248
+   "views": 97184,
+   "likes": 1628,
+   "comments": 251
   },
   {
    "month": "2026-06",
-   "posts": 32,
-   "views": 86448,
-   "likes": 1065,
-   "comments": 422
+   "posts": 33,
+   "views": 87529,
+   "likes": 1446,
+   "comments": 432
   },
   {
    "month": "2026-07",
    "posts": 11,
-   "views": 42934,
-   "likes": 1290,
-   "comments": 203
+   "views": 42938,
+   "likes": 1395,
+   "comments": 207
   },
   {
    "month": "2026-08",
    "posts": 10,
-   "views": 31097,
-   "likes": 182,
-   "comments": 64
+   "views": 31119,
+   "likes": 231,
+   "comments": 65
   },
   {
    "month": "2026-09",
    "posts": 14,
-   "views": 45206,
-   "likes": 1145,
+   "views": 45223,
+   "likes": 1163,
    "comments": 166
   },
   {
    "month": "2026-10",
-   "posts": 15,
-   "views": 39431,
-   "likes": 1361,
-   "comments": 253
+   "posts": 17,
+   "views": 78198,
+   "likes": 2459,
+   "comments": 287
   },
   {
    "month": "2026-11",
-   "posts": 7,
-   "views": 24857,
-   "likes": 1351,
+   "posts": 9,
+   "views": 25135,
+   "likes": 1368,
    "comments": 30
   }
  ],
@@ -2003,49 +2020,49 @@
   {
    "tag": "#alphaphialpha",
    "count": 26,
-   "avgViews": 24364,
-   "avgLikes": 165,
-   "avgEngagement": 6.32,
-   "totalViews": 536016
+   "avgViews": 24385,
+   "avgLikes": 2660,
+   "avgEngagement": 6.53,
+   "totalViews": 536486
   },
   {
    "tag": "#stayjotivated",
-   "count": 529,
-   "avgViews": 13970,
-   "avgLikes": 604,
-   "avgEngagement": 6.08,
-   "totalViews": 5155025
+   "count": 531,
+   "avgViews": 13899,
+   "avgLikes": 618,
+   "avgEngagement": 5.78,
+   "totalViews": 5156598
   },
   {
    "tag": "#rcainspired",
    "count": 19,
    "avgViews": 12698,
-   "avgLikes": 593,
-   "avgEngagement": 5.66,
+   "avgLikes": 594,
+   "avgEngagement": 5.16,
    "totalViews": 101585
   },
   {
    "tag": "#rcahousesystem",
    "count": 3,
    "avgViews": 12374,
-   "avgLikes": 318,
-   "avgEngagement": 3.48,
+   "avgLikes": 324,
+   "avgEngagement": 2.88,
    "totalViews": 37122
   },
   {
    "tag": "#viral",
    "count": 41,
-   "avgViews": 12054,
-   "avgLikes": 0,
-   "avgEngagement": 0.0,
-   "totalViews": 494246
+   "avgViews": 12065,
+   "avgLikes": 1399,
+   "avgEngagement": 4.57,
+   "totalViews": 494703
   },
   {
    "tag": "#rcaexp",
    "count": 7,
    "avgViews": 10923,
-   "avgLikes": 361,
-   "avgEngagement": 3.94,
+   "avgLikes": 365,
+   "avgEngagement": 3.38,
    "totalViews": 43694
   },
   {
@@ -2059,18 +2076,18 @@
   {
    "tag": "#foryou",
    "count": 55,
-   "avgViews": 9932,
-   "avgLikes": 0,
-   "avgEngagement": 0.0,
-   "totalViews": 546267
+   "avgViews": 9940,
+   "avgLikes": 1093,
+   "avgEngagement": 5.07,
+   "totalViews": 546717
   },
   {
    "tag": "#fyp",
    "count": 62,
-   "avgViews": 9064,
-   "avgLikes": 0,
-   "avgEngagement": 0.0,
-   "totalViews": 561995
+   "avgViews": 9071,
+   "avgLikes": 990,
+   "avgEngagement": 5.02,
+   "totalViews": 562446
   },
   {
    "tag": "#jordancraigdenim",
@@ -2107,26 +2124,26 @@
   {
    "tag": "#michaeljackson",
    "count": 3,
-   "avgViews": 8026,
-   "avgLikes": 70,
-   "avgEngagement": 1.0,
-   "totalViews": 24079
+   "avgViews": 8032,
+   "avgLikes": 98,
+   "avgEngagement": 3.92,
+   "totalViews": 24098
   },
   {
    "tag": "#zetamualphas",
    "count": 17,
    "avgViews": 7538,
-   "avgLikes": 500,
-   "avgEngagement": 6.32,
+   "avgLikes": 505,
+   "avgEngagement": 7.04,
    "totalViews": 60307
   },
   {
    "tag": "#youthempowerment",
    "count": 4,
-   "avgViews": 7528,
-   "avgLikes": 328,
-   "avgEngagement": 6.86,
-   "totalViews": 22586
+   "avgViews": 7529,
+   "avgLikes": 347,
+   "avgEngagement": 5.32,
+   "totalViews": 22589
   },
   {
    "tag": "#park100",
@@ -2139,33 +2156,33 @@
   {
    "tag": "#atlanta",
    "count": 70,
-   "avgViews": 7188,
-   "avgLikes": 255,
-   "avgEngagement": 6.35,
-   "totalViews": 316303
+   "avgViews": 7207,
+   "avgLikes": 276,
+   "avgEngagement": 5.96,
+   "totalViews": 317147
+  },
+  {
+   "tag": "#emceetips",
+   "count": 8,
+   "avgViews": 6989,
+   "avgLikes": 66,
+   "avgEngagement": 4.58,
+   "totalViews": 55914
   },
   {
    "tag": "#zetamuforever",
    "count": 23,
    "avgViews": 6897,
    "avgLikes": 505,
-   "avgEngagement": 6.73,
+   "avgEngagement": 6.66,
    "totalViews": 117263
-  },
-  {
-   "tag": "#emceetips",
-   "count": 8,
-   "avgViews": 6884,
-   "avgLikes": 0,
-   "avgEngagement": 0.0,
-   "totalViews": 55072
   },
   {
    "tag": "#supercon",
    "count": 3,
    "avgViews": 6873,
-   "avgLikes": 357,
-   "avgEngagement": 5.92,
+   "avgLikes": 367,
+   "avgEngagement": 3.79,
    "totalViews": 13746
   },
   {
@@ -2179,34 +2196,34 @@
   {
    "tag": "#homecoming",
    "count": 3,
-   "avgViews": 6287,
-   "avgLikes": 0,
-   "avgEngagement": 0.0,
-   "totalViews": 12574
+   "avgViews": 6290,
+   "avgLikes": 557,
+   "avgEngagement": 8.08,
+   "totalViews": 12581
   },
   {
    "tag": "#thingstodoinatlanta",
    "count": 3,
    "avgViews": 6140,
-   "avgLikes": 119,
-   "avgEngagement": 2.57,
+   "avgLikes": 136,
+   "avgEngagement": 4.17,
    "totalViews": 18421
   },
   {
    "tag": "#gsu",
    "count": 7,
-   "avgViews": 6128,
-   "avgLikes": 336,
-   "avgEngagement": 0.0,
-   "totalViews": 12256
+   "avgViews": 6130,
+   "avgLikes": 610,
+   "avgEngagement": 6.01,
+   "totalViews": 12261
   },
   {
    "tag": "#gq",
    "count": 35,
    "avgViews": 6063,
-   "avgLikes": 459,
-   "avgEngagement": 7.38,
-   "totalViews": 121263
+   "avgLikes": 464,
+   "avgEngagement": 7.05,
+   "totalViews": 121264
   },
   {
    "tag": "#tcgimpact",
@@ -2219,10 +2236,10 @@
   {
    "tag": "#nationalvoterregistrationday",
    "count": 5,
-   "avgViews": 5693,
-   "avgLikes": 431,
-   "avgEngagement": 6.78,
-   "totalViews": 17079
+   "avgViews": 5696,
+   "avgLikes": 444,
+   "avgEngagement": 4.79,
+   "totalViews": 17090
   },
   {
    "tag": "#mentalhealth",
@@ -2260,8 +2277,8 @@
    "tag": "#gsuhomecoming",
    "count": 4,
    "avgViews": 4966,
-   "avgLikes": 527,
-   "avgEngagement": 10.88,
+   "avgLikes": 538,
+   "avgEngagement": 7.91,
    "totalViews": 14900
   },
   {
@@ -2284,16 +2301,16 @@
    "tag": "#unruelyjoshow",
    "count": 21,
    "avgViews": 4438,
-   "avgLikes": 238,
-   "avgEngagement": 5.47,
+   "avgLikes": 240,
+   "avgEngagement": 5.49,
    "totalViews": 66570
   },
   {
    "tag": "#quad",
    "count": 4,
    "avgViews": 4325,
-   "avgLikes": 245,
-   "avgEngagement": 7.41,
+   "avgLikes": 249,
+   "avgEngagement": 6.84,
    "totalViews": 17302
   },
   {
@@ -2308,17 +2325,17 @@
    "tag": "#jojoturnsthreeohh",
    "count": 7,
    "avgViews": 4108,
-   "avgLikes": 387,
-   "avgEngagement": 9.79,
+   "avgLikes": 407,
+   "avgEngagement": 8.59,
    "totalViews": 24652
   },
   {
    "tag": "#blackboyjoy",
    "count": 6,
-   "avgViews": 4038,
-   "avgLikes": 247,
-   "avgEngagement": 4.63,
-   "totalViews": 20190
+   "avgViews": 4041,
+   "avgLikes": 260,
+   "avgEngagement": 5.33,
+   "totalViews": 20209
   },
   {
    "tag": "#e100hsb",
@@ -2332,16 +2349,16 @@
    "tag": "#blackmensmile",
    "count": 23,
    "avgViews": 3716,
-   "avgLikes": 300,
-   "avgEngagement": 7.58,
-   "totalViews": 52034
+   "avgLikes": 302,
+   "avgEngagement": 7.26,
+   "totalViews": 52036
   },
   {
    "tag": "#mambayear",
    "count": 3,
    "avgViews": 3707,
-   "avgLikes": 89,
-   "avgEngagement": 2.86,
+   "avgLikes": 101,
+   "avgEngagement": 3.45,
    "totalViews": 11123
   },
   {
@@ -2356,25 +2373,25 @@
    "tag": "#linkinbio",
    "count": 19,
    "avgViews": 3630,
-   "avgLikes": 205,
-   "avgEngagement": 7.63,
-   "totalViews": 50821
+   "avgLikes": 207,
+   "avgEngagement": 7.31,
+   "totalViews": 50823
   },
   {
    "tag": "#apparel",
    "count": 20,
    "avgViews": 3630,
-   "avgLikes": 255,
-   "avgEngagement": 7.63,
-   "totalViews": 50821
+   "avgLikes": 256,
+   "avgEngagement": 7.31,
+   "totalViews": 50823
   },
   {
    "tag": "#advocate",
    "count": 21,
    "avgViews": 3630,
-   "avgLikes": 266,
-   "avgEngagement": 7.63,
-   "totalViews": 50821
+   "avgLikes": 268,
+   "avgEngagement": 7.31,
+   "totalViews": 50823
   }
  ],
  "crossPosts": [
@@ -2406,6 +2423,33 @@
    "viewDiff": 2339267
   },
   {
+   "title": "Every fill-up lately feels like a cover charge I never agreed to \ud83d\ude2e\u200d\ud83d\udca8",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ],
+   "posts": [
+    {
+     "id": "tt_7702113526067891469",
+     "platform": "tiktok",
+     "views": 37159,
+     "likes": 988,
+     "date": "2026-10-29",
+     "url": "https://www.tiktok.com/@notyo_averagejo/video/7702113526067891469"
+    },
+    {
+     "id": "ig_4018606113976397541_255410408",
+     "platform": "instagram",
+     "views": 2164,
+     "likes": 0,
+     "date": "2026-10-29",
+     "url": "https://www.instagram.com/p/DfE9Pgbxq7l/"
+    }
+   ],
+   "bestPlatform": "tiktok",
+   "viewDiff": 34995
+  },
+  {
    "title": "GO DAWGS!!! Join our talented @ronclarkacademy students in congratulating the 2022 NCAA Football National Champions, Geo",
    "platforms": [
     "instagram",
@@ -2423,14 +2467,14 @@
     {
      "id": "tt_7051811823615511855",
      "platform": "tiktok",
-     "views": 454,
-     "likes": 0,
+     "views": 456,
+     "likes": 13,
      "date": "2022-01-11",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7051811823615511855"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 22692
+   "viewDiff": 22690
   },
   {
    "title": "Squad so nice, they did it TWICE!\ud83c\udfc6\ud83c\udfc6 Congrats to the 2022-23 National Champions, Georgia Bulldogs! \ud83d\udc36\ud83e\uddb4",
@@ -2450,14 +2494,14 @@
     {
      "id": "tt_7187270498747682091",
      "platform": "tiktok",
-     "views": 427,
-     "likes": 0,
+     "views": 428,
+     "likes": 22,
      "date": "2023-01-11",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7187270498747682091"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 19076
+   "viewDiff": 19075
   },
   {
    "title": "RCA Drill Team/Cheer Leaders Vs. Alumni\ud83d\udd25",
@@ -2487,6 +2531,33 @@
    "viewDiff": 16768
   },
   {
+   "title": "First Black Female Governor in US History \ud83d\ude0c",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ],
+   "posts": [
+    {
+     "id": "ig_4022659964547467831_255410408",
+     "platform": "instagram",
+     "views": 16174,
+     "likes": 1227,
+     "date": "2026-11-03",
+     "url": "https://www.instagram.com/p/DfTW-y_CYo3/"
+    },
+    {
+     "id": "tt_7704178808827546893",
+     "platform": "tiktok",
+     "views": 100,
+     "likes": 8,
+     "date": "2026-11-04",
+     "url": "https://www.tiktok.com/@notyo_averagejo/video/7704178808827546893"
+    }
+   ],
+   "bestPlatform": "instagram",
+   "viewDiff": 16074
+  },
+  {
    "title": "Yall been wearing cowboy hats for like 3 years now \ud83d\udc0e\ud83e\udee9",
    "platforms": [
     "instagram",
@@ -2514,7 +2585,7 @@
      "id": "tt_7525623895043394829",
      "platform": "tiktok",
      "views": 537,
-     "likes": 0,
+     "likes": 24,
      "date": "2025-07-10",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7525623895043394829"
     }
@@ -2541,7 +2612,7 @@
      "id": "tt_7580179904419958030",
      "platform": "tiktok",
      "views": 4380,
-     "likes": 0,
+     "likes": 305,
      "date": "2025-12-04",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7580179904419958030"
     }
@@ -2567,14 +2638,14 @@
     {
      "id": "tt_7661019463688441102",
      "platform": "tiktok",
-     "views": 1057,
-     "likes": 0,
+     "views": 1061,
+     "likes": 105,
      "date": "2026-07-10",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7661019463688441102"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 11151
+   "viewDiff": 11147
   },
   {
    "title": "\"It  was great and apparently I've never been on live television before\" \ud83d\ude02",
@@ -2594,14 +2665,14 @@
     {
      "id": "tt_7618704313136860430",
      "platform": "tiktok",
-     "views": 620,
-     "likes": 0,
+     "views": 671,
+     "likes": 45,
      "date": "2026-03-18",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7618704313136860430"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 9973
+   "viewDiff": 9922
   },
   {
    "title": "Disclaimer: I've wasted entirely too much cologne for this video \ud83d\ude05\ud83d\ude0e #thevoice",
@@ -2649,7 +2720,7 @@
      "id": "tt_7442871184540077343",
      "platform": "tiktok",
      "views": 523,
-     "likes": 0,
+     "likes": 37,
      "date": "2024-11-29",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7442871184540077343"
     }
@@ -2677,7 +2748,7 @@
      "id": "tt_7521396097080691981",
      "platform": "tiktok",
      "views": 1137,
-     "likes": 0,
+     "likes": 131,
      "date": "2025-06-29",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7521396097080691981"
     },
@@ -2711,14 +2782,14 @@
     {
      "id": "tt_7631678806314503438",
      "platform": "tiktok",
-     "views": 477,
-     "likes": 0,
+     "views": 480,
+     "likes": 36,
      "date": "2026-04-22",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7631678806314503438"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 6661
+   "viewDiff": 6658
   },
   {
    "title": "It's a tradition that every year for our Christmas photo, I pick up my Mom, Oma, and my sister. It started off as a joke",
@@ -2738,14 +2809,14 @@
     {
      "id": "tt_7503227296527093038",
      "platform": "tiktok",
-     "views": 1909,
-     "likes": 0,
+     "views": 1917,
+     "likes": 167,
      "date": "2025-05-11",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7503227296527093038"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 6153
+   "viewDiff": 6145
   },
   {
    "title": "Being the leader of this family as the youngest member means I may fall short, I\u2019ll probably make mistakes, and sometime",
@@ -2766,7 +2837,7 @@
      "id": "tt_7316740189362064670",
      "platform": "tiktok",
      "views": 1562,
-     "likes": 0,
+     "likes": 51,
      "date": "2023-12-25",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7316740189362064670"
     }
@@ -2801,14 +2872,14 @@
     {
      "id": "tt_7693228758337096974",
      "platform": "tiktok",
-     "views": 59,
-     "likes": 0,
+     "views": 79,
+     "likes": 7,
      "date": "2026-10-05",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7693228758337096974"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 5847
+   "viewDiff": 5827
   },
   {
    "title": "\u201c\u2026and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon",
@@ -2829,7 +2900,7 @@
      "id": "tt_7358252531916475691",
      "platform": "tiktok",
      "views": 723,
-     "likes": 0,
+     "likes": 33,
      "date": "2024-04-15",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7358252531916475691"
     }
@@ -2856,7 +2927,7 @@
      "id": "tt_7335243549639920942",
      "platform": "tiktok",
      "views": 402,
-     "likes": 0,
+     "likes": 37,
      "date": "2024-02-13",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7335243549639920942"
     }
@@ -2882,14 +2953,14 @@
     {
      "id": "tt_7584553622596324621",
      "platform": "tiktok",
-     "views": 390,
-     "likes": 0,
+     "views": 399,
+     "likes": 25,
      "date": "2025-12-16",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7584553622596324621"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 4197
+   "viewDiff": 4188
   },
   {
    "title": "This weekend, I emceed 6 events, with one of them being an overnight stay in St. Louis..ya boy is TIDE \ud83d\ude05--",
@@ -2910,7 +2981,7 @@
      "id": "tt_7545318266906987790",
      "platform": "tiktok",
      "views": 705,
-     "likes": 0,
+     "likes": 51,
      "date": "2025-09-01",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7545318266906987790"
     }
@@ -2964,7 +3035,7 @@
      "id": "tt_7342724793898143022",
      "platform": "tiktok",
      "views": 440,
-     "likes": 0,
+     "likes": 7,
      "date": "2024-03-04",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7342724793898143022"
     }
@@ -2991,7 +3062,7 @@
      "id": "tt_7321910154151071019",
      "platform": "tiktok",
      "views": 770,
-     "likes": 0,
+     "likes": 16,
      "date": "2024-01-08",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7321910154151071019"
     }
@@ -3017,14 +3088,14 @@
     {
      "id": "tt_7605199883355688205",
      "platform": "tiktok",
-     "views": 188,
-     "likes": 0,
+     "views": 194,
+     "likes": 9,
      "date": "2026-02-10",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7605199883355688205"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 3434
+   "viewDiff": 3428
   },
   {
    "title": "Stay Jotivated Presents: Don\u2019t forget about YOU (Jason David Frank Tribute)",
@@ -3044,14 +3115,14 @@
     {
      "id": "tt_7169672399170882859",
      "platform": "tiktok",
-     "views": 770,
-     "likes": 0,
+     "views": 771,
+     "likes": 32,
      "date": "2022-11-24",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7169672399170882859"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 3339
+   "viewDiff": 3338
   },
   {
    "title": "Here\u2019s your sign to get back to writing, singing, dancing, or whatever artistic skills you\u2019ve taken a step back from tha",
@@ -3072,7 +3143,7 @@
      "id": "tt_7439842411473374495",
      "platform": "tiktok",
      "views": 683,
-     "likes": 0,
+     "likes": 75,
      "date": "2024-11-21",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7439842411473374495"
     }
@@ -3099,7 +3170,7 @@
      "id": "tt_7472762703740783918",
      "platform": "tiktok",
      "views": 400,
-     "likes": 0,
+     "likes": 15,
      "date": "2025-02-18",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7472762703740783918"
     }
@@ -3125,14 +3196,14 @@
     {
      "id": "tt_7597953394220731661",
      "platform": "tiktok",
-     "views": 496,
-     "likes": 0,
+     "views": 503,
+     "likes": 37,
      "date": "2026-01-21",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7597953394220731661"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 2966
+   "viewDiff": 2959
   },
   {
    "title": "Sometimes you step into a new season and it still feels exactly like the old one. Same heat, same pressure, same temptat",
@@ -3152,14 +3223,14 @@
     {
      "id": "tt_7690690972153433357",
      "platform": "tiktok",
-     "views": 221,
-     "likes": 0,
+     "views": 238,
+     "likes": 18,
      "date": "2026-09-28",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7690690972153433357"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 2767
+   "viewDiff": 2750
   },
   {
    "title": "Think about this when you ask God for your raise, when you say you want a bigger following, when you want more bookings",
@@ -3180,7 +3251,7 @@
      "id": "tt_7338186724394241322",
      "platform": "tiktok",
      "views": 369,
-     "likes": 0,
+     "likes": 32,
      "date": "2024-02-21",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7338186724394241322"
     }
@@ -3216,7 +3287,7 @@
      "id": "tt_7596814565988502839",
      "platform": "tiktok",
      "views": 311,
-     "likes": 0,
+     "likes": 11,
      "date": "2026-01-18",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7596814565988502839"
     }
@@ -3270,7 +3341,7 @@
      "id": "tt_7545874599230065975",
      "platform": "tiktok",
      "views": 3359,
-     "likes": 0,
+     "likes": 637,
      "date": "2025-09-03",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7545874599230065975"
     }
@@ -3297,7 +3368,7 @@
      "id": "tt_7564229768674086199",
      "platform": "tiktok",
      "views": 350,
-     "likes": 0,
+     "likes": 23,
      "date": "2025-10-22",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7564229768674086199"
     }
@@ -3324,7 +3395,7 @@
      "id": "tt_7531886272386813197",
      "platform": "tiktok",
      "views": 821,
-     "likes": 0,
+     "likes": 63,
      "date": "2025-07-27",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7531886272386813197"
     }
@@ -3350,14 +3421,14 @@
     {
      "id": "tt_7646893163705027854",
      "platform": "tiktok",
-     "views": 1098,
-     "likes": 0,
+     "views": 1102,
+     "likes": 109,
      "date": "2026-06-02",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7646893163705027854"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 2251
+   "viewDiff": 2247
   },
   {
    "title": "I consider it a blessing to use the gifts God gave me to make every event I emcee an unforgettable experience \ud83c\udfa4 Building",
@@ -3378,7 +3449,7 @@
      "id": "tt_7563383996814527799",
      "platform": "tiktok",
      "views": 334,
-     "likes": 0,
+     "likes": 21,
      "date": "2025-10-20",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7563383996814527799"
     }
@@ -3404,14 +3475,14 @@
     {
      "id": "tt_7630977013582499085",
      "platform": "tiktok",
-     "views": 253,
-     "likes": 0,
+     "views": 254,
+     "likes": 12,
      "date": "2026-04-20",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7630977013582499085"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 1658
+   "viewDiff": 1657
   },
   {
    "title": "Just my thoughts \ud83e\udd37\ud83c\udffd\u200d\u2642\ufe0f I understand the vigilante/Robin Hood narrative, and metaphorically, what it represents\u2026but that\u2019",
@@ -3432,7 +3503,7 @@
      "id": "tt_7447944205642583342",
      "platform": "tiktok",
      "views": 661,
-     "likes": 0,
+     "likes": 28,
      "date": "2024-12-13",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7447944205642583342"
     }
@@ -3458,14 +3529,14 @@
     {
      "id": "tt_7615427447420439822",
      "platform": "tiktok",
-     "views": 291,
-     "likes": 0,
+     "views": 293,
+     "likes": 19,
      "date": "2026-03-09",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7615427447420439822"
     }
    ],
    "bestPlatform": "instagram",
-   "viewDiff": 1450
+   "viewDiff": 1448
   },
   {
    "title": "Life is like playing the trumpet \ud83c\udfba",
@@ -3512,14 +3583,41 @@
     {
      "id": "tt_7645401271217687822",
      "platform": "tiktok",
-     "views": 284,
-     "likes": 0,
+     "views": 295,
+     "likes": 29,
      "date": "2026-05-29",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7645401271217687822"
     }
    ],
    "bestPlatform": "youtube",
-   "viewDiff": 1333
+   "viewDiff": 1322
+  },
+  {
+   "title": "Sometimes becoming who you were meant to be, is just as much about \"un-becoming\" who you weren't. \ud83e\udd1e\ud83c\udffd",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ],
+   "posts": [
+    {
+     "id": "ig_4027561942073441556_255410408",
+     "platform": "instagram",
+     "views": 1335,
+     "likes": 0,
+     "date": "2026-11-10",
+     "url": "https://www.instagram.com/p/Dfkxj9UK30U/"
+    },
+    {
+     "id": "tt_7706647161269767438",
+     "platform": "tiktok",
+     "views": 178,
+     "likes": 9,
+     "date": "2026-11-10",
+     "url": "https://www.tiktok.com/@notyo_averagejo/video/7706647161269767438"
+    }
+   ],
+   "bestPlatform": "instagram",
+   "viewDiff": 1157
   },
   {
    "title": "The Jotivated Project: Episode 6 - Preparation & Failure: Lessons from Snowmageddon\u2744\ufe0f\u2603\ufe0f",
@@ -3540,7 +3638,7 @@
      "id": "tt_7460231419546160430",
      "platform": "tiktok",
      "views": 487,
-     "likes": 0,
+     "likes": 34,
      "date": "2025-01-15",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7460231419546160430"
     }
@@ -3558,8 +3656,8 @@
     {
      "id": "tt_7486293380301983022",
      "platform": "tiktok",
-     "views": 368,
-     "likes": 0,
+     "views": 369,
+     "likes": 26,
      "date": "2025-03-26",
      "url": "https://www.tiktok.com/@notyo_averagejo/video/7486293380301983022"
     },
@@ -3573,7 +3671,7 @@
     }
    ],
    "bestPlatform": "tiktok",
-   "viewDiff": 368
+   "viewDiff": 369
   }
  ],
  "topHooks": [
@@ -3620,14 +3718,40 @@
    "hook": "Had to get that pill \ud83d\udc8a\ud83d\udc74\ud83c\udffd\ud83d\ude02#stayjotivated #foryou #fyp #agp #viral #alphaphialpha",
    "postId": "tt_6986350498693549317",
    "platform": "tiktok",
-   "views": 456300,
-   "likes": 0,
-   "engagement": 0.0,
-   "engagementRate": "0.00",
+   "views": 456736,
+   "likes": 55497,
+   "engagement": 13.07,
+   "engagementRate": "13.07",
    "categories": [
     "brotherhood"
    ],
    "url": "https://www.tiktok.com/@notyo_averagejo/video/6986350498693549317"
+  },
+  {
+   "hook": "Replying to @shuntyringfield  They can get the Grammy. Im fine with the Best BF award \ud83d\ude0e \u201cYou Know Damn Well\u201d ft. The Voi",
+   "postId": "tt_7309162580151405855",
+   "platform": "tiktok",
+   "views": 268984,
+   "likes": 25111,
+   "engagement": 10.09,
+   "engagementRate": "10.09",
+   "categories": [
+    "other"
+   ],
+   "url": "https://www.tiktok.com/@notyo_averagejo/video/7309162580151405855"
+  },
+  {
+   "hook": "Black Love \ud83e\udef6\ud83c\udffd",
+   "postId": "tt_7362227386768837931",
+   "platform": "tiktok",
+   "views": 136184,
+   "likes": 11611,
+   "engagement": 11.3,
+   "engagementRate": "11.30",
+   "categories": [
+    "faith_family"
+   ],
+   "url": "https://www.tiktok.com/@notyo_averagejo/video/7362227386768837931"
   },
   {
    "hook": "Look, our crew is so ATL & ready to turn up with @BankrollNi at #OMF2025, is yours? \ud83d\udc40",
@@ -3642,19 +3766,6 @@
     "music_culture"
    ],
    "url": "https://www.instagram.com/p/DN3LmRA2ooG/"
-  },
-  {
-   "hook": "Black Love \ud83e\udef6\ud83c\udffd",
-   "postId": "tt_7362227386768837931",
-   "platform": "tiktok",
-   "views": 132100,
-   "likes": 0,
-   "engagement": 0.0,
-   "engagementRate": "0.00",
-   "categories": [
-    "faith_family"
-   ],
-   "url": "https://www.tiktok.com/@notyo_averagejo/video/7362227386768837931"
   },
   {
    "hook": "We she wants you to hold her purse, hold it, dont let it hold you \ud83d\ude0e\ud83d\ude05",
@@ -3699,23 +3810,36 @@
    "hook": "Answer @tpain went cwayzee #fyp #foryou #stayjotivated",
    "postId": "tt_7042259380087196975",
    "platform": "tiktok",
-   "views": 38800,
-   "likes": 0,
-   "engagement": 0.0,
-   "engagementRate": "0.00",
+   "views": 38784,
+   "likes": 2160,
+   "engagement": 5.8,
+   "engagementRate": "5.80",
    "categories": [
     "music_culture"
    ],
    "url": "https://www.tiktok.com/@notyo_averagejo/video/7042259380087196975"
   },
   {
+   "hook": "Every fill-up lately feels like a cover charge I never agreed to \ud83d\ude2e\u200d\ud83d\udca8  I\u2019m on the road all over Atlanta for work, and bet",
+   "postId": "tt_7702113526067891469",
+   "platform": "tiktok",
+   "views": 37159,
+   "likes": 988,
+   "engagement": 2.77,
+   "engagementRate": "2.77",
+   "categories": [
+    "community"
+   ],
+   "url": "https://www.tiktok.com/@notyo_averagejo/video/7702113526067891469"
+  },
+  {
    "hook": "Replying to @L A U R E N  YLDW - The Realest ft. The Voice @QORI B. @Monroe The Guru @user2437263290322 @Neaver\u2019a @slay.",
    "postId": "tt_7311398972860632366",
    "platform": "tiktok",
-   "views": 32800,
-   "likes": 0,
-   "engagement": 0.0,
-   "engagementRate": "0.00",
+   "views": 32789,
+   "likes": 948,
+   "engagement": 3.13,
+   "engagementRate": "3.13",
    "categories": [
     "music_culture"
    ],
@@ -3738,10 +3862,10 @@
    "hook": "Legend had it, the dude who made it rain has never been identified",
    "postId": "tt_7474329841794338094",
    "platform": "tiktok",
-   "views": 26200,
-   "likes": 0,
-   "engagement": 0.0,
-   "engagementRate": "0.00",
+   "views": 26204,
+   "likes": 2319,
+   "engagement": 11.39,
+   "engagementRate": "11.39",
    "categories": [
     "humor"
    ],
@@ -3990,10 +4114,10 @@
    "hook": "Tell @GoOff\u203c\ufe0f I'm on that\ud83d\ude02",
    "postId": "tt_7507370660226845998",
    "platform": "tiktok",
-   "views": 14900,
-   "likes": 0,
-   "engagement": 0.0,
-   "engagementRate": "0.00",
+   "views": 14868,
+   "likes": 2515,
+   "engagement": 19.02,
+   "engagementRate": "19.02",
    "categories": [
     "other"
    ],
@@ -4142,10 +4266,10 @@
    "hook": "Watch till the end \ud83d\udcf2\u2604\ufe0f & yes it is confirmed that she retrieved her phone \ud83d\ude05\ud83d\ude02  #gsu #homecoming #fyp #alphaphialpha",
    "postId": "tt_7161076827551812907",
    "platform": "tiktok",
-   "views": 12000,
-   "likes": 0,
-   "engagement": 0.0,
-   "engagementRate": "0.00",
+   "views": 12005,
+   "likes": 1089,
+   "engagement": 10.08,
+   "engagementRate": "10.08",
    "categories": [
     "brotherhood"
    ],
@@ -4234,96 +4358,70 @@
     "style"
    ],
    "url": "https://www.instagram.com/p/CdBFyuzIVG-/"
-  },
-  {
-   "hook": "\"It  was great and apparently I've never been on live television before\" \ud83d\ude02",
-   "postId": "ig_3855803099960732764_255410408",
-   "platform": "instagram",
-   "views": 10593,
-   "likes": 521,
-   "engagement": 5.88,
-   "engagementRate": "5.88",
-   "categories": [
-    "other"
-   ],
-   "url": "https://www.instagram.com/p/DWCkH2RAmxc/"
-  },
-  {
-   "hook": "Them: I\u2019m not voting because..",
-   "postId": "ig_3494823177148489712_255410408",
-   "platform": "instagram",
-   "views": 10511,
-   "likes": 336,
-   "engagement": 3.32,
-   "engagementRate": "3.32",
-   "categories": [
-    "community"
-   ],
-   "url": "https://www.instagram.com/p/DCAGynKvN_w/"
   }
  ],
  "hookTypes": [
   {
    "type": "other",
-   "count": 876,
-   "avgViews": 4298,
-   "avgLikes": 193,
-   "avgEngagement": 5.14,
-   "totalViews": 2729399,
+   "count": 882,
+   "avgViews": 4684,
+   "avgLikes": 351,
+   "avgEngagement": 5.37,
+   "totalViews": 3002503,
    "topPost": "Had to get that pill \ud83d\udc8a\ud83d\udc74\ud83c\udffd\ud83d\ude02#stayjotivated #foryou #fyp #agp #viral #alphaphialpha"
   },
   {
    "type": "question",
-   "count": 70,
-   "avgViews": 6037,
-   "avgLikes": 196,
-   "avgEngagement": 3.46,
-   "totalViews": 344141,
+   "count": 71,
+   "avgViews": 5954,
+   "avgLikes": 207,
+   "avgEngagement": 4.21,
+   "totalViews": 345340,
    "topPost": "Look, our crew is so ATL & ready to turn up with @BankrollNi at #OMF2025, is yours? \ud83d\udc40"
   },
   {
    "type": "emotional",
    "count": 58,
-   "avgViews": 88489,
-   "avgLikes": 3228,
-   "avgEngagement": 6.17,
-   "totalViews": 3274116,
+   "avgViews": 88600,
+   "avgLikes": 3541,
+   "avgEngagement": 6.74,
+   "totalViews": 3278220,
    "topPost": "Become a version of yourself your inner child would be proud of #stayjotivated"
   },
   {
    "type": "controversy",
-   "count": 45,
-   "avgViews": 121023,
-   "avgLikes": 4472,
-   "avgEngagement": 4.11,
-   "totalViews": 4235831,
+   "count": 46,
+   "avgViews": 118696,
+   "avgLikes": 4454,
+   "avgEngagement": 5.45,
+   "totalViews": 4273058,
    "topPost": "Become a version of yourself your inner child would be proud of, and people who knew previous versions of you don't reco"
   },
   {
    "type": "story",
    "count": 12,
-   "avgViews": 4768,
-   "avgLikes": 413,
-   "avgEngagement": 11.44,
-   "totalViews": 38150,
+   "avgViews": 4769,
+   "avgLikes": 418,
+   "avgEngagement": 10.72,
+   "totalViews": 38154,
    "topPost": "Cuz the way I almost tore my ACL tryna bend on my first take \ud83d\ude1f\ud83d\ude02"
   },
   {
    "type": "listicle",
    "count": 9,
-   "avgViews": 2305,
-   "avgLikes": 67,
-   "avgEngagement": 4.42,
-   "totalViews": 20749,
+   "avgViews": 2308,
+   "avgLikes": 83,
+   "avgEngagement": 4.17,
+   "totalViews": 20777,
    "topPost": "4 WAYS TO IMPROVE YOUR QUALITY OF LIFE IN 2024\u270d\ud83c\udffd"
   },
   {
    "type": "statistic",
    "count": 5,
    "avgViews": 2507,
-   "avgLikes": 124,
-   "avgEngagement": 3.64,
-   "totalViews": 12535,
+   "avgLikes": 141,
+   "avgEngagement": 4.97,
+   "totalViews": 12537,
    "topPost": "Y\u2019all can spend hundreds of dollars at a club, buying $1000 bottles you don\u2019t finish, in a section of ppl who don\u2019t danc"
   }
  ],
@@ -4336,11 +4434,11 @@
    "totalPosts": 737
   },
   "tiktok": {
-   "lastDate": "2026-10-06",
-   "daysSince": 45,
-   "lastTitle": "Boosie was my LAST straw! Can't keep letting my people go out sad  \ud83d\udde3\ufe0fFINALLY a tutorial to teach Millennials how to bend",
-   "lastId": "tt_7693668371820285197",
-   "totalPosts": 244
+   "lastDate": "2026-11-10",
+   "daysSince": 10,
+   "lastTitle": "Sometimes becoming who you were meant to be, is just as much about \"un-becoming\" who you weren't. \ud83e\udd1e\ud83c\udffd  life is a movie...",
+   "lastId": "tt_7706647161269767438",
+   "totalPosts": 254
   },
   "youtube": {
    "lastDate": "2026-11-10",
@@ -4359,11 +4457,11 @@
    "totalPosts": 737
   },
   "tiktok": {
-   "avgDaysBetween": 9.8,
+   "avgDaysBetween": 9.6,
    "postsPerWeek": 0.7,
-   "postsPerMonth": 3.0,
+   "postsPerMonth": 3.1,
    "longestGap": 213,
-   "totalPosts": 244
+   "totalPosts": 254
   },
   "youtube": {
    "avgDaysBetween": 32.6,
@@ -4385,7 +4483,7 @@
   {
    "date": "2026-11-20",
    "instagram": 17000,
-   "tiktok": 5682,
+   "tiktok": 5685,
    "youtube": 2370,
    "threads": 0,
    "linkedin": 0

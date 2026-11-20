@@ -1,7 +1,7 @@
 {
   "followers": {
     "instagram": 17000,
-    "tiktok": 5682,
+    "tiktok": 5685,
     "youtube": 2370,
     "threads": 0,
     "linkedin": 0
@@ -15,16 +15,15 @@
   },
   "followersUpdated": {
     "youtube": "2026-11-20T21:05:22+00:00",
-    "tiktok": "2026-10-10T14:29:36+00:00",
+    "tiktok": "2026-11-20T21:27:10+00:00",
     "instagram": "2026-11-20T21:04:53+00:00"
   },
   "tiktok": {
-    "lastScrapedDate": "2026-10-10T14:29:36+00:00",
-    "status": "error",
-    "totalScraped": 244,
+    "lastScrapedDate": "2026-11-20T21:27:10+00:00",
+    "status": "complete",
+    "totalScraped": 254,
     "lastPostId": "tt_6986350498693549317",
-    "lastRunNewPosts": 244,
-    "lastError": "TikTok page didn't render posts for @notyo_averagejo (0 video links in DOM). Likely rate-limited / captcha. Body text: notyo_averagejo\nnotyo_averagejo\n153\nFollowing\n5685\nFollowers\n113.6K\nLikes\n[ Stay Jotivated\u00ae\ufe0f, LLC ]\n\ud83d\ude4f\ud83c\udffe| God Fearer\n\ud83d\udde3| Keynote/ Motivational Speaker\npo"
+    "lastRunNewPosts": 10
   },
   "instagram": {
     "lastScrapedDate": "2026-11-20T21:04:53+00:00",
