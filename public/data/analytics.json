@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T23:29:29+00:00",
+ "generatedAt": "2026-11-20T23:34:03+00:00",
  "dataAsOf": {
   "posts": "2026-11-20T21:27:10+00:00",
   "comments": "2026-11-20"
@@ -4499,6 +4499,13 @@
   },
   {
    "username": "jt_the_brand",
+   "count": 59,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "michaelbonner_",
    "count": 57,
    "platforms": [
     "instagram"
@@ -4506,7 +4513,22 @@
   },
   {
    "username": "mariacorinaera",
-   "count": 46,
+   "count": 53,
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "username": "keeek101",
+   "count": 48,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "yourhostuptown",
+   "count": 48,
    "platforms": [
     "instagram",
     "tiktok"
@@ -4520,39 +4542,39 @@
    ]
   },
   {
-   "username": "michaelbonner_",
-   "count": 46,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "yourhostuptown",
-   "count": 45,
-   "platforms": [
-    "instagram",
-    "tiktok"
-   ]
-  },
-  {
-   "username": "keeek101",
-   "count": 39,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
    "username": "unruely_",
-   "count": 39,
+   "count": 42,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "gbabydollz",
-   "count": 38,
+   "count": 41,
    "platforms": [
     "instagram"
+   ]
+  },
+  {
+   "username": "reginald.aj.greene.esq",
+   "count": 37,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "_lenataasira",
+   "count": 36,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "helloqori",
+   "count": 35,
+   "platforms": [
+    "instagram",
+    "youtube"
    ]
   },
   {
@@ -4563,16 +4585,29 @@
    ]
   },
   {
-   "username": "helloqori",
-   "count": 33,
+   "username": "manib.easy",
+   "count": 34,
    "platforms": [
-    "instagram",
-    "youtube"
+    "instagram"
    ]
   },
   {
-   "username": "manib.easy",
+   "username": "lydibittiplant",
    "count": 33,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "keishaswrld_",
+   "count": 33,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "platgamma",
+   "count": 32,
    "platforms": [
     "instagram"
    ]
@@ -4593,15 +4628,15 @@
    ]
   },
   {
-   "username": "_lenataasira",
+   "username": "andy_dorvil",
    "count": 31,
    "platforms": [
     "instagram"
    ]
   },
   {
-   "username": "platgamma",
-   "count": 31,
+   "username": "cyril.ky",
+   "count": 30,
    "platforms": [
     "instagram"
    ]
@@ -4614,43 +4649,50 @@
    ]
   },
   {
-   "username": "keishaswrld_",
+   "username": "raycryer",
    "count": 30,
    "platforms": [
     "instagram"
    ]
   },
   {
-   "username": "raycryer",
-   "count": 27,
+   "username": "avioncainion",
+   "count": 29,
    "platforms": [
     "instagram"
    ]
   },
   {
-   "username": "andy_dorvil",
-   "count": 27,
+   "username": "bkbabyy06",
+   "count": 29,
    "platforms": [
     "instagram"
    ]
   },
   {
-   "username": "reginald.aj.greene.esq",
-   "count": 27,
+   "username": "naturallychels",
+   "count": 29,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "livelitemarcel",
-   "count": 26,
+   "count": 28,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "curatedbygianni",
-   "count": 26,
+   "count": 27,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "zanaarene",
+   "count": 27,
    "platforms": [
     "instagram"
    ]
@@ -4658,48 +4700,6 @@
   {
    "username": "ms_cali_in_ga",
    "count": 26,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "lydibittiplant",
-   "count": 25,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "cyril.ky",
-   "count": 25,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "avioncainion",
-   "count": 24,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "theatlbroker",
-   "count": 24,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "zanaarene",
-   "count": 23,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "amanivilla_",
-   "count": 23,
    "platforms": [
     "instagram"
    ]
@@ -4713,8 +4713,8 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 46,
-    "totalLikes": 47
+    "commentCount": 53,
+    "totalLikes": 57
    },
    {
     "username": "yourhostuptown",
@@ -4722,8 +4722,8 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 45,
-    "totalLikes": 69
+    "commentCount": 48,
+    "totalLikes": 72
    },
    {
     "username": "helloqori",
@@ -4731,8 +4731,8 @@
      "instagram",
      "youtube"
     ],
-    "commentCount": 33,
-    "totalLikes": 35
+    "commentCount": 35,
+    "totalLikes": 37
    },
    {
     "username": "kachetherockstar",
@@ -4744,6 +4744,15 @@
     "totalLikes": 30
    },
    {
+    "username": "queenquenise",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 24,
+    "totalLikes": 15
+   },
+   {
     "username": "ohjoknows",
     "platforms": [
      "instagram",
@@ -4753,22 +4762,13 @@
     "totalLikes": 29
    },
    {
-    "username": "queenquenise",
-    "platforms": [
-     "instagram",
-     "tiktok"
-    ],
-    "commentCount": 21,
-    "totalLikes": 12
-   },
-   {
     "username": "kirkandre",
     "platforms": [
      "instagram",
      "tiktok"
     ],
-    "commentCount": 20,
-    "totalLikes": 41
+    "commentCount": 21,
+    "totalLikes": 48
    },
    {
     "username": "b.judyth",
@@ -4776,8 +4776,17 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 14,
-    "totalLikes": 31
+    "commentCount": 17,
+    "totalLikes": 34
+   },
+   {
+    "username": "trayyyci",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 7,
+    "totalLikes": 6
    },
    {
     "username": "_msharrison",
@@ -4803,8 +4812,8 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 5,
-    "totalLikes": 15
+    "commentCount": 6,
+    "totalLikes": 16
    },
    {
     "username": "johnnaedidthat",
@@ -4812,8 +4821,8 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 4,
-    "totalLikes": 3
+    "commentCount": 5,
+    "totalLikes": 4
    },
    {
     "username": "iambmw_",
@@ -4821,17 +4830,8 @@
      "instagram",
      "tiktok"
     ],
-    "commentCount": 4,
-    "totalLikes": 4
-   },
-   {
-    "username": "trayyyci",
-    "platforms": [
-     "instagram",
-     "tiktok"
-    ],
-    "commentCount": 4,
-    "totalLikes": 3
+    "commentCount": 5,
+    "totalLikes": 5
    },
    {
     "username": "myohhmaia",
@@ -4888,9 +4888,9 @@
     "totalLikes": 1
    }
   ],
-  "totalUniqueUsers": 2996,
+  "totalUniqueUsers": 3114,
   "platformBreakdown": {
-   "instagram": 2266,
+   "instagram": 2384,
    "tiktok": 520,
    "youtube": 230,
    "threads": 0,
@@ -5042,6 +5042,19 @@
    "postTitle": "Had to get that pill \ud83d\udc8a\ud83d\udc74\ud83c\udffd\ud83d\ude02#stayjotivated #foryou #fyp #agp #viral #alphaphialpha"
   },
   {
+   "id": "igc_18225311365187974",
+   "postId": "ig_2828009045626603439_255410408",
+   "platform": "instagram",
+   "username": "kirkandre",
+   "text": "Who Airbnb y\u2019all messing up?",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 7,
+   "date": "2022-04-30",
+   "postUrl": "https://www.instagram.com/p/Cc_Gz5aKkev/",
+   "postTitle": "\u201cKevin: yeaaa, let\u2019s not do that no more\u201d \ud83d\ude02"
+  },
+  {
    "id": "igc_18014636057684979",
    "postId": "ig_3673997027617956972_255410408",
    "platform": "instagram",
@@ -5170,6 +5183,19 @@
    "date": "2024-03-28",
    "postUrl": "https://www.instagram.com/p/C5ChNLFgxmu/",
    "postTitle": "I can explain\u2026nevermind I can\u2019t \ud83e\udd26\ud83c\udffd\u200d\u2642\ufe0f\ud83e\udd23 @abehyde"
+  },
+  {
+   "id": "igc_17946753505957596",
+   "postId": "ig_2852561842046417579_255410408",
+   "platform": "instagram",
+   "username": "thinkvxjb_",
+   "text": "Did Buddy really throw the \u270c\ud83c\udffe\ud83d\udca8\ud83d\ude02",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 4,
+   "date": "2022-06-03",
+   "postUrl": "https://www.instagram.com/p/CeWVeG_Arqr/",
+   "postTitle": "Mr. Paige is getting old \ud83d\udc74\ud83c\udffd\ud83d\ude05"
   },
   {
    "id": "ttc_6986576952371086086",
@@ -5521,41 +5547,15 @@
    "date": "2023-02-28",
    "postUrl": "https://www.instagram.com/p/CpN-l5dgrgc/",
    "postTitle": "Motivation Moment \ud83d\udca1: You\u2019re NOT tired \ud83d\udede"
-  },
-  {
-   "id": "igc_17979891193774372",
-   "postId": "ig_2977524741197379942_255410408",
-   "platform": "instagram",
-   "username": "chazlondon",
-   "text": "Can\u2019t pour from an empty cup! \ud83d\udde3\ufe0f",
-   "sentiment": "neutral",
-   "isQuestion": true,
-   "likes": 2,
-   "date": "2022-11-23",
-   "postUrl": "https://www.instagram.com/p/ClSSvn9Ablm/",
-   "postTitle": "Stay Jotivated Presents: Don\u2019t forget about YOU (Jason David Frank Tribute)"
-  },
-  {
-   "id": "igc_17947072592173252",
-   "postId": "ig_2961452212200484692_255410408",
-   "platform": "instagram",
-   "username": "realkevinbaez",
-   "text": "Can\u2019t lie to knock the phone out her hand and look at it BUT proceed to stroll is WILD \ud83e\udd23\ud83e\udd23\ud83e\udd23",
-   "sentiment": "positive",
-   "isQuestion": true,
-   "likes": 2,
-   "date": "2022-11-01",
-   "postUrl": "https://www.instagram.com/p/CkZMRi3gS9U/",
-   "postTitle": "GSU Homecoming was LEGENDARY \ud83d\ude0e\ud83d\ude05"
   }
  ],
- "questionCount": 178,
+ "questionCount": 191,
  "commentSentiment": {
-  "positive": 5453,
-  "neutral": 1646,
-  "negative": 34
+  "positive": 5940,
+  "neutral": 1767,
+  "negative": 35
  },
  "sentimentSources": {
-  "lexicon": 7133
+  "lexicon": 7742
  }
 }
