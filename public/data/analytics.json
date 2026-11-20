@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T22:20:43+00:00",
+ "generatedAt": "2026-11-20T22:23:11+00:00",
  "dataAsOf": {
   "posts": "2026-11-20T21:27:10+00:00",
   "comments": "2026-11-20"
@@ -4619,6 +4619,20 @@
    ]
   },
   {
+   "username": "raycryer",
+   "count": 7,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "_ericjaye",
+   "count": 7,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
    "username": "partiert",
    "count": 6,
    "platforms": [
@@ -4661,25 +4675,18 @@
    ]
   },
   {
-   "username": "raycryer",
-   "count": 6,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "_ericjaye",
-   "count": 6,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
    "username": "ohjoknows",
    "count": 6,
    "platforms": [
     "instagram",
     "tiktok"
+   ]
+  },
+  {
+   "username": "itsdjteey",
+   "count": 6,
+   "platforms": [
+    "instagram"
    ]
   },
   {
@@ -4691,13 +4698,6 @@
   },
   {
    "username": "pictureworthitstill",
-   "count": 5,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "lydibittiplant",
    "count": 5,
    "platforms": [
     "instagram"
@@ -4761,11 +4761,11 @@
     "totalLikes": 3
    }
   ],
-  "totalUniqueUsers": 971,
+  "totalUniqueUsers": 1043,
   "platformBreakdown": {
-   "instagram": 805,
-   "tiktok": 99,
-   "youtube": 73,
+   "instagram": 807,
+   "tiktok": 159,
+   "youtube": 83,
    "threads": 0,
    "linkedin": 0
   }
@@ -5242,11 +5242,11 @@
  ],
  "questionCount": 36,
  "commentSentiment": {
-  "positive": 1163,
-  "neutral": 377,
+  "positive": 1230,
+  "neutral": 394,
   "negative": 4
  },
  "sentimentSources": {
-  "lexicon": 1544
+  "lexicon": 1628
  }
 }
