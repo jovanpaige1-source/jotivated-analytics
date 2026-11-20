@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T22:06:21+00:00",
+ "generatedAt": "2026-11-20T22:11:34+00:00",
  "dataAsOf": {
   "posts": "2026-11-20T21:27:10+00:00",
   "comments": "2026-11-20"
@@ -4491,7 +4491,51 @@
  ],
  "topCommenters": [
   {
+   "username": "queenquenise",
+   "count": 8,
+   "platforms": [
+    "tiktok"
+   ]
+  },
+  {
    "username": "livelitemarcel",
+   "count": 7,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "mariacorinaera",
+   "count": 7,
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "username": "kachetherockstar",
+   "count": 6,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "yourhostuptown",
+   "count": 6,
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "username": "djcrashmob",
+   "count": 6,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "itsdjreese",
    "count": 6,
    "platforms": [
     "instagram"
@@ -4500,6 +4544,62 @@
   {
    "username": "theysay_jaydee",
    "count": 6,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "keeek101",
+   "count": 5,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "beloved1906",
+   "count": 5,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "big_sliide",
+   "count": 5,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "cyril.ky",
+   "count": 5,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "chris_triplett",
+   "count": 5,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "kaymorrison213",
+   "count": 5,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "shawnawithdakay",
+   "count": 5,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "dejavelasquezmpp",
+   "count": 5,
    "platforms": [
     "instagram"
    ]
@@ -4519,28 +4619,14 @@
    ]
   },
   {
-   "username": "kachetherockstar",
+   "username": "ed__senat0r_xciii",
    "count": 4,
    "platforms": [
     "instagram"
    ]
   },
   {
-   "username": "djcrashmob",
-   "count": 4,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "cyril.ky",
-   "count": 4,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "chris_triplett",
+   "username": "adoverload",
    "count": 4,
    "platforms": [
     "instagram"
@@ -4561,153 +4647,106 @@
    ]
   },
   {
-   "username": "dejavelasquezmpp",
+   "username": "janijoness",
+   "count": 4,
+   "platforms": [
+    "tiktok"
+   ]
+  },
+  {
+   "username": "_beeshaaa",
    "count": 4,
    "platforms": [
     "instagram"
    ]
   },
   {
-   "username": "keeek101",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "tsmooth808",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "avioncainion",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "lydibittiplant",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "phallyberry",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "still_blooming",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "partiert",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "beloved1906",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "big_sliide",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "ed__senat0r_xciii",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "tundeo__",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "a1lex_",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "shawnawithdakay",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "curatedbygianni",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "veryiman",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "dopepeoplemeetleague",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "mlklionsalumni",
-   "count": 3,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
    "username": "givonwalden",
-   "count": 3,
+   "count": 4,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "radianttie_",
-   "count": 3,
+   "count": 4,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "chi32.6",
+   "count": 4,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "minoonthemic",
+   "count": 4,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "bkbabyy06",
+   "count": 4,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "kvngtres",
+   "count": 4,
    "platforms": [
     "instagram"
    ]
   }
  ],
  "audienceOverlap": {
-  "crossPlatformUsers": [],
-  "totalUniqueUsers": 502,
+  "crossPlatformUsers": [
+   {
+    "username": "mariacorinaera",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 7,
+    "totalLikes": 9
+   },
+   {
+    "username": "yourhostuptown",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 6,
+    "totalLikes": 13
+   },
+   {
+    "username": "ohjoknows",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 2,
+    "totalLikes": 6
+   },
+   {
+    "username": "xo_mm",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 2,
+    "totalLikes": 3
+   }
+  ],
+  "totalUniqueUsers": 716,
   "platformBreakdown": {
-   "instagram": 477,
-   "tiktok": 22,
-   "youtube": 3,
+   "instagram": 634,
+   "tiktok": 82,
+   "youtube": 4,
    "threads": 0,
    "linkedin": 0
   }
@@ -4777,6 +4816,19 @@
    "date": "2026-10-07",
    "postUrl": "https://www.instagram.com/p/DeKuk9Vi1oh/",
    "postTitle": "@boosieig2024 was my LAST straw! Can't keep letting my people go out sad"
+  },
+  {
+   "id": "ttc_7615314009022022413",
+   "postId": "tt_7615242021644651789",
+   "platform": "tiktok",
+   "username": "waxaholicbodywaxing",
+   "text": "Like, not even a bike?! \ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 4,
+   "date": "2026-03-09",
+   "postUrl": "https://www.tiktok.com/@notyo_averagejo/video/7615242021644651789",
+   "postTitle": "It's called DRIVE THRU"
   },
   {
    "id": "igc_17949685131054715",
@@ -4896,6 +4948,19 @@
    "postTitle": "TOP HOST 2026 w/ @iheartradio & Ryan Seacrest \ud83c\udfa4"
   },
   {
+   "id": "ttc_7675599951418426142",
+   "postId": "tt_7675151586246659341",
+   "platform": "tiktok",
+   "username": "_msharrison",
+   "text": "Why did you catch it lmao \ud83e\udd23",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 1,
+   "date": "2026-08-19",
+   "postUrl": "https://www.tiktok.com/@notyo_averagejo/video/7675151586246659341",
+   "postTitle": "POV: When the bro sends the bat signal \ud83d\ude05"
+  },
+  {
    "id": "igc_18191438317384890",
    "postId": "ig_3962945955844120900_255410408",
    "platform": "instagram",
@@ -4948,6 +5013,84 @@
    "postTitle": "\u270f\ufe0fHow to be a Great Emcee: Rule #1 - Build Great Relationships"
   },
   {
+   "id": "igc_18576874735019456",
+   "postId": "ig_3895490074935480166_255410408",
+   "platform": "instagram",
+   "username": "thechasitycofield",
+   "text": "Chris brown who?!",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 1,
+   "date": "2026-05-12",
+   "postUrl": "https://www.instagram.com/p/DYPj5V-ls9m/",
+   "postTitle": "One thing about meeeee, imma dance\ud83d\udd7a\ud83c\udffd\ud83d\ude0e #swipe"
+  },
+  {
+   "id": "igc_18004891235911300",
+   "postId": "ig_3887543644722944679_255410408",
+   "platform": "instagram",
+   "username": "alyxransom",
+   "text": "Who selling they tickets to cinnamon toasted \ud83d\udc40\ud83d\udc40\ud83d\udc40",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 1,
+   "date": "2026-05-01",
+   "postUrl": "https://www.instagram.com/p/DXzVFkIidqn/",
+   "postTitle": "Cuz the way I almost tore my ACL tryna bend on my first take \ud83d\ude1f\ud83d\ude02"
+  },
+  {
+   "id": "igc_18063856412376311",
+   "postId": "ig_3880563827116525203_255410408",
+   "platform": "instagram",
+   "username": "mickeyjames___",
+   "text": "When she say, \u201cdo that lil\u2019 dance for Chris Brown & Usher tickets\u201d\ud83d\ude02",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 1,
+   "date": "2026-04-22",
+   "postUrl": "https://www.instagram.com/p/DXaiD2bgsaT/",
+   "postTitle": "Im not saying yall aren't Michael Jackson fans..just not as big as me \ud83d\ude0e"
+  },
+  {
+   "id": "igc_18090814522947431",
+   "postId": "ig_3870870283992864948_255410408",
+   "platform": "instagram",
+   "username": "niajay",
+   "text": "Dang. Shame on me huh? \ud83d\ude2d",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 1,
+   "date": "2026-04-08",
+   "postUrl": "https://www.instagram.com/p/DW4GAO5Api0/",
+   "postTitle": "404 \ud83c\udf51weekend 2026 was LEGENDARY"
+  },
+  {
+   "id": "igc_18103724582510722",
+   "postId": "ig_3866650931233072249_255410408",
+   "platform": "instagram",
+   "username": "jorge.amadeus",
+   "text": "Where your shirt go by slide 2?",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 1,
+   "date": "2026-04-02",
+   "postUrl": "https://www.instagram.com/p/DWpGokalKR5/",
+   "postTitle": "The standard is the standard. @emerging100atl \u270a\ud83c\udffe\ud83d\udcaf"
+  },
+  {
+   "id": "igc_17899375641265148",
+   "postId": "ig_3866650931233072249_255410408",
+   "platform": "instagram",
+   "username": "_wheretheproof",
+   "text": "Where my photo cred",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 1,
+   "date": "2026-04-02",
+   "postUrl": "https://www.instagram.com/p/DWpGokalKR5/",
+   "postTitle": "The standard is the standard. @emerging100atl \u270a\ud83c\udffe\ud83d\udcaf"
+  },
+  {
    "id": "igc_18225698530331145",
    "postId": "ig_3983515535254383371_255410408",
    "platform": "instagram",
@@ -4985,15 +5128,41 @@
    "date": "2026-07-21",
    "postUrl": "https://www.instagram.com/p/DbCRm5zM9y0/",
    "postTitle": "This was wild\u2026"
+  },
+  {
+   "id": "igc_18582287665051843",
+   "postId": "ig_3880563827116525203_255410408",
+   "platform": "instagram",
+   "username": "dejavelasquezmpp",
+   "text": "Have u done Black Michael for Halloween yet???!",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 0,
+   "date": "2026-04-22",
+   "postUrl": "https://www.instagram.com/p/DXaiD2bgsaT/",
+   "postTitle": "Im not saying yall aren't Michael Jackson fans..just not as big as me \ud83d\ude0e"
+  },
+  {
+   "id": "ttc_7587313851814888222",
+   "postId": "tt_7586776627472764174",
+   "platform": "tiktok",
+   "username": "xcusetheeegoddess",
+   "text": "How did I miss this !? I need friends who be knowing what\u2019s going on in Atlanta \ud83d\ude29",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 0,
+   "date": "2025-12-24",
+   "postUrl": "https://www.tiktok.com/@notyo_averagejo/video/7586776627472764174",
+   "postTitle": "When an ATL legend parties with you at 9am\ud83d\udd25  When an ATL legend parties with you at 9am\ud83d\udd25  If you missed Saturday's @Cinn"
   }
  ],
- "questionCount": 21,
+ "questionCount": 31,
  "commentSentiment": {
-  "positive": 469,
-  "neutral": 170,
-  "negative": 2
+  "positive": 736,
+  "neutral": 265,
+  "negative": 4
  },
  "sentimentSources": {
-  "lexicon": 641
+  "lexicon": 1005
  }
 }
