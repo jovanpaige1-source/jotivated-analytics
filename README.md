@@ -8,10 +8,10 @@ signs in to. Built and filled by Intellovate on 2026-10-10.
 **Before you start:** you need a paid Claude plan and Claude Code on your Mac.
 Install it with Anthropic's Claude Code quickstart (or, if you already have
 Homebrew, `brew install --cask claude-code`), then check it in Terminal with
-`claude --version`. This folder belongs at `~/projects/jotivated-analytics`.
+`claude --version`. This folder belongs at `~/Jotivated/jotivated-analytics`.
 
 **Jovan, start here:** open Terminal, go to this folder with
-`cd ~/projects/jotivated-analytics`, start Claude Code with `claude`, and paste:
+`cd ~/Jotivated/jotivated-analytics`, start Claude Code with `claude`, and paste:
 
 > Read docs/WORKBOOK.md and set up my dashboard, one part at a time. Never ask
 > me for a password, a key or my PIN; the workbook says which steps I do myself.

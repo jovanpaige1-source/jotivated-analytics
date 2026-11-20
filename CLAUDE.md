@@ -5,6 +5,17 @@
 > troubleshooting, follow `docs/WORKBOOK.md` first; it overrides the template
 > notes below. Only Instagram, TikTok and YouTube are enabled
 > (`scrape/handles.py` ENABLED, `lib/derive.ts` PLATFORMS).
+>
+> On this Mac this folder is ~/Jotivated/jotivated-analytics. Where the docs say
+> ~/projects/jotivated-analytics, they mean this folder. If git remote prints nothing
+> there is no GitHub copy: end Part E at the commit and skip git push.
+>
+> This Mac is a 2015 Intel MacBook Air on macOS 12 with 4 GB RAM, so there is **no
+> Homebrew**. Node.js 22 comes from the official nodejs.org installer (/usr/local/bin),
+> pnpm 10 is in ~/.local/bin (`npm install -g --prefix ~/.local pnpm@10`), git and
+> Python 3.9 come from Apple's Command Line Tools, and websocket-client is a
+> `pip install --user`. Never run `brew` here. Refreshes are slow; tell him to close
+> other apps first. jotivated-studio is not set up on this Mac (Intel/4 GB cannot run it).
 
 # Social Analytics Dashboard: project brain
 
