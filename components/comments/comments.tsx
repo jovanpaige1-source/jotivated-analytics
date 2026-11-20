@@ -121,10 +121,10 @@ export function Comments() {
         lede={
           comments.length
             ? "What the audience said back, how it felt, and the questions worth answering."
-            : "The reader doesn't collect comments yet, so this tab stays empty for now."
+            : "No comments read yet. They fill in on the next refresh."
         }
         stats={[
-          { label: "Total comments", value: fmtShort(stats.total), hint: "across all posts" },
+          { label: "Total comments", value: fmtShort(stats.total), hint: "read so far" },
           { label: "Questions", value: fmtShort(stats.sentiment.question), hint: "worth a reply" },
           {
             label: "Positive",
@@ -138,7 +138,7 @@ export function Comments() {
             tone="dark"
             date={asOf}
             label="Comments"
-            detail="No comment scraper yet, so this tab is a snapshot."
+            detail="Top comments, up to 60 per post, newest posts first. Each refresh reads more."
           />
         }
         aside={

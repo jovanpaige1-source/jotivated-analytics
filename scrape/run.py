@@ -12,6 +12,10 @@ Skip the analytics and vault rebuild:
     python3 scrape/run.py --no-analyze
 Just rebuild the derived JSON:
     python3 scrape/run.py --analyze-only
+Only read comments (no post pull), e.g. to work through the backlog:
+    python3 scrape/run.py --comments-only [--full]
+Skip comments:
+    python3 scrape/run.py --no-comments
 
 Talks to the dashboard Chrome window from docs/WORKBOOK.md Part C
 (CHROME_CDP_PORT, default 9222), which carries your logins. It opens its own
@@ -42,7 +46,7 @@ for _stream in (sys.stdout, sys.stderr):
 
 from scrape import analyze  # noqa: E402
 from scrape.cdp import CDP, CDPError, default_port  # noqa: E402
-from scrape.platforms import studio  # noqa: E402
+from scrape.platforms import comments, studio  # noqa: E402
 from scrape.server import (  # noqa: E402
     PLATFORM_RUNNERS,
     PLATFORMS,
@@ -61,6 +65,9 @@ def main() -> int:
     ap.add_argument("--quiet", action="store_true", help="suppress per-page progress lines")
     ap.add_argument("--no-studio", action="store_true",
                     help="skip the TikTok Studio and YouTube Studio pass that fills likes, comments and shares")
+    ap.add_argument("--no-comments", action="store_true", help="skip the comment reader")
+    ap.add_argument("--comments-only", action="store_true",
+                    help="only read comments for posts already in the data files, then analyze")
     args = ap.parse_args()
 
     if args.analyze_only:
@@ -88,6 +95,32 @@ def main() -> int:
     errors: dict[str, str] = {}
     results: dict[str, dict] = {}
     t0 = time.time()
+
+    def read_comments(platform: str, progress) -> None:
+        try:
+            c = comments.read(platform, full=args.full, on_progress=progress)
+            line = f"  {platform} comments: {c['posts']} posts read, +{c['new']} new, {c['total']} stored"
+            if c["pending"]:
+                line += f", {c['pending']} posts still to read"
+            if c["stopped"]:
+                line += f" ({c['stopped']})"
+            print(line)
+            return c
+        except (CDPError, Exception) as e:  # noqa: BLE001
+            print(f"  {platform} comments: SKIPPED {str(e)[:160]}", file=sys.stderr)
+            return None
+
+    if args.comments_only:
+        got = 0
+        for platform in platforms:
+            def progress(stage: str, info: dict, _p=platform) -> None:
+                if not args.quiet:
+                    print(f"  [{_p}] {stage} " + ", ".join(f"{k}={v}" for k, v in info.items()))
+            got += 1 if read_comments(platform, progress) else 0
+        if got and not args.no_analyze:
+            print(f"analyze: {analyze.run()}")
+        print(f"done in {time.time() - t0:.0f}s")
+        return 0 if got == len(platforms) else 1
 
     for platform in platforms:
         runner = PLATFORM_RUNNERS[platform]
@@ -123,6 +156,9 @@ def main() -> int:
                 except (CDPError, Exception) as e:  # noqa: BLE001
                     result["studioError"] = str(e)
                     print(f"  {platform} studio: SKIPPED {str(e)[:160]}", file=sys.stderr)
+            # Comments come last: they read the post list this run just wrote.
+            if not args.no_comments:
+                read_comments(platform, progress)
         except CDPError as e:
             errors[platform] = str(e)
             sub = state.get(platform, {}) or {}

@@ -174,7 +174,9 @@ python3 scrape/run.py
 git add public/data && git commit -m "Refresh data" && git push
 ```
 The plain run is incremental: it stops each platform once it reaches posts it has
-already seen, so it takes a few minutes. Report to Jovan, in this shape:
+already seen, so it takes a few minutes. After each platform it reads comments on
+posts whose comment count changed (up to 40 posts per platform), which adds a few
+minutes more. Report to Jovan, in this shape:
 
 - new posts per platform and the follower counts (from the `instagram: +N new` lines)
 - anything that failed, with the fix from the table below
@@ -251,7 +253,8 @@ does not.
 | `dates filled ... remaining N` | Some YouTube dates did not load this run | They fill on the next refresh |
 | Instagram followers look rounded (17.0K) | Instagram only shows a rounded count publicly | Expected |
 | A new topic does not show | Analyze did not rerun | `python3 scrape/run.py --analyze-only`, reload |
-| Comments tab is empty | No reader collects comments yet | Expected; say so, do not invent numbers |
+| Comments tab shows few comments | The comment reader catches up a batch per run (newest posts first) | `python3 scrape/run.py --comments-only --full` reads more; repeat on another day if he wants the backlog sooner |
+| `comments: ... stopped at post N: HTTP 429` (or 401/403) | The platform is rate-limiting comment reads | Normal; it picks up where it stopped next refresh. Never retry in a loop |
 | Styles look stale in `pnpm dev` | Next's dev cache | `rm -rf .next/dev .next/cache` then restart |
 | `gh run watch` fails at "Require a PIN" | The `DASHBOARD_PIN_HASH` secret is missing | Part G secret step; never remove the check |
 | A GitHub email "Run failed: Deploy to GitHub Pages" after each push | He is not publishing, and the workflow is still on | Part G, "Skipping this part?" |

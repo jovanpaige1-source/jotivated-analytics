@@ -17,8 +17,8 @@ environment variable (never a file). Run through the Keychain resolver:
 Without a key the lexicon labels everything and the run stays sub-second; the
 next run with a key upgrades those rows (source "lexicon" is retried).
 
-No reader collects comments yet, so this only runs once comments.json holds
-comments. Stdlib only.
+Comments come from scrape/platforms/comments.py (top-level comments on his
+own posts, read after each post reader). Stdlib only.
 """
 
 from __future__ import annotations

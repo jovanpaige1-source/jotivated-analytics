@@ -34,7 +34,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from scrape import analyze  # noqa: E402
 from scrape.cdp import CDPError  # noqa: E402
 from scrape.platforms import instagram, linkedin, tiktok, youtube, threads  # noqa: E402
-from scrape.platforms import studio  # noqa: E402
+from scrape.platforms import comments, studio  # noqa: E402
 
 PORT = 5556
 VERSION = "0.3.0"
@@ -146,6 +146,11 @@ def run_scrape(job_id: str, platforms: list[str], full: bool = False) -> None:
                 except Exception as e:  # noqa: BLE001
                     result["studioError"] = str(e)
                     update_job(job_id, currentStage=f"{platform}: studio skipped ({str(e)[:120]})")
+            # Same comment pass as run.py. Never undoes the post result either.
+            try:
+                result["comments"] = comments.read(platform, full=full, on_progress=progress)
+            except Exception as e:  # noqa: BLE001
+                update_job(job_id, currentStage=f"{platform}: comments skipped ({str(e)[:120]})")
         except CDPError as e:
             errors[platform] = str(e)
             sub = state.get(platform, {}) or {}

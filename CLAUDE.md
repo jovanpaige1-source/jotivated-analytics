@@ -70,10 +70,15 @@ they sign in to the dashboard Chrome window themselves).
 - Threads and LinkedIn publish no view count (`VIEWLESS_PLATFORMS` in
   `lib/derive.ts`): likes are their reach, engagement is against followers.
   Never show `n/a` for them and never add their likes into a views total.
-- No reader collects comments yet, so `comments.json` and `follow_data.json`
-  stay empty and the Comments tab, Top questions and Superfans show nothing.
-  Don't tell the user otherwise. If comments are ever added, sentiment is
-  labeled by `scrape/sentiment.py` at analyze time and cached in
+- Comments: `scrape/platforms/comments.py` (added 2026-11-20) reads top-level
+  comments on his own Instagram, TikTok and YouTube posts after each post
+  reader, gently: only posts whose comment count changed
+  (`public/data/comments_state.json`), newest first, up to 60 per post and 40
+  posts per platform per run (150 with `--full`), so the backlog fills over
+  several refreshes. `--comments-only` reads just comments; `--no-comments`
+  skips them. Replies and his own comments are not stored; YouTube dates are
+  approximate (YouTube gives "3 weeks ago"). `follow_data.json` still stays
+  empty: no follower-list reader exists. Sentiment is labeled by `scrape/sentiment.py` at analyze time and cached in
   `comments.json` (`sentiment`, `isQuestion`, `sentimentSource`,
   `sentimentV`). The UI never re-classifies.
 - The public TikTok and YouTube pages give views only. `scrape/platforms/
