@@ -32,6 +32,7 @@ analyze.py labels sentiment and questions afterwards.
 from __future__ import annotations
 
 import json
+import random
 import re
 import time
 from datetime import date, datetime, timedelta, timezone
@@ -59,91 +60,95 @@ PAGE_URLS = {
     "youtube": f"https://www.youtube.com/{HANDLES['youtube']}/shorts",
 }
 
-# Each returns {ok, status?, error?, items: [...]}. Items are raw-ish dicts the
-# Python side normalizes. Paging and pauses happen inside the page.
-_COMMON = """
-const sleep = (ms) => new Promise(r => setTimeout(r, ms + Math.floor(Math.random() * 600)));
-const LIMIT = %(limit)d, PAUSE = %(pause)d;
-"""
-
-_JS_INSTAGRAM = _COMMON + """
-const items = []; let minId = null;
-for (let page = 0; page < 10 && items.length < LIMIT; page++) {
-  let url = '/api/v1/media/%(key)s/comments/?can_support_threading=true&permalink_enabled=false';
-  if (minId) url += '&min_id=' + encodeURIComponent(minId);
-  const r = await fetch(url, {headers: {'X-IG-App-ID': '936619743392459'}, credentials: 'include'});
-  const t = await r.text();
-  if (!r.ok || t[0] !== '{') return {ok: false, status: r.status, error: t.slice(0, 160), items};
-  const d = JSON.parse(t);
-  for (const c of (d.comments || [])) items.push({
-    id: String(c.pk), text: c.text || '', likes: c.comment_like_count || 0,
-    ts: c.created_at || 0, user: (c.user || {}).username || ''});
-  minId = d.next_min_id;
-  if (!minId || !(d.has_more_comments || d.has_more_headload_comments)) break;
-  await sleep(PAUSE);
-}
-return {ok: true, items};
-"""
-
-_JS_TIKTOK = _COMMON + """
-const items = []; let cursor = 0;
-for (let page = 0; page < 10 && items.length < LIMIT; page++) {
-  const r = await fetch('/api/comment/list/?aid=1988&aweme_id=%(key)s&count=20&cursor=' + cursor, {credentials: 'include'});
-  const t = await r.text();
-  if (!r.ok || t[0] !== '{') return {ok: false, status: r.status, error: t.slice(0, 160), items};
-  const d = JSON.parse(t);
-  if (d.status_code && d.status_code !== 0) return {ok: false, status: d.status_code, error: d.status_msg || 'status_code', items};
-  for (const c of (d.comments || [])) items.push({
-    id: String(c.cid), text: c.text || '', likes: c.digg_count || 0,
-    ts: c.create_time || 0, user: (c.user || {}).unique_id || ''});
-  if (!d.has_more || !(d.comments || []).length) break;
-  cursor = d.cursor;
-  await sleep(PAUSE);
-}
-return {ok: true, items};
-"""
-
-_JS_YOUTUBE = _COMMON + """
+# One page per call, so no single evaluate runs long (a slow Mac timed out
+# at 30 s when a whole post was read in one call). Each returns
+# {ok, status?, error?, items: [...], next: cursor-or-null}.
+_JS_PAGE = {
+    "instagram": """
+const url = '/api/v1/media/%(key)s/comments/?can_support_threading=true&permalink_enabled=false'
+  + (%(cursor)s ? '&min_id=' + encodeURIComponent(%(cursor)s) : '');
+const r = await fetch(url, {headers: {'X-IG-App-ID': '936619743392459'}, credentials: 'include'});
+const t = await r.text();
+if (!r.ok || t[0] !== '{') return {ok: false, status: r.status, error: t.slice(0, 160), items: []};
+const d = JSON.parse(t);
+const items = (d.comments || []).map(c => ({id: String(c.pk), text: c.text || '', likes: c.comment_like_count || 0,
+  ts: c.created_at || 0, user: (c.user || {}).username || ''}));
+const more = d.next_min_id && (d.has_more_comments || d.has_more_headload_comments);
+return {ok: true, items, next: more ? d.next_min_id : null};
+""",
+    "tiktok": """
+const r = await fetch('/api/comment/list/?aid=1988&aweme_id=%(key)s&count=20&cursor=' + (%(cursor)s || 0), {credentials: 'include'});
+const t = await r.text();
+if (!r.ok || t[0] !== '{') return {ok: false, status: r.status, error: t.slice(0, 160), items: []};
+const d = JSON.parse(t);
+if (d.status_code && d.status_code !== 0) return {ok: false, status: d.status_code, error: d.status_msg || 'status_code', items: []};
+const items = (d.comments || []).map(c => ({id: String(c.cid), text: c.text || '', likes: c.digg_count || 0,
+  ts: c.create_time || 0, user: (c.user || {}).unique_id || ''}));
+return {ok: true, items, next: (d.has_more && items.length) ? String(d.cursor) : null};
+""",
+    # First call (cursor null) only finds the comment token on the watch page.
+    "youtube": """
 function find(o, pred, out) { if (o && typeof o === 'object') { if (pred(o)) out.push(o); for (const k in o) find(o[k], pred, out); } return out; }
-const w = await fetch('/watch?v=%(key)s', {credentials: 'include'});
-const html = await w.text();
-if (!w.ok) return {ok: false, status: w.status, error: 'watch page', items: []};
-const m = html.match(/var ytInitialData = (\\{.*?\\});<\\/script>/s);
-if (!m) return {ok: false, status: 0, error: 'no ytInitialData on the watch page', items: []};
-const init = JSON.parse(m[1]);
-let token = null;
-for (const s of find(init, o => o.itemSectionRenderer && o.itemSectionRenderer.sectionIdentifier === 'comment-item-section', [])) {
-  const c = find(s, o => o.continuationCommand && o.continuationCommand.token, []);
-  if (c.length) { token = c[0].continuationCommand.token; break; }
+let token = %(cursor)s;
+if (!token) {
+  const w = await fetch('/watch?v=%(key)s', {credentials: 'include'});
+  if (!w.ok) return {ok: false, status: w.status, error: 'watch page', items: []};
+  const html = await w.text();
+  const m = html.match(/var ytInitialData = (\\{.*?\\});<\\/script>/s);
+  if (!m) return {ok: false, status: 0, error: 'no ytInitialData on the watch page', items: []};
+  for (const s of find(JSON.parse(m[1]), o => o.itemSectionRenderer && o.itemSectionRenderer.sectionIdentifier === 'comment-item-section', [])) {
+    const c = find(s, o => o.continuationCommand && o.continuationCommand.token, []);
+    if (c.length) { token = c[0].continuationCommand.token; break; }
+  }
+  return {ok: true, items: [], next: token || null};
 }
-if (!token) return {ok: true, items: [], note: 'comments off or none'};
-const key = ytcfg.get('INNERTUBE_API_KEY'), ctx = ytcfg.get('INNERTUBE_CONTEXT');
+const r = await fetch('/youtubei/v1/next?prettyPrint=false&key=' + ytcfg.get('INNERTUBE_API_KEY'), {method: 'POST', credentials: 'include',
+  headers: {'Content-Type': 'application/json'}, body: JSON.stringify({context: ytcfg.get('INNERTUBE_CONTEXT'), continuation: token})});
+if (!r.ok) return {ok: false, status: r.status, error: 'next', items: []};
+const j = await r.json();
 const items = [];
-for (let page = 0; page < 10 && token && items.length < LIMIT; page++) {
-  await sleep(PAUSE);
-  const r = await fetch('/youtubei/v1/next?prettyPrint=false&key=' + key, {method: 'POST', credentials: 'include',
-    headers: {'Content-Type': 'application/json'}, body: JSON.stringify({context: ctx, continuation: token})});
-  if (!r.ok) return {ok: false, status: r.status, error: 'next', items};
-  const j = await r.json();
-  for (const e of find(j, o => o.commentEntityPayload, []).map(o => o.commentEntityPayload)) {
-    const p = e.properties || {}, a = e.author || {}, tb = e.toolbar || {};
-    if (p.replyLevel) continue;
-    items.push({id: p.commentId, text: (p.content || {}).content || '', likesText: tb.likeCountNotliked || '0',
-      when: p.publishedTime || '', user: (a.displayName || '').replace(/^@/, ''), creator: !!a.isCreator});
-  }
-  token = null;
-  for (const ep of (j.onResponseReceivedEndpoints || [])) {
-    const act = ep.appendContinuationItemsAction || ep.reloadContinuationItemsCommand || {};
-    for (const it of (act.continuationItems || [])) {
-      const t = it.continuationItemRenderer && find(it.continuationItemRenderer, o => o.continuationCommand && o.continuationCommand.token, [])[0];
-      if (t) token = t.continuationCommand.token;
-    }
+for (const e of find(j, o => o.commentEntityPayload, []).map(o => o.commentEntityPayload)) {
+  const p = e.properties || {}, a = e.author || {}, tb = e.toolbar || {};
+  if (p.replyLevel) continue;
+  items.push({id: p.commentId, text: (p.content || {}).content || '', likesText: tb.likeCountNotliked || '0',
+    when: p.publishedTime || '', user: (a.displayName || '').replace(/^@/, ''), creator: !!a.isCreator});
+}
+let next = null;
+for (const ep of (j.onResponseReceivedEndpoints || [])) {
+  const act = ep.appendContinuationItemsAction || ep.reloadContinuationItemsCommand || {};
+  for (const it of (act.continuationItems || [])) {
+    const t = it.continuationItemRenderer && find(it.continuationItemRenderer, o => o.continuationCommand && o.continuationCommand.token, [])[0];
+    if (t) next = t.continuationCommand.token;
   }
 }
-return {ok: true, items};
-"""
+return {ok: true, items, next};
+""",
+}
+MAX_PAGES = 10
 
-_JS = {"instagram": _JS_INSTAGRAM, "tiktok": _JS_TIKTOK, "youtube": _JS_YOUTUBE}
+
+def _read_post(cdp: CDP, platform: str, key: str) -> dict:
+    """All pages for one post, one short evaluate each. Returns {ok, status?,
+    error?, items}; items read before a failure are kept."""
+    items: list[dict] = []
+    cursor = None
+    for _ in range(MAX_PAGES):
+        js = "(async () => {" + _JS_PAGE[platform] % {"key": key, "cursor": json.dumps(cursor)} + "})()"
+        try:
+            res = cdp.evaluate(js, await_promise=True) or {}
+        except Exception as e:  # noqa: BLE001  CDPError, or the socket dropping when Chrome stalls
+            return {"ok": False, "status": 0, "error": f"{type(e).__name__}: {str(e)[:140]}", "items": items}
+        items.extend(res.get("items") or [])
+        if not res.get("ok"):
+            return {**res, "items": items}
+        cursor = res.get("next")
+        if not cursor or len(items) >= PER_POST:
+            break
+        time.sleep((PAUSE_MS + random.randint(0, 600)) / 1000)
+    return {"ok": True, "items": items}
+
+
+_JS = _JS_PAGE
 _PREFIX = {"instagram": "ig", "tiktok": "tt", "youtube": "yt"}
 
 
@@ -246,17 +251,11 @@ def read(platform: str, full: bool = False, on_progress=None) -> dict:
             cdp.wait_for_load(timeout=25)
             time.sleep(4)
         for i, p in enumerate(batch):
-            js = "(async () => {" + _JS[platform] % {
-                "key": _post_key(platform, p["id"]), "limit": PER_POST, "pause": PAUSE_MS,
-            } + "})()"
-            try:
-                res = cdp.evaluate(js, await_promise=True) or {}
-            except Exception as e:  # noqa: BLE001  CDPError, or the socket dropping when Chrome stalls
-                res = {"ok": False, "status": 0, "error": f"{type(e).__name__}: {str(e)[:140]}", "items": []}
+            res = _read_post(cdp, platform, _post_key(platform, p["id"]))
             fresh = [c for c in (_normalize(platform, p["id"], r) for r in res.get("items") or []) if c]
             new_total += _merge(existing, fresh)
             if not res.get("ok"):
-                stopped = f"stopped at post {i + 1} of {len(batch)}: HTTP {res.get('status')} {res.get('error', '')}".strip()
+                stopped = f"stopped at post {i + 1} of {len(batch)}: {res.get('status') or ''} {res.get('error', '')}".strip()
                 break
             state[p["id"]] = {"count": int(p.get("comments") or 0), "read": len(fresh), "at": date.today().isoformat()}
             done += 1
