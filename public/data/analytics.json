@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T22:37:34+00:00",
+ "generatedAt": "2026-11-20T22:41:26+00:00",
  "dataAsOf": {
   "posts": "2026-11-20T21:27:10+00:00",
   "comments": "2026-11-20"
@@ -4492,16 +4492,31 @@
  "topCommenters": [
   {
    "username": "big_sliide",
-   "count": 31,
+   "count": 33,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "itsdjreese",
-   "count": 18,
+   "count": 19,
    "platforms": [
     "instagram"
+   ]
+  },
+  {
+   "username": "bobby_clean",
+   "count": 19,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "yourhostuptown",
+   "count": 17,
+   "platforms": [
+    "instagram",
+    "tiktok"
    ]
   },
   {
@@ -4513,21 +4528,22 @@
   },
   {
    "username": "keeek101",
-   "count": 15,
+   "count": 16,
    "platforms": [
     "instagram"
    ]
   },
   {
-   "username": "bobby_clean",
-   "count": 15,
+   "username": "kachetherockstar",
+   "count": 16,
    "platforms": [
-    "instagram"
+    "instagram",
+    "tiktok"
    ]
   },
   {
    "username": "mariacorinaera",
-   "count": 14,
+   "count": 16,
    "platforms": [
     "instagram",
     "tiktok"
@@ -4535,7 +4551,21 @@
   },
   {
    "username": "theysay_jaydee",
-   "count": 13,
+   "count": 15,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "zeusluby",
+   "count": 15,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "michaelbonner_",
+   "count": 14,
    "platforms": [
     "instagram"
    ]
@@ -4549,17 +4579,11 @@
    ]
   },
   {
-   "username": "michaelbonner_",
+   "username": "ohjoknows",
    "count": 13,
    "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "zeusluby",
-   "count": 13,
-   "platforms": [
-    "instagram"
+    "instagram",
+    "tiktok"
    ]
   },
   {
@@ -4570,23 +4594,28 @@
    ]
   },
   {
-   "username": "kachetherockstar",
+   "username": "livelitemarcel",
    "count": 12,
    "platforms": [
-    "instagram",
-    "tiktok"
+    "instagram"
    ]
   },
   {
-   "username": "yourhostuptown",
+   "username": "pictureworthitstill",
    "count": 12,
    "platforms": [
-    "instagram",
-    "tiktok"
+    "instagram"
    ]
   },
   {
    "username": "tundeo__",
+   "count": 12,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "adoverload",
    "count": 12,
    "platforms": [
     "instagram"
@@ -4601,15 +4630,14 @@
    ]
   },
   {
-   "username": "ohjoknows",
-   "count": 12,
+   "username": "cyril.ky",
+   "count": 11,
    "platforms": [
-    "instagram",
-    "tiktok"
+    "instagram"
    ]
   },
   {
-   "username": "livelitemarcel",
+   "username": "unruely_",
    "count": 11,
    "platforms": [
     "instagram"
@@ -4623,85 +4651,57 @@
    ]
   },
   {
-   "username": "cyril.ky",
-   "count": 10,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "adoverload",
-   "count": 10,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
    "username": "abrilelon",
-   "count": 10,
+   "count": 11,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "reginald.aj.greene.esq",
+   "count": 11,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "keishaswrld_",
-   "count": 10,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "pictureworthitstill",
-   "count": 9,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "unruely_",
-   "count": 9,
+   "count": 11,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "smartttt",
-   "count": 9,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "_beeshaaa",
-   "count": 9,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "radianttie_",
-   "count": 9,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "_sterlinglmorris",
-   "count": 9,
-   "platforms": [
-    "instagram"
-   ]
-  },
-  {
-   "username": "chris_triplett",
-   "count": 8,
+   "count": 10,
    "platforms": [
     "instagram"
    ]
   },
   {
    "username": "curatedbygianni",
-   "count": 8,
+   "count": 10,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "_beeshaaa",
+   "count": 10,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "itsdjteey",
+   "count": 10,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "jt_the_brand",
+   "count": 10,
    "platforms": [
     "instagram"
    ]
@@ -4710,13 +4710,31 @@
  "audienceOverlap": {
   "crossPlatformUsers": [
    {
+    "username": "yourhostuptown",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 17,
+    "totalLikes": 39
+   },
+   {
+    "username": "kachetherockstar",
+    "platforms": [
+     "instagram",
+     "tiktok"
+    ],
+    "commentCount": 16,
+    "totalLikes": 13
+   },
+   {
     "username": "mariacorinaera",
     "platforms": [
      "instagram",
      "tiktok"
     ],
-    "commentCount": 14,
-    "totalLikes": 13
+    "commentCount": 16,
+    "totalLikes": 16
    },
    {
     "username": "helloqori",
@@ -4728,22 +4746,13 @@
     "totalLikes": 11
    },
    {
-    "username": "kachetherockstar",
+    "username": "ohjoknows",
     "platforms": [
      "instagram",
      "tiktok"
     ],
-    "commentCount": 12,
-    "totalLikes": 10
-   },
-   {
-    "username": "yourhostuptown",
-    "platforms": [
-     "instagram",
-     "tiktok"
-    ],
-    "commentCount": 12,
-    "totalLikes": 34
+    "commentCount": 13,
+    "totalLikes": 20
    },
    {
     "username": "kirkandre",
@@ -4753,15 +4762,6 @@
     ],
     "commentCount": 12,
     "totalLikes": 33
-   },
-   {
-    "username": "ohjoknows",
-    "platforms": [
-     "instagram",
-     "tiktok"
-    ],
-    "commentCount": 12,
-    "totalLikes": 19
    },
    {
     "username": "b.judyth",
@@ -4836,9 +4836,9 @@
     "totalLikes": 1
    }
   ],
-  "totalUniqueUsers": 1869,
+  "totalUniqueUsers": 1969,
   "platformBreakdown": {
-   "instagram": 1162,
+   "instagram": 1262,
    "tiktok": 491,
    "youtube": 230,
    "threads": 0,
@@ -5250,6 +5250,19 @@
    "postTitle": "Comparison is like grilling wings at excessive heat: the exterior scorches while the interior remains uncooked."
   },
   {
+   "id": "igc_18155638615353559",
+   "postId": "ig_3575236359914183775_255410408",
+   "platform": "instagram",
+   "username": "landondemand",
+   "text": "So you\u2019re arguably one of the most iconic actor/rappers in the game and I\u2019m the bald headed nigga with 4 wives?! I\u2019ll take it \ud83e\udd37\ud83c\udffe\u200d\u2642\ufe0f\ud83d\ude02",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 2,
+   "date": "2025-02-24",
+   "postUrl": "https://www.instagram.com/p/DGdyobkvtxf/",
+   "postTitle": "@landondemand is one of the hottest emcees in the city...he just so happens to also be @neyo clone \ud83e\udd23\ud83e\udd37\ud83c\udffe\u200d\u2642\ufe0f"
+  },
+  {
    "id": "ttc_6986727608578900742",
    "postId": "tt_6986350498693549317",
    "platform": "tiktok",
@@ -5482,28 +5495,15 @@
    "date": "2025-11-20",
    "postUrl": "https://www.youtube.com/shorts/780l3ywRetE",
    "postTitle": "We she wants you to hold her purse, hold it, dont let it hold you \ud83d\ude0e\ud83d\ude05"
-  },
-  {
-   "id": "ytc_Ugx-WAoFz4nvrMJyYm94AaABAg",
-   "postId": "yt_ohSpccll5eA",
-   "platform": "youtube",
-   "username": "lynn4220",
-   "text": "Pure Imagination?",
-   "sentiment": "neutral",
-   "isQuestion": true,
-   "likes": 1,
-   "date": "2025-11-20",
-   "postUrl": "https://www.youtube.com/shorts/ohSpccll5eA",
-   "postTitle": "Find a way or make one. #stayjotivated #fridaymotivation"
   }
  ],
- "questionCount": 97,
+ "questionCount": 103,
  "commentSentiment": {
-  "positive": 2242,
-  "neutral": 758,
-  "negative": 12
+  "positive": 2459,
+  "neutral": 825,
+  "negative": 19
  },
  "sentimentSources": {
-  "lexicon": 3012
+  "lexicon": 3303
  }
 }
