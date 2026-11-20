@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-20T21:33:23+00:00",
+ "generatedAt": "2026-11-20T22:06:21+00:00",
  "dataAsOf": {
   "posts": "2026-11-20T21:27:10+00:00",
-  "comments": ""
+  "comments": "2026-11-20"
  },
  "postingHeatmap": [
   [
@@ -4489,20 +4489,511 @@
    "linkedin": 0
   }
  ],
- "topCommenters": [],
+ "topCommenters": [
+  {
+   "username": "livelitemarcel",
+   "count": 6,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "theysay_jaydee",
+   "count": 6,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "badandboujee84",
+   "count": 4,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "pictureworthitstill",
+   "count": 4,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "kachetherockstar",
+   "count": 4,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "djcrashmob",
+   "count": 4,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "cyril.ky",
+   "count": 4,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "chris_triplett",
+   "count": 4,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "smartttt",
+   "count": 4,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "go.cwatts",
+   "count": 4,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "dejavelasquezmpp",
+   "count": 4,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "keeek101",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "tsmooth808",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "avioncainion",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "lydibittiplant",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "phallyberry",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "still_blooming",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "partiert",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "beloved1906",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "big_sliide",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "ed__senat0r_xciii",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "tundeo__",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "a1lex_",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "shawnawithdakay",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "curatedbygianni",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "veryiman",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "dopepeoplemeetleague",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "mlklionsalumni",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "givonwalden",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "username": "radianttie_",
+   "count": 3,
+   "platforms": [
+    "instagram"
+   ]
+  }
+ ],
  "audienceOverlap": {
   "crossPlatformUsers": [],
-  "totalUniqueUsers": 0,
+  "totalUniqueUsers": 502,
   "platformBreakdown": {
-   "instagram": 0,
-   "tiktok": 0,
-   "youtube": 0,
+   "instagram": 477,
+   "tiktok": 22,
+   "youtube": 3,
    "threads": 0,
    "linkedin": 0
   }
  },
- "highValueComments": [],
- "questionCount": 0,
- "commentSentiment": {},
- "sentimentSources": {}
+ "highValueComments": [
+  {
+   "id": "igc_18121112824889010",
+   "postId": "ig_4002216068772485665_255410408",
+   "platform": "instagram",
+   "username": "poshnpumps",
+   "text": "How about we all just leave it to the kids to do lol",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 46,
+   "date": "2026-10-06",
+   "postUrl": "https://www.instagram.com/p/DeKuk9Vi1oh/",
+   "postTitle": "@boosieig2024 was my LAST straw! Can't keep letting my people go out sad"
+  },
+  {
+   "id": "igc_18114560183041056",
+   "postId": "ig_3992780972581708634_255410408",
+   "platform": "instagram",
+   "username": "cyril.ky",
+   "text": "Yo how did you manage to jump and stay on the ground?",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 18,
+   "date": "2026-09-23",
+   "postUrl": "https://www.instagram.com/p/DdpNSPQq-Na/",
+   "postTitle": "HOODIE JO UNLOCKED\ud83d\udd13"
+  },
+  {
+   "id": "igc_18067011821702826",
+   "postId": "ig_3921010878342485919_255410408",
+   "platform": "instagram",
+   "username": "cerharden",
+   "text": "How do you remember all of these!\ud83e\udd2f\ud83d\ude33",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 13,
+   "date": "2026-06-16",
+   "postUrl": "https://www.instagram.com/p/DZqOp6UC9ef/",
+   "postTitle": "\u270f\ufe0fHow to be a Great Emcee: Rule #1 - Build Great Relationships"
+  },
+  {
+   "id": "igc_18479713270113646",
+   "postId": "ig_4002216068772485665_255410408",
+   "platform": "instagram",
+   "username": "curlyxlocs",
+   "text": "When you dougie you swipe down each arm. With the bend, you gotta swipe up and scoop. Lol",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 5,
+   "date": "2026-10-07",
+   "postUrl": "https://www.instagram.com/p/DeKuk9Vi1oh/",
+   "postTitle": "@boosieig2024 was my LAST straw! Can't keep letting my people go out sad"
+  },
+  {
+   "id": "igc_18110009021186575",
+   "postId": "ig_4002216068772485665_255410408",
+   "platform": "instagram",
+   "username": "smartttt",
+   "text": "So we don\u2019t do the spin like rue? Or he just added the razzle dazzle \ud83d\ude02",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 4,
+   "date": "2026-10-07",
+   "postUrl": "https://www.instagram.com/p/DeKuk9Vi1oh/",
+   "postTitle": "@boosieig2024 was my LAST straw! Can't keep letting my people go out sad"
+  },
+  {
+   "id": "igc_17949685131054715",
+   "postId": "ig_4002216068772485665_255410408",
+   "platform": "instagram",
+   "username": "veryiman",
+   "text": "Unc what\u2019s up!?",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 3,
+   "date": "2026-10-06",
+   "postUrl": "https://www.instagram.com/p/DeKuk9Vi1oh/",
+   "postTitle": "@boosieig2024 was my LAST straw! Can't keep letting my people go out sad"
+  },
+  {
+   "id": "igc_18122855839926555",
+   "postId": "ig_3997814493467442549_255410408",
+   "platform": "instagram",
+   "username": "blessedmw1",
+   "text": "is that a diaper tho???",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 3,
+   "date": "2026-10-01",
+   "postUrl": "https://www.instagram.com/p/Dd7Fxm5CP11/",
+   "postTitle": "Silver Fox \ud83d\udc74\ud83c\udffd\ud83e\udd8d"
+  },
+  {
+   "id": "igc_17947210656305913",
+   "postId": "ig_3992780972581708634_255410408",
+   "platform": "instagram",
+   "username": "doctor.hall",
+   "text": "Yall need any linebackers on defense?! \ud83d\udc40",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 3,
+   "date": "2026-09-23",
+   "postUrl": "https://www.instagram.com/p/DdpNSPQq-Na/",
+   "postTitle": "HOODIE JO UNLOCKED\ud83d\udd13"
+  },
+  {
+   "id": "igc_18032128904842017",
+   "postId": "ig_3962945955844120900_255410408",
+   "platform": "instagram",
+   "username": "tam.nelson",
+   "text": "Great! Esp about the networking groups - are those active??? \ud83e\udd14",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 3,
+   "date": "2026-08-15",
+   "postUrl": "https://www.instagram.com/p/Db_NlmqKOFE/",
+   "postTitle": "The Link Up!\ud83d\udd17"
+  },
+  {
+   "id": "igc_18012633284761378",
+   "postId": "ig_4002216068772485665_255410408",
+   "platform": "instagram",
+   "username": "alvindenzel6",
+   "text": "Yooo why you do my nigga Roo like that?! \ud83d\ude22",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 2,
+   "date": "2026-10-07",
+   "postUrl": "https://www.instagram.com/p/DeKuk9Vi1oh/",
+   "postTitle": "@boosieig2024 was my LAST straw! Can't keep letting my people go out sad"
+  },
+  {
+   "id": "igc_18468636541136383",
+   "postId": "ig_3992780972581708634_255410408",
+   "platform": "instagram",
+   "username": "adoverload",
+   "text": "Aye what\u2019s this? Send me an invite cause falcons ain\u2019t doing shhhhhhhhiii",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 2,
+   "date": "2026-09-24",
+   "postUrl": "https://www.instagram.com/p/DdpNSPQq-Na/",
+   "postTitle": "HOODIE JO UNLOCKED\ud83d\udd13"
+  },
+  {
+   "id": "igc_18009678056945707",
+   "postId": "ig_3955910699966858052_1490861729",
+   "platform": "instagram",
+   "username": "instillmotion_photography",
+   "text": "Do you need photography and/videography for this event? @dstdac",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 2,
+   "date": "2026-08-04",
+   "postUrl": "https://www.instagram.com/p/DbmN9KCsQNE/",
+   "postTitle": "\ud83c\udfa4 Meet Your Host: Jovan Paige AKA \u201cThe Voice\u201d \ud83c\udfa4"
+  },
+  {
+   "id": "igc_17889160746593682",
+   "postId": "ig_3937693779234434750_255410408",
+   "platform": "instagram",
+   "username": "cerharden",
+   "text": "You said, \u201cwho?!\u201d\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 2,
+   "date": "2026-07-09",
+   "postUrl": "https://www.instagram.com/p/Dalf6EhiK6-/",
+   "postTitle": "This would do numbersssss @netflix \ud83d\ude05#thevoice"
+  },
+  {
+   "id": "igc_18138460297556009",
+   "postId": "ig_4003753909504362172_255410408",
+   "platform": "instagram",
+   "username": "badandboujee84",
+   "text": "Can you post the link in the comments plz so I can go vote for you",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 1,
+   "date": "2026-10-09",
+   "postUrl": "https://www.instagram.com/p/DeQMPfIFsa8/",
+   "postTitle": "TOP HOST 2026 w/ @iheartradio & Ryan Seacrest \ud83c\udfa4"
+  },
+  {
+   "id": "igc_18191438317384890",
+   "postId": "ig_3962945955844120900_255410408",
+   "platform": "instagram",
+   "username": "joeybrams",
+   "text": "Will you address how TGS can better support the connected cities and those without a physical location?",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 1,
+   "date": "2026-08-18",
+   "postUrl": "https://www.instagram.com/p/Db_NlmqKOFE/",
+   "postTitle": "The Link Up!\ud83d\udd17"
+  },
+  {
+   "id": "igc_18413994595156641",
+   "postId": "ig_3961679732525306705_255410408",
+   "platform": "instagram",
+   "username": "traenicole79",
+   "text": "Love this! Can we talk about the lyrics of \u201clife never tells us the whens or the whys?\u201d MY MY MY!",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 1,
+   "date": "2026-08-16",
+   "postUrl": "https://www.instagram.com/p/Db6troTCRNR/",
+   "postTitle": "Something to cleanse your timeline.\ud83d\udc97"
+  },
+  {
+   "id": "igc_17943795744232449",
+   "postId": "ig_3922332692344392477_255410408",
+   "platform": "instagram",
+   "username": "kachetherockstar",
+   "text": "Lordy did we need ya government though? \ud83d\ude02",
+   "sentiment": "positive",
+   "isQuestion": true,
+   "likes": 1,
+   "date": "2026-06-19",
+   "postUrl": "https://www.instagram.com/p/DZu7M1iFssd/",
+   "postTitle": "Wassup family! My name is Jovan Marques Paige. Some of you know me as Jo, Jojo, or \"The Voice\" \ud83c\udfa4"
+  },
+  {
+   "id": "igc_18085786679400217",
+   "postId": "ig_3921010878342485919_255410408",
+   "platform": "instagram",
+   "username": "8jholt8",
+   "text": "You remember ours?",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 1,
+   "date": "2026-06-17",
+   "postUrl": "https://www.instagram.com/p/DZqOp6UC9ef/",
+   "postTitle": "\u270f\ufe0fHow to be a Great Emcee: Rule #1 - Build Great Relationships"
+  },
+  {
+   "id": "igc_18225698530331145",
+   "postId": "ig_3983515535254383371_255410408",
+   "platform": "instagram",
+   "username": "capo_brook718",
+   "text": "How do you try out",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 0,
+   "date": "2026-09-14",
+   "postUrl": "https://www.instagram.com/p/DdISkYUFmsL/",
+   "postTitle": "Too fly I forgot to land\ud83d\udeec but I still drip water like Aquaman\ud83d\udca7"
+  },
+  {
+   "id": "igc_18134880049619371",
+   "postId": "ig_3921720211887792335_255410408",
+   "platform": "instagram",
+   "username": "redsoundmuzik",
+   "text": "How do i do this and dj at the same time?",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 0,
+   "date": "2026-08-19",
+   "postUrl": "https://www.instagram.com/p/DZsv8EqCqDP/",
+   "postTitle": "\u270f\ufe0fHow to be a Great Emcee: Rule #2\ufe0f\u20e3 - Be in Control \ud83c\udfae"
+  },
+  {
+   "id": "igc_18012699407914521",
+   "postId": "ig_3945793663723101364_1578353807",
+   "platform": "instagram",
+   "username": "itsburtonj",
+   "text": "Why the mc voice Turn female after the drop tho",
+   "sentiment": "neutral",
+   "isQuestion": true,
+   "likes": 0,
+   "date": "2026-07-21",
+   "postUrl": "https://www.instagram.com/p/DbCRm5zM9y0/",
+   "postTitle": "This was wild\u2026"
+  }
+ ],
+ "questionCount": 21,
+ "commentSentiment": {
+  "positive": 469,
+  "neutral": 170,
+  "negative": 2
+ },
+ "sentimentSources": {
+  "lexicon": 641
+ }
 }
